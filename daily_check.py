@@ -254,8 +254,10 @@ def save_seen(seen):
 
 # ========== 텔레그램 ==========
 
-def telegram_send(text):
-    """Telegram Bot API로 메시지 전송 (Markdown 형식)."""
+TELEGRAM_LIMIT = 3800  # 4096이 한도지만 안전 여유
+
+def telegram_send_raw(text):
+    """단일 메시지 전송 (분할 없음)."""
     url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage'
     data = urllib.parse.urlencode({
         'chat_id': TELEGRAM_CHAT_ID,
@@ -270,6 +272,32 @@ def telegram_send(text):
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='ignore')
         raise RuntimeError(f'Telegram HTTP {e.code}: {body}')
+
+
+def telegram_send(text):
+    """텔레그램 전송. 메시지가 길면 자동으로 분할 전송."""
+    if len(text) <= TELEGRAM_LIMIT:
+        return telegram_send_raw(text)
+
+    # 빈 줄 기준으로 블록 나눠서 분할
+    blocks = text.split('\n\n')
+    chunks = []
+    current = ''
+    for block in blocks:
+        candidate = current + ('\n\n' if current else '') + block
+        if len(candidate) > TELEGRAM_LIMIT and current:
+            chunks.append(current)
+            current = block
+        else:
+            current = candidate
+    if current:
+        chunks.append(current)
+
+    total = len(chunks)
+    for i, chunk in enumerate(chunks, 1):
+        suffix = f'\n\n_({i}/{total})_'
+        telegram_send_raw(chunk + suffix)
+        time.sleep(0.5)  # 텔레그램 rate limit 회피
 
 
 def fmt_eok(eok):
@@ -430,6 +458,7 @@ def main():
     seen = load_seen()
     seen_ids = set(seen.get('ids', []))
     seen_cancel_ids = set(seen.get('cancelled_ids', []))
+    is_first_run = (seen.get('last_run') is None)
 
     new_deals = []
     newly_cancelled = []
@@ -439,26 +468,41 @@ def main():
     for d in udong:
         if d['cancelled']:
             current_cancel_ids.add(d['deal_id'])
-            # 처음 발견된 취소
             if d['deal_id'] not in seen_cancel_ids:
                 newly_cancelled.append(d)
         else:
             current_ids.add(d['deal_id'])
-            # 처음 발견된 신규 거래
             if d['deal_id'] not in seen_ids:
                 new_deals.append(d)
 
-    # 신규 거래는 계약일 최신순으로 정렬
     new_deals.sort(key=lambda x: x['deal_date'], reverse=True)
     newly_cancelled.sort(key=lambda x: x['deal_date'], reverse=True)
 
     print(f'  신규: {len(new_deals)}건  ·  새 취소: {len(newly_cancelled)}건')
 
-    # 4. 텔레그램 발송 — history는 우동 활성 거래 전체 (직전·전고점 비교용)
+    # 4. 텔레그램 발송
     history = [d for d in udong if not d['cancelled']]
-    msg = build_message(new_deals, newly_cancelled, history, run_dt)
+
+    if is_first_run:
+        # 첫 실행: 폭탄 메시지 방지 - 요약만 전송, 모든 ID를 'seen'으로 처리
+        print('  📌 첫 실행 감지 - 요약 메시지만 전송, 다음 실행부터 진짜 신규만 알림')
+        marine_count = sum(1 for d in new_deals if d['is_marine_city'])
+        msg = (
+            f'🎉 *우동 실거래 알림 시작*\n\n'
+            f'안녕하세요, 우동 실거래 알림이 활성화됐습니다.\n\n'
+            f'━━━━━━━━━━━━━━━━\n'
+            f'📊 현재 데이터베이스 상태\n'
+            f'• 우동 누적 거래: *{len(history)}건*\n'
+            f'• 그 중 마린시티: *{marine_count}건*\n'
+            f'• 취소 거래: {len(newly_cancelled)}건\n'
+            f'━━━━━━━━━━━━━━━━\n\n'
+            f'_내일 아침 7시부터 새로 신고된 거래만 알려드립니다._'
+        )
+    else:
+        msg = build_message(new_deals, newly_cancelled, history, run_dt)
+
     print('--- 메시지 미리보기 ---')
-    print(msg)
+    print(msg[:500] + ('...' if len(msg) > 500 else ''))
     print('-----------------------')
 
     try:
