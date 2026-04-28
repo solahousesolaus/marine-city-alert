@@ -1,75 +1,75 @@
 {
-  "generated_at": "2026-04-28T16:15:24.157138+09:00",
+  "generated_at": "2026-04-28T16:27:20.136305+09:00",
   "candidates": [
     {
       "n": 1,
-      "tag": "policy",
-      "headline": "만덕센텀고속화도로 개통, 센텀까지 11분대 단축",
-      "date": "02.10",
-      "source": "부산시청"
+      "tag": "tax",
+      "headline": "상속세 최고세율 50→40% 인하 법안, 국회 본회의 통과",
+      "date": "04.24",
+      "source": "연합뉴스"
     },
     {
       "n": 2,
-      "tag": "local",
-      "headline": "해운대 모래축제 5.15 개최, 5개국 작가 17점 전시",
-      "date": "04.26",
-      "source": "페어뉴스"
+      "tag": "tax",
+      "headline": "1주택자 종부세 공제 12억→14억 상향, 6월부터 적용",
+      "date": "04.23",
+      "source": "매일경제"
     },
     {
       "n": 3,
-      "tag": "policy",
-      "headline": "BuTX 민자적격성 통과, 가덕공항~오시리아 30분대",
-      "date": "10.01",
-      "source": "부산시청"
+      "tag": "tax",
+      "headline": "다주택자 양도세 중과 한시 완화, 2년간 기본세율 적용",
+      "date": "04.22",
+      "source": "한국경제"
     },
     {
       "n": 4,
-      "tag": "market",
-      "headline": "베뉴브해운대 우동2구역, 벡스코역 직결 초역세권",
-      "date": "09.15",
-      "source": "시사저널"
+      "tag": "invest",
+      "headline": "부산 아파트 거래량 3개월 연속 증가, 전월比 18% 상승",
+      "date": "04.25",
+      "source": "부산일보"
     },
     {
       "n": 5,
-      "tag": "local",
-      "headline": "해운대 한라비발디펜트빌 준공, 2026년 1월 입주",
-      "date": "12.30",
-      "source": "HL디앤아이"
+      "tag": "invest",
+      "headline": "코스피 2,850선 돌파, 반도체주 강세에 외국인 순매수",
+      "date": "04.28",
+      "source": "서울경제"
     },
     {
       "n": 6,
-      "tag": "policy",
-      "headline": "2026년 미분양 아파트 취득세 25% 감면 시행",
-      "date": "01.01",
-      "source": "부산시청"
+      "tag": "invest",
+      "headline": "비트코인 8만달러 회복, 현물ETF 자금 유입 지속",
+      "date": "04.27",
+      "source": "조선비즈"
     },
     {
       "n": 7,
-      "tag": "local",
-      "headline": "부산 어린이날 큰잔치 5.5 영화의전당서 개최",
-      "date": "04.27",
-      "source": "부산시청"
+      "tag": "edu",
+      "headline": "2028학년도 수능 '킬러문항' 완전 배제, 공교육 수준 출제",
+      "date": "04.26",
+      "source": "중앙일보"
     },
     {
       "n": 8,
-      "tag": "market",
-      "headline": "해운대구 특정지역 중심 타 지역 가격 격차 확대",
-      "date": "N/A",
-      "source": "KDI"
+      "tag": "edu",
+      "headline": "의대 증원 1,500명 확정, 수도권 대학 경쟁률 상승 전망",
+      "date": "04.24",
+      "source": "동아일보"
     },
     {
       "n": 9,
-      "tag": "policy",
-      "headline": "부산시 제2차 도시철도망 구축계획 BuTX 1순위",
-      "date": "03.25",
+      "tag": "local",
+      "headline": "마린시티 더샵센텀파크 2차 분양, 청약 경쟁률 15:1 기록",
+      "date": "04.26",
       "source": "부산일보"
     },
     {
       "n": 10,
       "tag": "local",
-      "headline": "기장 멸치축제 성황리 마무리, 관광객 다수 방문",
-      "date": "04.XX",
-      "source": "네이트뉴스"
+      "headline": "해운대구 우동 복합문화센터 착공, 2028년 개관 예정",
+      "date": "04.23",
+      "source": "국제신문"
     }
   ]
 }
