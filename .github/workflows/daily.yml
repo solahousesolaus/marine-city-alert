@@ -2,7 +2,7 @@ name: Daily Udong Alert + Signage
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # KST 07:00 = UTC 22:00 (전날)
+    - cron: '30 21 * * *'   # KST 07:00 = UTC 22:00 (전날)
   workflow_dispatch:
 
 permissions:
