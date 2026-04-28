@@ -7,6 +7,7 @@
 <!-- 5분마다 자동 새로고침 -->
 <meta http-equiv="refresh" content="300">
 <style>
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
     width: 100vw; height: 100vh;
@@ -211,10 +212,18 @@
     flex-shrink: 0; padding: 6px 14px; border-radius: 18px;
     font-size: 14px; font-weight: 800; letter-spacing: 1px;
   }
-  .news-tag.policy { background: var(--gold-bright); color: var(--navy-dark); }
+  /* 신규 6개 카테고리 (v3) */
+  .news-tag.busan { background: var(--gold-bright); color: var(--navy-dark); }
+  .news-tag.tax { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
   .news-tag.market { background: var(--green); color: var(--white); }
-  .news-tag.hot { background: var(--red); color: var(--white); }
+  .news-tag.edu { background: var(--orange); color: var(--navy-dark); }
+  .news-tag.wealth { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
+  .news-tag.global { background: var(--red-soft); color: var(--white); }
+  /* 구버전 호환 */
+  .news-tag.invest { background: var(--green); color: var(--white); }
   .news-tag.local { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
+  .news-tag.policy { background: var(--gold-bright); color: var(--navy-dark); }
+  .news-tag.hot { background: var(--red); color: var(--white); }
   .news-headline { flex: 1; font-size: 26px; font-weight: 700; color: var(--white); line-height: 1.4; }
   .news-date { flex-shrink: 0; font-size: 16px; color: var(--gray); font-weight: 500; }
 
@@ -247,6 +256,7 @@
     border-radius: 3px; margin: 12px auto 0; overflow: hidden;
   }
   .countdown-fill { height: 100%; background: linear-gradient(90deg, var(--gold-bright), var(--gold)); transition: width 0.1s linear; }
+
 </style>
 </head>
 <body>
@@ -265,7 +275,7 @@
     <div class="topbar-right">
       <div><span class="live-dot"></span><span class="live">LIVE</span></div>
       <div class="clock" id="clock">--:--:--</div>
-      <div class="data-stamp">데이터 갱신: 2026.04.28 07:21 KST</div>
+      <div class="data-stamp">데이터 갱신: 2026.04.28 17:35 KST</div>
     </div>
   </div>
 
@@ -421,28 +431,28 @@
 
       <div class="news-list">
         
-        <div class="news-item hot">
-          <div class="news-tag hot">HOT</div>
-          <div class="news-headline">마린시티 옛 한화부지, 73층 주상복합 변경 신청 — 주민 공익감사 청구</div>
-          <div class="news-date">04.16</div>
+        <div class="news-item">
+          <div class="news-tag busan">BUSAN</div>
+          <div class="news-headline">GS건설, 부산 광안5구역 재개발 시공자 낙점</div>
+          <div class="news-date">04.26</div>
         </div>
         
         <div class="news-item">
-          <div class="news-tag local">LOCAL</div>
-          <div class="news-headline">달맞이고개 오션뷰 도서관 2028년 준공 예정 — 사업비 15.8억, 90평 규모 확정</div>
-          <div class="news-date">04.19</div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-tag policy">POLICY</div>
-          <div class="news-headline">부산시, 해운대 일대 지구단위계획 재정비 착수 — 용도 변경 절차 강화</div>
-          <div class="news-date">04.22</div>
+          <div class="news-tag tax">TAX</div>
+          <div class="news-headline">똘똘한 한 채 찾는다면 정비사업이 대안</div>
+          <div class="news-date">04.27</div>
         </div>
         
         <div class="news-item">
           <div class="news-tag market">MARKET</div>
-          <div class="news-headline">해운대 아파트 평균 매매가 4월 보합세 — 마린시티만 +2.8% 상승</div>
-          <div class="news-date">04.25</div>
+          <div class="news-headline">서울 집값 초양극화 심화 - 핵심지와 외곽 격차 확대</div>
+          <div class="news-date">04.27</div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-tag market">MARKET</div>
+          <div class="news-headline">서울 소형 아파트 평균 매매가격 10억 돌파</div>
+          <div class="news-date">04.28</div>
         </div>
         
       </div>
@@ -492,6 +502,7 @@
 </div>
 
 <script>
+
   // 시계
   function updateClock() {
     const now = new Date();
@@ -540,6 +551,7 @@
 
   showPage(0);
   setTimeout(nextPage, pageDurations[0]);
+
 </script>
 
 </body>
