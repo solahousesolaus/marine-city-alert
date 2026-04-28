@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 """
-주간 뉴스 후보 큐레이션 v2.1 (네이버 API + Markdown 안전 이스케이프)
+주간 뉴스 후보 큐레이션 v3 (자산가 페르소나 정조준)
+
+카테고리 6개:
+- busan: 부산·해운대 직접 호재 (가장 우선)
+- tax: 자산가 친화 세금 정책
+- market: 자산 시장 동향 (서울 부동산, 코인, 주식, 금리)
+- edu: 입시·서울 대학
+- wealth: 고액 자산가 투자 트렌드
+- global: 거시·국제 이슈 (1주 0-1개로 최소화)
 
 흐름:
-1. 네이버 뉴스 API로 키워드별 실제 기사 수집 (가짜 불가능)
-2. Claude API에 "이 중 10개 선별" 요청 (선별만, 생성 X)
-3. 텔레그램으로 발송 (Markdown 특수문자 자동 이스케이프)
+1. 네이버 뉴스 API로 카테고리별 키워드 검색
+2. Claude가 자산가 관점에서 10개 선별
+3. 텔레그램 발송 (Markdown 안전 이스케이프)
 
-환경 변수 (GitHub Secrets):
-- NAVER_CLIENT_ID
-- NAVER_CLIENT_SECRET
-- ANTHROPIC_API_KEY
-- TELEGRAM_BOT_TOKEN
-- TELEGRAM_CHAT_ID
+환경 변수: NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, ANTHROPIC_API_KEY,
+          TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 """
 
 import json
@@ -38,29 +42,60 @@ MODEL = 'claude-sonnet-4-5'
 
 TELEGRAM_LIMIT = 3800
 
+# 6개 카테고리 - 자산가 페르소나 정조준
 SEARCH_KEYWORDS = {
+    # 부산·해운대 직접 호재 (가장 핵심)
+    'busan': [
+        '해운대 재건축',
+        '해운대 재개발',
+        '마린시티 분양',
+        '해운대 우동 아파트',
+        '부산 부동산 정책',
+        '부산 지구단위계획',
+        '해운대 신축',
+    ],
+    # 자산가 친화 세금
     'tax': [
-        '양도소득세 부동산',
-        '종합부동산세',
-        '상속세 개정',
-        '증여세',
-        '다주택자 세금',
+        '종합부동산세 완화',
+        '양도소득세 인하',
+        '상속세 공제 한도',
+        '증여세 자녀 공제',
+        '다주택자 세금 완화',
+        '부동산 세제 개편',
     ],
-    'invest': [
-        '부동산 시장 전망',
+    # 자산 시장 동향
+    'market': [
+        '서울 부동산 가격 상승',
+        '강남 아파트 거래',
         '한국은행 기준금리',
-        '코스피 시황',
-        '부산 부동산',
+        '코스피 급등',
+        '비트코인 급등',
+        '암호화폐 시장',
+        '미국 연준 금리',
     ],
+    # 입시·서울 대학
     'edu': [
         '대입 제도 개편',
         '의대 정원',
         '자사고 특목고',
+        '서울대 입시',
+        '연세대 고려대',
+        '서울 주요대학',
     ],
-    'local': [
-        '해운대 우동 아파트',
-        '마린시티 분양',
-        '해운대 재건축',
+    # 고액 자산가 투자 트렌드
+    'wealth': [
+        'PB 프라이빗뱅킹',
+        '고액 자산가 투자',
+        '미술품 경매',
+        '럭셔리 부동산',
+        '하이엔드 부동산',
+    ],
+    # 거시·국제 이슈 (자산 시장 영향 위주)
+    'global': [
+        '국제정세 자산시장',
+        '환율 달러 영향',
+        '글로벌 증시 영향',
+        '안전자산 금 수요',
     ],
 }
 
@@ -68,20 +103,10 @@ SEARCH_KEYWORDS = {
 # ========== 텔레그램 안전 처리 ==========
 
 def md_escape(text):
-    """
-    텔레그램 Markdown(legacy) 모드에서 사용자 입력 텍스트를 안전하게.
-    문제 문자: * _ ` [
-    이 문자들이 짝이 안 맞으면 메시지 전체 파싱 실패.
-    가장 안전한 방법은 모두 제거하거나 비슷한 문자로 치환.
-    """
+    """텔레그램 Markdown 충돌 문자를 전각 문자로 치환."""
     if not text: return ''
-    # Markdown 특수문자를 비슷한 안전 문자로 치환
     replacements = {
-        '*': '＊',  # 전각 별표 (시각적으로 비슷, Markdown 영향 없음)
-        '_': '－',  # 전각 하이픈
-        '`': "'",   # 작은따옴표
-        '[': '〔',  # 전각 대괄호
-        ']': '〕',
+        '*': '＊', '_': '－', '`': "'", '[': '〔', ']': '〕',
     }
     for bad, good in replacements.items():
         text = text.replace(bad, good)
@@ -102,7 +127,6 @@ def telegram_send_raw(text):
             return json.loads(resp.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='ignore')
-        # Markdown 파싱 실패 시 plain text로 재시도
         if e.code == 400 and 'parse' in body.lower():
             print(f'  ⚠️ Markdown 파싱 실패 → plain text로 재시도')
             data = urllib.parse.urlencode({
@@ -185,7 +209,7 @@ def collect_news(within_days=7):
     for category, keywords in SEARCH_KEYWORDS.items():
         for keyword in keywords:
             try:
-                result = search_naver(keyword, display=15)
+                result = search_naver(keyword, display=10)
                 for item in result.get('items', []):
                     pub_date = parse_pubdate(item.get('pubDate', ''))
                     if not pub_date or pub_date < cutoff:
@@ -263,49 +287,68 @@ def build_curation_prompt(articles):
 
 **오늘 날짜:** {today.strftime('%Y년 %m월 %d일')}
 
-**타겟 청중:** 마린시티 거주·매수 관심층 (재력가·투자자·자산가)
+**타겟 청중:** 마린시티 거주자·매수 관심층. 자산 5억 이상 보유한 재력가·투자자·자산가 계층입니다. 자기 자산을 지키고 늘리는 데 직결되는 정보에 관심이 큽니다.
 
 **아래는 네이버 뉴스에서 수집한 실제 기사 {len(articles)}개입니다.**
-이 중에서 **정확히 10개**를 선별해 주세요. 영역별 균형:
-- 세금(tax): 2-3개
-- 투자(invest): 3개
-- 교육(edu): 2개
-- 우동·마린시티(local): 2-3개
+이 중에서 **정확히 10개**를 선별해 주세요.
 
-**선별 기준:**
-- ✅ 자산가가 관심 가질만한 객관적 정보
-- ✅ 긍정/중립적 톤
-- ✅ 정책 발표, 통계, 시장 분석
-- ❌ 부정적 뉴스 (폭락, 부도, 위기) 제외
-- ❌ 사기·범죄·사고 제외
-- ❌ 정치 양극화 이슈 제외
+**카테고리별 권장 후보 수 (총 10개):**
+- `busan` (부산·해운대 직접 호재): **2-3개** (가장 중요, 사무실 지역과 직결)
+- `tax` (자산가 친화 세금 정책): **2개**
+- `market` (자산 시장 동향): **2-3개**
+- `edu` (입시·서울 대학): **1-2개**
+- `wealth` (고액 자산가 투자 트렌드): **1-2개**
+- `global` (거시·국제): **0-1개** ← 최소화. 자산 시장에 직접 영향 주는 것만.
 
-**중요한 규칙:**
-- **반드시 위 리스트의 번호 중에서만 선택**
-- 헤드라인은 위 리스트의 제목을 **그대로 사용** 또는 60자 이내로 약간 다듬기
-- 절대 **새 헤드라인 만들거나 리스트에 없는 뉴스 추가 금지**
-- 헤드라인에서 별표(*), 밑줄(_), 백틱(`), 대괄호([]) 등 특수문자는 제거하거나 일반 문자로 변경
+**선별 기준 (자산가 관점):**
+
+✅ **반드시 선택:**
+- 부산·해운대 부동산 가격에 긍정적인 영향
+- 부자들에게 유리한 세금 정책 변화 (감면, 한도 상향)
+- 서울/강남 부동산 가격 상승 신호 (부산 자산가들이 벤치마크)
+- 코인·주식의 의미 있는 급등 (개별 종목 추천 X, 시장 흐름 O)
+- 입시제도 변동 (서울 주요대학 진학 영향)
+- 고액 자산가 투자 트렌드 (PB, 미술품, 럭셔리 부동산)
+
+❌ **절대 제외:**
+- 부산이 아닌 타지역 일반 뉴스 (울산·의왕·안산 등 - 자산가에게 무관)
+- "폭락", "위기", "부도" 등 부정적 어조
+- 일반 행정 뉴스 (신고기한 안내, 절차 변경 등)
+- 광고성 분양 홍보, 과장된 기사
+- 정치 양극화 이슈
+- 사기·범죄·사고
+
+⚠️ **중요한 지역 필터:**
+- `busan` 카테고리는 **반드시 부산광역시 또는 해운대구 관련 뉴스만**
+- 제목에 "울산", "의왕", "안산", "수원" 등 타지역명이 있으면 제외
+- 의심되면 description을 확인해서 진짜 부산 관련인지 판단
+
+**출력 규칙:**
+- 반드시 위 리스트의 번호 중에서만 선택
+- 헤드라인은 위 리스트의 제목을 그대로 사용 또는 60자 이내로 다듬기
+- 절대 새 헤드라인 만들지 말 것
+- 헤드라인에 별표(*), 밑줄(_), 백틱(`), 대괄호([]) 같은 특수문자 제거
 
 **기사 리스트:**
 {articles_text}
 
-**출력 형식 (JSON만):**
+**출력 형식 (JSON만, 설명 없이):**
 
 ```json
 {{
   "candidates": [
     {{
       "n": 1,
-      "tag": "tax",
+      "tag": "busan",
       "source_index": 5,
-      "headline": "위 리스트 [5]번 제목 (60자 이내, 특수문자 없음)",
+      "headline": "위 리스트 [5]번 제목 (60자 이내)",
       "date": "MM.DD"
     }}
   ]
 }}
 ```
 
-**태그:** tax / invest / edu / local"""
+**태그:** busan / tax / market / edu / wealth / global"""
 
 
 def parse_candidates(text):
@@ -335,17 +378,19 @@ def format_telegram_message(data, articles, run_dt):
     ]
 
     tag_emoji = {
+        'busan': '🏙️',
         'tax': '💰',
-        'invest': '📈',
+        'market': '📈',
         'edu': '🎓',
-        'local': '📍',
+        'wealth': '💎',
+        'global': '🌍',
     }
 
     for c in data.get('candidates', []):
         n = c.get('n', '?')
-        tag = c.get('tag', 'local')
+        tag = c.get('tag', 'busan')
         emoji = tag_emoji.get(tag, '📰')
-        headline = md_escape(c.get('headline', ''))  # ⭐ 이스케이프
+        headline = md_escape(c.get('headline', ''))
         date = md_escape(c.get('date', ''))
         source_idx = c.get('source_index', 0)
 
@@ -397,7 +442,7 @@ def main():
         sys.exit(1)
 
     run_dt = datetime.now(ZoneInfo('Asia/Seoul'))
-    print(f'=== 주간 뉴스 큐레이션 v2.1 ({run_dt.isoformat()}) ===')
+    print(f'=== 주간 뉴스 큐레이션 v3 ({run_dt.isoformat()}) ===')
 
     print('🔍 네이버 뉴스 수집...')
     articles = collect_news(within_days=7)
@@ -410,7 +455,7 @@ def main():
     by_cat = {}
     for art in articles:
         by_cat.setdefault(art['category'], []).append(art)
-    max_per_cat = 20
+    max_per_cat = 15
     capped = []
     for cat, arts in by_cat.items():
         capped.extend(arts[:max_per_cat])
@@ -444,6 +489,12 @@ def main():
     if not candidates:
         telegram_send('⚠️ 추천할 뉴스 후보가 없습니다.')
         return
+
+    # 카테고리 분포 출력 (디버깅용)
+    cat_count = {}
+    for c in candidates:
+        cat_count[c.get('tag', '?')] = cat_count.get(c.get('tag', '?'), 0) + 1
+    print(f'  카테고리 분포: {cat_count}')
 
     msg = format_telegram_message(data, capped, run_dt)
     print(f'  메시지 길이: {len(msg)}자')
