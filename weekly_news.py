@@ -1,24 +1,23 @@
 #!/usr/bin/env python3
 """
-주간 뉴스 후보 큐레이션 (월요일 자동 실행)
+주간 뉴스 후보 큐레이션 v2 (네이버 API 기반)
 
-매주 월요일 KST 06:50:
-1. Claude API에 한 주간 뉴스 검색 요청
-2. 해운대/마린시티/우동 부동산 + 부산 정책 + 지역 호재 위주
-3. 10개 후보 추출 + 태그 분류
-4. 텔레그램으로 발송 (사람이 4개 선택할 수 있도록)
-
-소장님이 텔레그램에서 후보 보고 → Claude 채팅에서 "1,3,5,7번 골랐어"
-→ news_curated.json 갱신 코드 받아서 GitHub commit
+흐름:
+1. 네이버 뉴스 API로 키워드별 실제 기사 수집 (가짜 불가능)
+2. Claude API에 "이 중 10개 선별" 요청 (선별만, 생성 X)
+3. 텔레그램으로 발송 (실제 기사 링크 포함)
 
 환경 변수 (GitHub Secrets):
-- ANTHROPIC_API_KEY: Claude API 키
-- TELEGRAM_BOT_TOKEN: 봇 토큰 (기존)
-- TELEGRAM_CHAT_ID: 그룹 ID (기존)
+- NAVER_CLIENT_ID
+- NAVER_CLIENT_SECRET
+- ANTHROPIC_API_KEY
+- TELEGRAM_BOT_TOKEN
+- TELEGRAM_CHAT_ID
 """
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -27,17 +26,44 @@ import urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+NAVER_CLIENT_ID = os.environ.get('NAVER_CLIENT_ID', '').strip()
+NAVER_CLIENT_SECRET = os.environ.get('NAVER_CLIENT_SECRET', '').strip()
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '').strip()
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip()
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '').strip()
 
+NAVER_API_URL = 'https://openapi.naver.com/v1/search/news.json'
 ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages'
 MODEL = 'claude-sonnet-4-5'
 
 TELEGRAM_LIMIT = 3800
 
+SEARCH_KEYWORDS = {
+    'tax': [
+        '양도소득세 부동산',
+        '종합부동산세',
+        '상속세 개정',
+        '증여세',
+        '다주택자 세금',
+    ],
+    'invest': [
+        '부동산 시장 전망',
+        '한국은행 기준금리',
+        '코스피 시황',
+        '부산 부동산',
+    ],
+    'edu': [
+        '대입 제도 개편',
+        '의대 정원',
+        '자사고 특목고',
+    ],
+    'local': [
+        '해운대 우동 아파트',
+        '마린시티 분양',
+        '해운대 재건축',
+    ],
+}
 
-# ========== 텔레그램 전송 ==========
 
 def telegram_send_raw(text):
     url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage'
@@ -57,7 +83,6 @@ def telegram_send_raw(text):
 
 
 def telegram_send(text):
-    """길이 제한 시 자동 분할."""
     if len(text) <= TELEGRAM_LIMIT:
         return telegram_send_raw(text)
     blocks = text.split('\n\n')
@@ -79,10 +104,86 @@ def telegram_send(text):
         time.sleep(0.5)
 
 
-# ========== Claude API 호출 ==========
+def search_naver(query, display=20, sort='date'):
+    params = {
+        'query': query,
+        'display': display,
+        'start': 1,
+        'sort': sort,
+    }
+    url = f'{NAVER_API_URL}?{urllib.parse.urlencode(params)}'
+    req = urllib.request.Request(url, headers={
+        'X-Naver-Client-Id': NAVER_CLIENT_ID,
+        'X-Naver-Client-Secret': NAVER_CLIENT_SECRET,
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode('utf-8'))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode('utf-8', errors='ignore')
+        raise RuntimeError(f'Naver HTTP {e.code}: {body}')
+
+
+def clean_html_tags(text):
+    if not text: return ''
+    text = re.sub(r'<[^>]+>', '', text)
+    text = (text.replace('&quot;', '"').replace('&amp;', '&')
+                .replace('&lt;', '<').replace('&gt;', '>')
+                .replace('&apos;', "'").replace('&#39;', "'"))
+    return text.strip()
+
+
+def parse_pubdate(pubdate_str):
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(pubdate_str)
+        return dt.date()
+    except Exception:
+        return None
+
+
+def collect_news(within_days=7):
+    cutoff = datetime.now(ZoneInfo('Asia/Seoul')).date() - timedelta(days=within_days)
+    all_articles = []
+
+    for category, keywords in SEARCH_KEYWORDS.items():
+        for keyword in keywords:
+            try:
+                result = search_naver(keyword, display=15)
+                for item in result.get('items', []):
+                    pub_date = parse_pubdate(item.get('pubDate', ''))
+                    if not pub_date or pub_date < cutoff:
+                        continue
+                    all_articles.append({
+                        'category': category,
+                        'keyword': keyword,
+                        'title': clean_html_tags(item.get('title', '')),
+                        'description': clean_html_tags(item.get('description', '')),
+                        'link': item.get('link', ''),
+                        'originallink': item.get('originallink', ''),
+                        'pubDate': item.get('pubDate', ''),
+                        'pub_date': pub_date.isoformat(),
+                    })
+                time.sleep(0.1)
+            except Exception as e:
+                print(f'  WARN: keyword "{keyword}" failed: {e}')
+                continue
+        print(f'  [{category}] {len(keywords)}개 키워드 검색 완료')
+
+    seen_titles = set()
+    unique = []
+    for art in all_articles:
+        title_key = art['title'][:50]
+        if title_key in seen_titles:
+            continue
+        seen_titles.add(title_key)
+        unique.append(art)
+
+    print(f'  총 {len(all_articles)}개 → 중복 제거 후 {len(unique)}개')
+    return unique
+
 
 def call_claude(prompt):
-    """Claude API에 검색 + 추천 요청."""
     headers = {
         'x-api-key': ANTHROPIC_API_KEY,
         'anthropic-version': '2023-06-01',
@@ -91,14 +192,7 @@ def call_claude(prompt):
     body = {
         'model': MODEL,
         'max_tokens': 4096,
-        'tools': [{
-            'type': 'web_search_20250305',
-            'name': 'web_search',
-            'max_uses': 8,  # 검색 횟수 제한 (비용 관리)
-        }],
-        'messages': [
-            {'role': 'user', 'content': prompt}
-        ]
+        'messages': [{'role': 'user', 'content': prompt}]
     }
     data = json.dumps(body).encode('utf-8')
     req = urllib.request.Request(ANTHROPIC_API_URL, data=data, method='POST', headers=headers)
@@ -111,7 +205,6 @@ def call_claude(prompt):
 
 
 def extract_text_blocks(response):
-    """응답에서 text 블록만 추출 (tool_use, server_tool_use 등은 무시)."""
     parts = []
     for block in response.get('content', []):
         if block.get('type') == 'text':
@@ -119,62 +212,45 @@ def extract_text_blocks(response):
     return '\n'.join(parts).strip()
 
 
-# ========== 메인 ==========
-
-def build_search_prompt():
+def build_curation_prompt(articles):
     today = datetime.now(ZoneInfo('Asia/Seoul')).date()
-    week_ago = today - timedelta(days=7)
+
+    articles_text = ""
+    for i, art in enumerate(articles, 1):
+        articles_text += f"\n[{i}] ({art['category']}/{art['pub_date']}) {art['title']}\n"
+        if art['description']:
+            articles_text += f"     설명: {art['description'][:150]}\n"
 
     return f"""당신은 부산 해운대 마린시티 부동산 사무실의 디지털 사이니지 뉴스 큐레이터입니다.
 
 **오늘 날짜:** {today.strftime('%Y년 %m월 %d일')}
-**검색 기간:** 지난 한 주 ({week_ago.strftime('%Y.%m.%d')} ~ {today.strftime('%Y.%m.%d')})
 
-**타겟 청중:** 마린시티 부동산 사무실 앞을 지나가는 분들. 주로 재력가·투자자·자산가 계층입니다. 이분들이 멈춰서 보고 싶어하는 정보는 자기 자산을 지키고 늘리는 데 직결되는 뉴스입니다.
+**타겟 청중:** 마린시티 거주·매수 관심층 (재력가·투자자·자산가)
 
-**작업:** 웹 검색을 통해 다음 영역의 뉴스를 찾아 **정확히 10개의 후보**를 추려주세요. 영역별로 골고루 분포되도록 배분하세요.
+**아래는 네이버 뉴스에서 수집한 실제 기사 {len(articles)}개입니다.**
+이 중에서 **정확히 10개**를 선별해 주세요. 영역별 균형:
+- 세금(tax): 2-3개
+- 투자(invest): 3개
+- 교육(edu): 2개
+- 우동·마린시티(local): 2-3개
 
-**검색 영역 (4가지):**
+**선별 기준:**
+- ✅ 자산가가 관심 가질만한 객관적 정보
+- ✅ 긍정/중립적 톤
+- ✅ 정책 발표, 통계, 시장 분석
+- ❌ 부정적 뉴스 (폭락, 부도, 위기) 제외
+- ❌ 사기·범죄·사고 제외
+- ❌ 정치 양극화 이슈 제외
 
-**1. 세금 관련 (3개 후보 권장)** — 부동산·상속·증여 위주
-   - 양도소득세 / 종합부동산세 / 재산세 변경
-   - 상속세 / 증여세 개정·완화 동향
-   - 부동산 세제 정책 변경
-   - 다주택자·고가주택 세금 이슈
+**중요한 규칙:**
+- **반드시 위 리스트의 번호 중에서만 선택**
+- 헤드라인은 위 리스트의 제목을 **그대로 사용** 또는 60자 이내로 약간 다듬기
+- 절대 **새 헤드라인 만들거나 리스트에 없는 뉴스 추가 금지**
 
-**2. 투자 관련 (3개 후보 권장)** — 자산 운용 정보
-   - 부동산 시장 전망 (전국 또는 부산 광역)
-   - 주식 시장 큰 흐름 (코스피/나스닥 주요 변동, 주요 종목 이슈)
-   - 가상자산(코인) 주요 이슈
-   - 금리·환율 동향
-   - 자산 배분 전략 관련 보도
+**기사 리스트:**
+{articles_text}
 
-**3. 교육 관련 (2개 후보 권장)** — 입시·교육제도
-   - 대입 제도 개편 (수능, 학종, 정시·수시)
-   - 의대·약대 정원 / 자사고·특목고 정책
-   - 사교육·학군 트렌드
-   - 해외 대학·유학 관련 정책
-
-**4. 해운대구 우동 직접 호재 (2개 후보 권장)** — 반드시 긍정적인 뉴스만
-   - 우동/마린시티 신축 분양·재건축
-   - 인프라 개선 (지하철, 도로, 공원)
-   - 학군 강화, 학교 신설/이전
-   - 상권 호재, 대형 시설 입주
-   - **부정적 뉴스는 절대 제외** (PF 위기, 시행사 부도, 가격 하락 등)
-
-**❌ 절대 제외:**
-- 시장 신뢰를 떨어뜨리는 부정적 뉴스 ("폭락", "위기", "부도")
-- 사기·범죄·사고 관련 뉴스
-- AI 생성 가짜 정보, 광고성 게시물
-- 1주일보다 오래된 뉴스
-- 정치적으로 양극화된 논쟁성 이슈
-
-**✅ 우선:**
-- 객관적 사실 + 재력가 관심 + 긍정/중립적 톤
-- 정책 발표, 통계 발표, 시장 분석 보도
-- 출처가 명확한 주요 언론사 기사
-
-**출력 형식 (반드시 이 JSON 형식으로만 답하세요. 설명 없이 JSON만):**
+**출력 형식 (JSON만):**
 
 ```json
 {{
@@ -182,31 +258,18 @@ def build_search_prompt():
     {{
       "n": 1,
       "tag": "tax",
-      "headline": "헤드라인 (60자 이내, 핵심만 간결하게)",
-      "date": "MM.DD",
-      "source": "출처(언론사명)"
-    }},
-    ...
+      "source_index": 5,
+      "headline": "위 리스트 [5]번 제목 (60자 이내)",
+      "date": "MM.DD"
+    }}
   ]
 }}
 ```
 
-**태그 종류 (4가지):**
-- `tax`: 세금 관련
-- `invest`: 투자 (부동산·주식·코인·금리)
-- `edu`: 교육·입시
-- `local`: 우동·마린시티 직접 호재 (긍정적만)
-
-**중요한 표현 가이드:**
-- 헤드라인은 60자 이내로 간결하게
-- 광고문구처럼 보이지 않게 객관적·정보적 톤으로
-- "단독", "충격", "OO이래 처음" 같은 자극적 단어 자제
-- 숫자·통계가 있으면 헤드라인에 포함하면 임팩트 ↑"""
+**태그:** tax / invest / edu / local"""
 
 
 def parse_candidates(text):
-    """Claude 응답에서 JSON 추출."""
-    # ```json ... ``` 블록 찾기
     if '```json' in text:
         start = text.find('```json') + 7
         end = text.find('```', start)
@@ -216,21 +279,21 @@ def parse_candidates(text):
         end = text.find('```', start)
         json_str = text[start:end].strip()
     else:
-        # JSON 직접 시도
         json_str = text.strip()
-
     return json.loads(json_str)
 
 
-def format_telegram_message(data, run_dt):
+def format_telegram_message(data, articles, run_dt):
     today_str = run_dt.strftime('%Y.%m.%d')
     weekday = ['월', '화', '수', '목', '금', '토', '일'][run_dt.weekday()]
 
-    lines = []
-    lines.append(f'📰 *주간 사이니지 뉴스 후보*  ({today_str} {weekday})')
-    lines.append('')
-    lines.append('이번 주 사이니지에 띄울 뉴스 *4개를 선택*하세요.')
-    lines.append('━━━━━━━━━━━━━━━━')
+    lines = [
+        f'📰 *주간 사이니지 뉴스 후보*  ({today_str} {weekday})',
+        '',
+        f'네이버 뉴스 검증된 기사 중 *10개*를 추천드립니다.',
+        '이 중 *4개를 선택*해 주세요.',
+        '━━━━━━━━━━━━━━━━',
+    ]
 
     tag_emoji = {
         'tax': '💰',
@@ -245,65 +308,92 @@ def format_telegram_message(data, run_dt):
         emoji = tag_emoji.get(tag, '📰')
         headline = c.get('headline', '')
         date = c.get('date', '')
-        source = c.get('source', '')
+        source_idx = c.get('source_index', 0)
+
+        source_name = ''
+        if 0 < source_idx <= len(articles):
+            art = articles[source_idx - 1]
+            link = art.get('originallink') or art.get('link', '')
+            try:
+                from urllib.parse import urlparse
+                domain = urlparse(link).netloc.replace('www.', '')
+                source_name = domain.split('.')[0] if domain else ''
+            except:
+                source_name = ''
 
         lines.append('')
         lines.append(f'*[{n}]* {emoji} `{tag.upper()}`')
         lines.append(f'    {headline}')
         meta = []
         if date: meta.append(date)
-        if source: meta.append(source)
+        if source_name: meta.append(source_name)
         if meta:
             lines.append(f'    _{" · ".join(meta)}_')
 
-    lines.append('')
-    lines.append('━━━━━━━━━━━━━━━━')
-    lines.append('💬 *다음 단계:*')
-    lines.append('Claude 채팅에 답변:')
-    lines.append('`이번 주 뉴스 X, Y, Z, W번 선택`')
-    lines.append('→ Claude가 `news_curated.json` 새 내용 만들어드림')
-    lines.append('→ GitHub에서 commit')
+    lines.extend([
+        '',
+        '━━━━━━━━━━━━━━━━',
+        '💬 *다음 단계:*',
+        'Claude 채팅에 답변:',
+        '`이번 주 뉴스 X, Y, Z, W번 선택`',
+        '→ news_curated.json 새 내용 받기',
+        '→ GitHub에서 commit',
+    ])
 
     return '\n'.join(lines)
 
 
 def main():
-    # 환경 변수 점검
     missing = [k for k, v in {
+        'NAVER_CLIENT_ID': NAVER_CLIENT_ID,
+        'NAVER_CLIENT_SECRET': NAVER_CLIENT_SECRET,
         'ANTHROPIC_API_KEY': ANTHROPIC_API_KEY,
         'TELEGRAM_BOT_TOKEN': TELEGRAM_BOT_TOKEN,
         'TELEGRAM_CHAT_ID': TELEGRAM_CHAT_ID,
     }.items() if not v]
     if missing:
-        print(f'❌ 필수 환경 변수 누락: {", ".join(missing)}')
+        print(f'❌ 환경 변수 누락: {", ".join(missing)}')
         sys.exit(1)
 
     run_dt = datetime.now(ZoneInfo('Asia/Seoul'))
-    print(f'=== 주간 뉴스 큐레이션 ({run_dt.isoformat()}) ===')
+    print(f'=== 주간 뉴스 큐레이션 v2 ({run_dt.isoformat()}) ===')
 
-    # Claude API 호출
-    print('🤖 Claude에게 뉴스 검색 + 추천 요청 중...')
-    prompt = build_search_prompt()
+    print('🔍 네이버 뉴스 수집...')
+    articles = collect_news(within_days=7)
+
+    if not articles:
+        msg = '⚠️ *주간 뉴스 큐레이션*\n\n네이버 검색에서 1주일 이내 기사를 찾지 못했습니다.'
+        telegram_send(msg)
+        return
+
+    by_cat = {}
+    for art in articles:
+        by_cat.setdefault(art['category'], []).append(art)
+    max_per_cat = 20
+    capped = []
+    for cat, arts in by_cat.items():
+        capped.extend(arts[:max_per_cat])
+    print(f'  Claude에 전달: {len(capped)}개 기사')
+
+    print('🤖 Claude에 선별 요청...')
+    prompt = build_curation_prompt(capped)
     try:
         response = call_claude(prompt)
     except Exception as e:
         print(f'❌ Claude API 실패: {e}')
         try:
-            telegram_send(f'⚠️ *주간 뉴스 큐레이션 실패*\n\n`{e}`')
+            telegram_send(f'⚠️ *주간 뉴스 큐레이션 실패*\n\n`{str(e)[:500]}`')
         except: pass
         sys.exit(1)
 
-    # 응답 파싱
     text = extract_text_blocks(response)
     print(f'  응답 길이: {len(text)}자')
-    print(f'  응답 미리보기: {text[:300]}...')
 
     try:
         data = parse_candidates(text)
     except Exception as e:
         print(f'❌ JSON 파싱 실패: {e}')
-        # 파싱 실패 시 원본을 그대로 텔레그램으로 (사람이 직접 처리할 수 있게)
-        fallback = f'⚠️ *주간 뉴스 (자동 파싱 실패, 원본 전송)*\n\n{text[:3500]}'
+        fallback = f'⚠️ *주간 뉴스 (자동 파싱 실패)*\n\n{text[:3500]}'
         telegram_send(fallback)
         sys.exit(1)
 
@@ -311,11 +401,10 @@ def main():
     print(f'  추천 후보: {len(candidates)}개')
 
     if not candidates:
-        telegram_send('⚠️ 이번 주 추천할 뉴스 후보가 없습니다.')
+        telegram_send('⚠️ 추천할 뉴스 후보가 없습니다.')
         return
 
-    # 텔레그램 메시지 구성 + 발송
-    msg = format_telegram_message(data, run_dt)
+    msg = format_telegram_message(data, capped, run_dt)
     print(f'  메시지 길이: {len(msg)}자')
 
     try:
@@ -325,14 +414,14 @@ def main():
         print(f'❌ 텔레그램 전송 실패: {e}')
         sys.exit(1)
 
-    # 후보 데이터 저장 (선택사항: 나중에 참조용)
     os.makedirs('cache', exist_ok=True)
     with open('cache/last_news_candidates.json', 'w', encoding='utf-8') as f:
         json.dump({
             'generated_at': run_dt.isoformat(),
             'candidates': candidates,
+            'source_articles': capped,
         }, f, ensure_ascii=False, indent=2)
-    print('✅ 후보 캐시 저장')
+    print('✅ 캐시 저장 완료')
 
 
 if __name__ == '__main__':
