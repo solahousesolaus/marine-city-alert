@@ -2,7 +2,10 @@ name: Daily Udong Alert + Signage
 
 on:
   schedule:
-    - cron: '30 21 * * *'   # KST 07:00 = UTC 22:00 (전날)
+    # KST 05:37 = UTC 20:37 (전날)
+    # 어색한 분 → GitHub Actions 트래픽 회피
+    # 1시간 버퍼 → 6시 30분 출근 전 안정 도착
+    - cron: '37 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -37,7 +40,7 @@ jobs:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
         run: python build_signage.py
 
-      - name: Commit cache + signage
+      - name: Commit cache + signage (with conflict retry)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,7 +49,16 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: daily update [$(date -u +%Y-%m-%d)]"
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                echo "Push succeeded on attempt $i"
+                break
+              else
+                echo "Push failed on attempt $i, pulling and retrying..."
+                git pull --rebase origin main
+                sleep 2
+              fi
+            done
           fi
 
       - name: Setup Pages
