@@ -2,10 +2,9 @@ name: Daily Udong Alert + Signage
 
 on:
   schedule:
-    # KST 05:37 = UTC 20:37 (전날)
-    # 어색한 분 → GitHub Actions 트래픽 회피
-    # 1시간 버퍼 → 6시 30분 출근 전 안정 도착
-    - cron: '37 20 * * *'
+    # KST 04:37 = UTC 19:37 (전날)
+    # 3시간 버퍼 → 6:30 출근 전 안정 도착
+    - cron: '37 19 * * *'
   workflow_dispatch:
 
 permissions:
