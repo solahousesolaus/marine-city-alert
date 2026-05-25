@@ -1,977 +1,977 @@
 {
-  "generated_at": "2026-05-18T20:53:55.815022+09:00",
+  "generated_at": "2026-05-25T21:01:12.117378+09:00",
   "candidates": [
     {
       "n": 1,
       "tag": "busan",
-      "source_index": 1,
-      "headline": "두산건설, 7334억 부산 망미5구역 정비사업 수주",
-      "date": "05.18"
+      "source_index": 10,
+      "headline": "서울 아파트값 0.31% 상승…해운대구 좌·우동 0.15% 올라",
+      "date": "05.22"
     },
     {
       "n": 2,
       "tag": "busan",
-      "source_index": 14,
-      "headline": "부산 해운대 대우동삼 84㎡, 6억5000만원 매물 등록",
-      "date": "05.18"
+      "source_index": 5,
+      "headline": "LX하우시스 페네스트, 부산 해운대 애서튼 어퍼하우스 적용",
+      "date": "05.22"
     },
     {
       "n": 3,
       "tag": "tax",
-      "source_index": 16,
-      "headline": "한강벨트 공략, 보유세 감면·재개발 규제완화 추진",
-      "date": "05.18"
+      "source_index": 19,
+      "headline": "국민의힘, 종부세·보유세 개편 공약…세 부담 완화",
+      "date": "05.24"
     },
     {
       "n": 4,
       "tag": "tax",
-      "source_index": 27,
-      "headline": "다주택자 종부세·양도세·취득세 중과 폐지 필요",
-      "date": "05.18"
+      "source_index": 21,
+      "headline": "수도권 착한 임대인 취득세 중과 미적용·종부세 합산 배제",
+      "date": "05.22"
     },
     {
       "n": 5,
       "tag": "market",
-      "source_index": 32,
-      "headline": "서울 아파트값 누적 3.10% 상승, 작년 대비 2배 속도",
-      "date": "05.18"
+      "source_index": 42,
+      "headline": "역대급 공급난이 부른 제2 상승장…서울 집값 67주째 올라",
+      "date": "05.25"
     },
     {
       "n": 6,
       "tag": "market",
-      "source_index": 34,
-      "headline": "반도체 슈퍼사이클, 코스피 수도권 주택시총 넘어",
-      "date": "05.18"
+      "source_index": 37,
+      "headline": "삼성·SK 반도체 보너스 6억…송파·강남 부동산 상승 압력",
+      "date": "05.25"
     },
     {
       "n": 7,
       "tag": "market",
-      "source_index": 41,
-      "headline": "서울 초고가 월세 급증, 자산가들 집 대신 임대 선택",
-      "date": "05.18"
+      "source_index": 39,
+      "headline": "수도권 대단지 선호 뚜렷…규모 클수록 매매가 상승폭 커",
+      "date": "05.25"
     },
     {
       "n": 8,
       "tag": "edu",
-      "source_index": 58,
-      "headline": "2027학년도 의대 증원 인원 전원 지역의사전형 선발",
-      "date": "05.18"
+      "source_index": 48,
+      "headline": "5등급제 첫 적용 고2 평균점수 올랐다",
+      "date": "05.25"
     },
     {
       "n": 9,
       "tag": "wealth",
-      "source_index": 71,
-      "headline": "하나증권, 홍콩 VIP 투자자 초청 코리아 밸류업 포럼",
-      "date": "05.18"
+      "source_index": 61,
+      "headline": "선택받은 부자만 쓴다…연회비 700만원 카드의 세계",
+      "date": "05.25"
     },
     {
       "n": 10,
       "tag": "wealth",
-      "source_index": 75,
-      "headline": "현대건설 vs DL이앤씨, 압구정5구역 1조5000억 수주전",
-      "date": "05.18"
+      "source_index": 64,
+      "headline": "잠실 집값 뛰고 부자 늘자…우리은행 VIP 전용 점포 열었다",
+      "date": "05.24"
     }
   ],
   "source_articles": [
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 7334억 부산 망미5구역 정비사업 수주",
-      "description": "광안대교와 원동IC 등을 통해 해운대구와 연제구, 남구 등 부산 주요 지역 이동도 용이하다. 두산건설은 올해 신규 수주 목표로 창사 이래 최대 수준인 6조원을 제시한 상태다. 현재까지 △마곡동 신안빌라 재건축...",
-      "link": "https://n.news.naver.com/mnews/article/014/0005523167?sid=101",
-      "originallink": "http://www.fnnews.com/news/202605181810299573",
-      "pubDate": "Mon, 18 May 2026 18:12:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "초고층 공법 혁신 지속…반포·방배로 ‘오티에르’ 확장 [도시의 미래...",
+      "description": "부산 해운대 엘시티, 서울 여의도 파크원, 인천 송도 포스코타워 송도. 이들 초고층 건물에는 공통점이... 2022년 7월 하이엔드 주거 브랜드 ‘오티에르’를 론칭한 포스코이앤씨는 서울 반포 일대의 재건축 사업장을...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004624257?sid=101",
+      "originallink": "https://www.sedaily.com/article/20047939?ref=naver",
+      "pubDate": "Mon, 25 May 2026 17:52:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "대우건설·SK에코플랜트·두산건설·대방건설, 우량 입지 정비·공공사업...",
-      "description": "통해 해운대구, 연제구, 남구 등 부산 주요 지역으로 이동하기 쉽다. 두산건설은 올해 들어 마곡동 신안빌라 재건축, 신림동 655-78번지 일원 가로주택정비사업, 홍은1구역 공공재개발, 충정로1구역 공공재개발, 부산...",
-      "link": "http://sateconomy.co.kr/news/view/1065601148288629",
-      "originallink": "http://sateconomy.co.kr/news/view/1065601148288629",
-      "pubDate": "Mon, 18 May 2026 17:46:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[인터뷰] 홍순헌 후보 “떠나는 해운대, 머무는 도시로 바꾸겠다”",
+      "description": "\" 이어 \"현장 소통과 재건축 대시보드 구축 등을 통해 주민들이 직접 체감할 수 있는 신뢰의 재건축을 만들겠다\"고 말했다. ◆ \"사람 냄새 나는 해운대로 기억되고 싶습니다\" 홍순헌 후보는 어떤 구청장으로 기억되고...",
+      "link": "https://www.joongdo.co.kr/web/view.php?key=20260525010006542",
+      "originallink": "https://www.joongdo.co.kr/web/view.php?key=20260525010006542",
+      "pubDate": "Mon, 25 May 2026 10:56:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 부산 망미5구역 수주",
-      "description": "광안대교와 원동IC 등 주요 교통망을 통해 해운대구, 연제구, 남구 등으로 이동하기 편하다. 두산건설은 올해 신규 수주 목표를 창사 이후 최대인 6조원으로 제시했다. 올해 들어 서울 강서구 마곡동 신안빌라 재건축...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005288278?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026051842831",
-      "pubDate": "Mon, 18 May 2026 17:14:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "부산 기초단체장 후보 공약 키워드 'AI·관광·해수부·현금'",
+      "description": "과거 도로 정비나 복지시설 확충, 재개발·재건축 지원이 중심이던 구청장 공약이 미래산업 유치, 체류형... 해운대구에서는 더불어민주당 홍순헌 후보가 센텀2지구 AI·로봇 산업 유치를 내세웠고, 국민의힘 김성수...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016096039?sid=162",
+      "originallink": "https://www.yna.co.kr/view/AKR20260522117600051?input=1195m",
+      "pubDate": "Sun, 24 May 2026 10:00:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 부산 망미5구역 재개발 수주···신규 수주액 2조원 돌파",
-      "description": "통해 해운대구 등 부산 주요 지역으로 이동이 용이하다. 두산건설은 올해 신규수주 목표를 창사 이래 최대 수준인 6조원으로 제시했다. 올해 들어 마곡동 신안빌라 재건축, 신림동 655-78번지 일원 가로주택정비사업...",
-      "link": "http://www.koreastocknews.com/news/articleView.html?idxno=118553",
-      "originallink": "http://www.koreastocknews.com/news/articleView.html?idxno=118553",
-      "pubDate": "Mon, 18 May 2026 17:10:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[6·3지선] \"해운대 귀환, 부산 미래까지\"…홍순헌, 시장급 행보 출격",
+      "description": "유치 △재개발·재건축 지원센터 설치 △반송터널 조속 추진 △도시철도 2호선 오시리아 연장 등 미래도시 공약도 함께 내세웠다. 여기에 해운대~사상 대심도 고속도로, 광안대교 통행료 무료화 등 광역교통망 확충...",
+      "link": "http://www.newsprime.co.kr/news/article.html?no=734485",
+      "originallink": "http://www.newsprime.co.kr/news/article.html?no=734485",
+      "pubDate": "Sat, 23 May 2026 16:56:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 부산 망미5구역 재개발 수주…정비사업 '2조클럽' 가입",
-      "description": "통해 해운대구, 연제구, 남구 등 부산 주요 지역으로의 이동도 용이하다. 두산건설은 망미5구역 재개발사업... 신안빌라 재건축 마수걸이 수주를 시작으로, △신림동 655-78번지 일원 가로주택정비 △홍은1구역...",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1368286",
-      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1368286",
-      "pubDate": "Mon, 18 May 2026 16:16:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "LX하우시스 '페네스트', 고급 주택 넘어 한강변 재건축 단지 공략",
+      "description": "LX하우시스의 최고급 수입 알루미늄 시스템 창호 '페네스트'가 고급 리조트와 호텔, 타운하우스에 이어 서울 한강변 재건축·재개발 시장에서도 주목받고 있다. 페네스트는 최근 서울 라브르27, 부산 해운대 애서튼...",
+      "link": "https://www.bizwork.co.kr/news/articleView.html?idxno=415894",
+      "originallink": "https://www.bizwork.co.kr/news/articleView.html?idxno=415894",
+      "pubDate": "Fri, 22 May 2026 17:48:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 부산 망미5구역 7334억 재개발 사업권 따내",
-      "description": "민간 재건축 사업 등을 연달아 수주하며 사업 포트폴리오를 다각화하고 있다. [AI Q&A] Q1. 두산건설이... 부산도시철도 3호선 망미역 도보권에 위치하며, 광안대교와 원동IC를 통해 해운대 등 주요 지역으로의 이동이...",
-      "link": "https://www.newspim.com/news/view/20260518001039",
-      "originallink": "https://www.newspim.com/news/view/20260518001039",
-      "pubDate": "Mon, 18 May 2026 15:50:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "LX하우시스 ‘페네스트’ 창호, 한강변 재건축 넘본다",
+      "description": "부산 해운대 애서튼 어퍼하우스, 춘천 무와제이드 리조트, 도산 150 KAL VIP라운지 등에 적용됐다. 기존에는 고급 리조트와 호텔, 고가 단독·공동주택 중심으로 쓰였지만 최근에는 서울 핵심 재건축·재개발 시장으로 적용...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002647115?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10743531?ref=naver",
+      "pubDate": "Fri, 22 May 2026 11:33:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 7334억원 부산 망미5구역 재개발 수주",
-      "description": "통해 해운대구, 연제구, 남구 등 부산 주요 지역으로의 이동도 용이하다. 두산건설은 올해 마곡동 신안빌라 재건축, 신림동 일원 가로주택정비사업, 홍은1구역 공공재개발, 충정로1구역 공공재개발, 부산 명장3구역...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003027205?sid=101",
-      "originallink": "https://www.dt.co.kr/article/12063005?ref=naver",
-      "pubDate": "Mon, 18 May 2026 15:13:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[부산 기초단체장 격전지] ③ 여야 4개 정당 후보 격돌 금정구",
+      "description": "연합뉴스는 박빙 승부가 예상되는 부산진·해운대·기장·금정·연제·사상구 등 부산지역 격전지 6곳의... 노후 주거지역 정비와 재개발·재건축 지원, 통학 안전 강화, 돌봄과 배움터 확충, 디지털·AI 교육지원, 청년 창업과...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016093223?sid=162",
+      "originallink": "https://www.yna.co.kr/view/AKR20260521110800051?input=1195m",
+      "pubDate": "Fri, 22 May 2026 07:10:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "[건설레이더] SK에코플랜트·현대건설·두산건설·대우건설 주요 업데이...",
-      "description": "-편집자주 ◆SK에코플랜트, 신반포20차 재건축 수주 SK에코플랜트는 신반포20차아파트 재건축사업 시공사로... 광안대교, 원동IC 등 교통망을 통해 해운대구·연제구·남구 등 주요 권역 접근도 용이하다. 두산건설은...",
-      "link": "http://www.finomy.com/news/articleView.html?idxno=254515",
-      "originallink": "http://www.finomy.com/news/articleView.html?idxno=254515",
-      "pubDate": "Mon, 18 May 2026 15:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[부산 기초단체장 격전지] ② 4년만에 재대결 해운대구",
+      "description": "53사단 그린벨트 해제와 첨단 연구복합단지 조성, 센텀2지구 조기 완성, 구청장 직속 재개발·재건축 지원센터 설치, 반여·반송지역 정주 여건 개선 등을 주요 공약으로 제시했다. 해운대해수욕장에 대해서는 야간...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016093222?sid=162",
+      "originallink": "https://www.yna.co.kr/view/AKR20260521110900051?input=1195m",
+      "pubDate": "Fri, 22 May 2026 07:10:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "부산 망미5구역 재개발 두산건설이 수주",
-      "description": "우수해 해운대구와 연제구, 남구 등 부산 주요 생활권 이동이 수월하다. 한편 두산건설은 올해 신규수주 목표를 창사 이래 최대 수준인 6조 원으로 설정했다. 올해 부산에서만 명장3구역 재건축, 용호7구역 재개발...",
-      "link": "https://n.news.naver.com/mnews/article/658/0000144162?sid=101",
-      "originallink": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260518.99099004604",
-      "pubDate": "Mon, 18 May 2026 13:47:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[부산 기초단체장 격전지] ④ '승부도 삼세번' 부산진구",
+      "description": "연합뉴스는 박빙 승부가 예상되는 부산진·해운대·기장·금정·연제·사상구 등 부산지역 격전지 6곳의... 재개발 재건축을 통한 신흥 아파트 단지가 조성되며 유권자 구성도 많이 변한 곳이다. 전통적으로는 보수층이...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016093224?sid=162",
+      "originallink": "https://www.yna.co.kr/view/AKR20260521110700051?input=1195m",
+      "pubDate": "Fri, 22 May 2026 07:10:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
-      "title": "두산건설, 부산 망미5구역 재개발 수주…누적 수주 2조",
-      "description": "부산도시철도 3호선 망미역을 도보로 이용할 수 있으며, 광안대교와 원동IC 등 주요 교통망을 통해 해운대구... 실제 두산건설은 올해 들어 마곡동 신안빌라 재건축, 신림동 655-78번지 일원 가로주택정비사업, 홍은1구역...",
-      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=839365",
-      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=839365",
-      "pubDate": "Mon, 18 May 2026 13:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "서울 아파트값 0.31% 상승…수도권 매매·전세 쏠림 확대",
+      "description": "매수 관망세가 이어지는 가운데 재건축 추진 단지와 정주여건이 양호한 역세권·대단지에 수요가 몰리며... 연제구가 거제·연산동 중대형 단지 중심으로 0.22% 올랐고, 해운대구는 좌·우동 위주로 0.15%, 북구는...",
+      "link": "https://www.newswhoplus.com/news/articleView.html?idxno=60896",
+      "originallink": "https://www.newswhoplus.com/news/articleView.html?idxno=60896",
+      "pubDate": "Fri, 22 May 2026 07:00:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 재개발",
-      "title": "두산건설, 7334억 규모 부산 '망미5구역 재개발' 수주…누적 2조 돌파",
-      "description": "망미5구역 조감도 컨슈머타임스=김동역 기자 | 두산건설이 지난 16일 열린 부산 수영구 '망미5구역 재개발사... 통해 해운대·연제·남구 등 부산 주요 지역으로의 이동이 편리하다. 두산건설은 창사 이래 최대치인 6조...",
-      "link": "https://www.cstimes.com/news/articleView.html?idxno=706212",
-      "originallink": "https://www.cstimes.com/news/articleView.html?idxno=706212",
-      "pubDate": "Mon, 18 May 2026 17:32:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[오션 뷰] 부산의 다음 바다는 '블루 제너레이션'",
+      "description": "밤이 되면 광안대교의 불빛과 해운대의 마천루, 광안리 앞바다의 요트와 드론쇼는 부산만의 독특한 장면을... 수영만 요트경기장을 중심으로 한 마리나 인프라 조성과 국제보트쇼, 북항 재개발과 워터프런트 사업...",
+      "link": "https://n.news.naver.com/mnews/article/082/0001382198?sid=110",
+      "originallink": "https://www.busan.com/view/busan/view.php?code=2026052418011262671",
+      "pubDate": "Sun, 24 May 2026 18:08:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "busan",
       "keyword": "해운대 재개발",
-      "title": "두산건설 부산 망미5구역 재개발 시공사 선정, 7334억 규모",
-      "description": "활용하면 해운대구 등 인근 지역으로 이동도 편리하다. 두산건설은 올해 신규 수주 목표를 창사 이래 최대인 6조 원으로 잡았는데 이날 현재까지 시공사 선정 기준으로 홍은1구역 공공재개발, 부산 용호7구역...",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=438064",
-      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=438064",
-      "pubDate": "Mon, 18 May 2026 16:10:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "박형준 '부산 완성론'③…세계적 관광도시로 부산 대전환",
+      "description": "해운대와 광안리 중심의 기존 관광벨트를 넘어 북항과 영도, 산복도로, 동천, 서부산 생태축까지 하나의 흐름으로 묶겠다는 것이다. 특히 북항 재개발과 영도 해양문화 플랫폼, 산복도로 르네상스, 동천 복원 사업 등을...",
+      "link": "http://www.newsprime.co.kr/news/article.html?no=734482",
+      "originallink": "http://www.newsprime.co.kr/news/article.html?no=734482",
+      "pubDate": "Sat, 23 May 2026 16:54:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "busan",
       "keyword": "해운대 재개발",
-      "title": "두산건설, 7300억 규모 부산 '망미5구역 재개발' 수주…연간 수주 2조 돌...",
-      "description": "[사진=두산건설] 부산 수영구의 대형 정비사업장인 망미5구역 재개발 시공권을 두산건설이 확보했다. 이번... 연제구와 해운대구 등 인근 거점 지역으로 이동하기 수월하다. 두산건설 관계자는 \"부산 내 주거...",
-      "link": "https://www.ajunews.com/view/20260518154754041",
-      "originallink": "https://www.ajunews.com/view/20260518154754041",
-      "pubDate": "Mon, 18 May 2026 15:52:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[DIALOGUE] 지속 가능한 건축을 향해: 9개 전략 ③ | 정림건축종합건축사...",
+      "description": "북항 재개발이 추진됐다. 접근이 어려웠던 수변 공간을 부산 시민에게 돌려주는 ‘회복과 재생’의 의미가... 가능하더라도 해운대처럼 고가 아파트 단지가 들어서 사유화된 성격이 강했다. 해안은 공공재인데도...",
+      "link": "https://vmspace.com/report/report_view.html?base_seq=Mzg1NQ==",
+      "originallink": "https://vmspace.com/report/report_view.html?base_seq=Mzg1NQ==",
+      "pubDate": "Fri, 22 May 2026 09:34:00 +0900",
+      "pub_date": "2026-05-22"
+    },
+    {
+      "category": "busan",
+      "keyword": "마린시티 분양",
+      "title": "[더벨][PF Radar] SK에코플랜트, 홈플러스 해운대점 개발 채무인수",
+      "description": "복합시설인 '인스피어 마린시티'로 개발하는 프로젝트다. 기존 건물을 철거한 뒤 지하 8층~지상 53층... 사업장은 당초 지난해 본PF 전환을 목표로 했으나 분양 시점과 시장 상황을 고려해 만기를 1년 연장했다....",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605201547597560109445",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605201547597560109445",
+      "pubDate": "Fri, 22 May 2026 07:52:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "busan",
       "keyword": "해운대 우동 아파트",
-      "title": "용산구 '용산시티파크1단지' 56평형, 5.5억 오른 33.5억원에 거래 [일일...",
-      "description": "서울과 수도권 주요 단지를 중심으로 아파트 상승 거래가 이어지는 가운데 부산과 지방 주요... 부산 해운대구 우동 ‘대우동삼(1993년 준공) 전용 84.87㎡’ 매물은 지난 5월 2일 6억5000만원에 등록됐다....",
-      "link": "http://www.fntimes.com/html/view.php?ud=202605181204485603048b718333_18",
-      "originallink": "http://www.fntimes.com/html/view.php?ud=202605181204485603048b718333_18",
-      "pubDate": "Mon, 18 May 2026 12:08:00 +0900",
-      "pub_date": "2026-05-18"
-    },
-    {
-      "category": "busan",
-      "keyword": "해운대 우동 아파트",
-      "title": "송파구 '리센츠' 33평, 7.4억 떨어진 28.6억원에 거래 [일일 하락가]",
-      "description": "이재명 정부 출범 이후 대출·세제 규제 강화 기조가 이어지면서 전국 아파트 시장에서 급매·하락... ◇ 부산, 해운대·수영구 중심 약세 해운대구 우동 ‘해운대두산위브더제니스’ 157.01㎡(69평형)는...",
-      "link": "http://www.fntimes.com/html/view.php?ud=202605180930399820b372994c95_18",
-      "originallink": "http://www.fntimes.com/html/view.php?ud=202605180930399820b372994c95_18",
-      "pubDate": "Mon, 18 May 2026 09:34:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "한웅건설㈜ '해운대 마티안 디 에디션', 오는 26일 특별공급 청약 접수...",
+      "description": "한웅건설㈜이 공급하는 부산 해운대구 중동 일대 주상복합아파트 '해운대 마티안 디 에디션'이 오는 5월... 당첨자 대상 서류 제출 이벤트도 함께 진행될 예정이다. 견본주택은 부산 해운대구 우동 일원에 마련됐다.",
+      "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1057557",
+      "originallink": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1057557",
+      "pubDate": "Mon, 25 May 2026 09:00:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "정원오, 한강벨트 집중공략…보유세 감면·재개발 규제완화",
-      "description": "2020년 이전엔 민주당 계열 정당의 득표율이 우세했지만, 부동산 가격 상승 국면에서 분위기가 바뀌며 ‘종부세벨트’(종합부동산세가 부과되는 주택이 많다는 뜻)라는 별칭이 따라붙었다. 2021년 서울시장 보궐선거부터...",
-      "link": "https://n.news.naver.com/mnews/article/028/0002805652?sid=162",
-      "originallink": "https://www.hani.co.kr/arti/politics/election/1259277.html",
-      "pubDate": "Mon, 18 May 2026 20:14:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "종로 북촌·서촌 꼬마빌딩 다시 볕든다",
+      "description": "아파트는 공시가격 12억원 초과 시 종합부동산세 대상이 되지만, 상업용 부동산은 토지 공시지가 합산... 한 상업용 부동산 컨설턴트는 \"북촌·서촌 지역은 지구단위계획 재정비와 일부 높이 완화 심의가 진행되고...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005684604?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12056971",
+      "pubDate": "Mon, 25 May 2026 16:44:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "농지 내 카페 허용·도매 판매자 요건 폐지…농식품부, 규제합리화 과제...",
-      "description": "저수지·담수호 등에 적용되는 수상형 태양광 설치 면적 기준도 완화한다. 또 행정안전부와 함께 '햇빛소득마을' 조성을 위해 임차한 저수지·농지에는 분리과세를 적용해 재산세 부담을 낮추고 종합부동산세를...",
-      "link": "https://www.ajunews.com/view/20260518170712207",
-      "originallink": "https://www.ajunews.com/view/20260518170712207",
-      "pubDate": "Mon, 18 May 2026 17:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "공급 부진 속 세제 강화…지선 이후 장특공·보유세 조정 ‘뇌관’",
+      "description": "국토교통부는 지난 12일 매물잠김 우려를 완화하고 비거주 1주택자와 다주택자 간 형평성 문제를 해소하기... 올해 공시가격 상승으로 처음 종합부동산세 과세 대상이 된 단지들은 세 부담이 더 크게 늘어날 수 있다. 또...",
+      "link": "https://www.ekn.kr/web/view.php?key=20260522024394555",
+      "originallink": "https://www.ekn.kr/web/view.php?key=20260522024394555",
+      "pubDate": "Mon, 25 May 2026 09:00:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "농업진흥지역 내 카페·동물 미용업 출장영업 허용…",
-      "description": "저수지·담수호 등에 수상형 태양광 설치 면적 기준을 완화하고, 행정안전부와 협업해 햇빛소득마을 조성을 위해 임차하는 저수지·농지에 대해선 분리과세로 재산세율 인하, 종합부동산세 면제를 추진하기로 했다. 귀농...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003027266?sid=101",
-      "originallink": "https://www.dt.co.kr/article/12063066?ref=naver",
-      "pubDate": "Mon, 18 May 2026 17:10:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "격차 완화는커녕… 되레 불지른 정치",
+      "description": "격차를 완전히 해소하지는 못해도 완화하는 게 정치의 역할이다. 그러나 보수(우파)·진보(좌파) 진영 간... 노무현·문재인 정부는 종합부동산세를 도입·강화하고, 재건축·재개발 규제, 분양가 상한제, 대출 제한 등 수요...",
+      "link": "https://n.news.naver.com/mnews/article/023/0003978223?sid=102",
+      "originallink": "https://www.chosun.com/national/national_general/2026/05/25/KBFWZ7EQDNCRXCBHGOOEKFVSIM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Mon, 25 May 2026 00:53:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "수상형 태양광 설치 면적 완화…농업·농촌 현장의 불합리한 제도 개선",
-      "description": "저수지·담수호 등에 수상형 태양광 설치 면적 기준을 완화하고 행정안전부와 협업을 통해 햇빛소득마을 조성을 위해 임차하는 저수지·농지에 대해서는 분리과세를 통해 재산세율 인하, 종합부동산세 면제를 추진한다....",
-      "link": "https://n.news.naver.com/mnews/article/079/0004148157?sid=103",
-      "originallink": "https://www.nocutnews.co.kr/news/6518990?utm_source=naver&utm_medium=article&utm_campaign=20260518050024",
-      "pubDate": "Mon, 18 May 2026 17:01:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[6·3 지선] 국민의힘, '부동산 정상화' 공약 전진 배치...李정부 견제론...",
+      "description": "[사진 = 뉴스핌DB] ◆ 종부세·보유세 개편…\"세 부담 완화\" 부동산 세제 개편 공약도 비중 있게 담겼다. 국민의힘은 종합부동산세를 장기적으로 재산세와 통합해 이중과세 구조를 개선하겠다고 밝혔다. 종부세...",
+      "link": "https://www.newspim.com/news/view/20260522001029",
+      "originallink": "https://www.newspim.com/news/view/20260522001029",
+      "pubDate": "Sun, 24 May 2026 06:00:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "농업진흥지역서 카페·제과점 운영 가능해진다…규제 연내 개선",
-      "description": "농촌 재생에너지 규제도 완화된다. 정부는 마을 주민들이 태양광 사업을 위해 빌리는 저수지와 농지에 대해서는 재산세율을 낮추고 종합부동산세를 면제하는 방안을 추진한다. 주민 참여형 태양광 사업 절차를 줄이고...",
-      "link": "https://n.news.naver.com/mnews/article/020/0003720436?sid=101",
-      "originallink": "https://www.donga.com/news/Economy/article/all/20260518/133944229/1",
-      "pubDate": "Mon, 18 May 2026 17:01:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "'수상형 태양광' 설치 기준 완화된다",
+      "description": "기준 완화와 햇빛소득마을 사업부지 세제 지원, 농업진흥지역 내 휴게음식점 설치 허용 등 농식품 분야 현장... 햇빛소득마을 사업부지 임차 저수지·농지에 대해서는 분리과세를 적용해 재산세율 인하, 종합부동산세...",
+      "link": "https://www.agrinet.co.kr/news/articleView.html?idxno=404377",
+      "originallink": "https://www.agrinet.co.kr/news/articleView.html?idxno=404377",
+      "pubDate": "Fri, 22 May 2026 18:50:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "햇빛소득마을 위해 농지 빌릴땐 종부세 면제…정부, 규제개선 50개 과제...",
-      "description": "인하하고, 종합부동산세도 면제하는 방안을 추진하기로 했다. 또 농촌 활력 제고와 소득 증대를 위해... 저수지와 담수호 등에 수상형 태양광 설치 면적 기준을 완화하고, 행정안전부와 협업을 통해 햇빛소득마을 조성을...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005764515?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026051816515228215",
-      "pubDate": "Mon, 18 May 2026 17:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "정부, 수도권 규제지역에 2년간 매입임대 6.6만 가구 공급",
+      "description": "일정 기준에 부합한 ‘착한 임대인’에 한정, 비아파트 구입시 취득세 중과 미적용, 종합부동산세 합산 배제, 전세보증보험 한도 완화 등의 혜택을 부여하는 방식 등을 제안했다. 또 신축 매입임대의 경우 비아파트...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006287750?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=03499766645451544",
+      "pubDate": "Fri, 22 May 2026 10:02:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "농업진흥지역 카페·빵집 허용…규제완화 과제 50건 확정",
-      "description": "농림축산식품부가 농업진흥지역 내 카페·빵집 등 휴게음식점 설치를 허용하는 내용 등을 담은 규제 완화... 인하하고 종합부동산세 면제를 추진한다. 더불어 저수지·담수호 등에 대한 수상형 태양광 설치 기준을 각각...",
-      "link": "https://n.news.naver.com/mnews/article/003/0013952307?sid=101",
-      "originallink": "https://www.newsis.com/view/NISX20260518_0003633599",
-      "pubDate": "Mon, 18 May 2026 17:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "농식품부, 제3차 농식품규제 합리화 전략회의 개최",
+      "description": "저수지·담수호 등에 수상형 태양광 설치 면적 기준을 완화하고, 행정안전부와 협업을 통해 햇빛소득마을 조성을 위해 임차하는 저수지·농지에 대해서는 분리과세를 통해 재산세율 인하, 종합부동산세 면제를 추진한다....",
+      "link": "http://www.wonyesanup.co.kr/news/articleView.html?idxno=64731",
+      "originallink": "http://www.wonyesanup.co.kr/news/articleView.html?idxno=64731",
+      "pubDate": "Wed, 20 May 2026 11:38:00 +0900",
+      "pub_date": "2026-05-20"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "푸드테크 기업 컨설팅ㆍ판로 개척 지원, 배달음식 원산지 표시 중복 규...",
-      "description": "저수지ㆍ담수호 등에 수상형 태양광 설치 면적 기준을 완화하고, 행정안전부와 협업해 햇빛소득마을 조성을 위해 임차하는 저수지ㆍ농지에 대해서는 분리과세를 통해 재산세율 인하, 종합부동산세 면제를 추진한다. 또...",
-      "link": "http://www.foodnews.co.kr/news/articleView.html?idxno=118609",
-      "originallink": "http://www.foodnews.co.kr/news/articleView.html?idxno=118609",
-      "pubDate": "Mon, 18 May 2026 17:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "4년 만에 돌아온 양도세 중과…부동산 시장 유턴? [스페셜리포트]",
+      "description": "재산세, 종합부동산세 감면과 영구적 다주택 양도세 중과 제외라는 특혜를 받는다”며 “같은 다주택인데... 공사비 급등과 금융 규제가 겹친 현장에서는 규제 완화가 곧 공급 신호가 될 수 있다는 얘기다. 신보연...",
+      "link": "https://n.news.naver.com/mnews/article/024/0000105665?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12048930",
+      "pubDate": "Tue, 19 May 2026 21:01:00 +0900",
+      "pub_date": "2026-05-19"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "NH농협은행, 중소기업 특화 ‘원클릭 세무’ 출시…세금 환급·지원금 조...",
-      "description": "특히 전문 세무 인력 확보가 어려운 중소기업과 소상공인의 행정 부담 완화에 초점을 맞췄다. ‘NH원클릭... 양도소득세·종합부동산세·취득세 진단 및 환급 신청 서비스 등을 제공한다. 고용지원금 조회 서비스는 정부와...",
-      "link": "https://www.todayeconomic.com/news/article.html?no=30628",
-      "originallink": "https://www.todayeconomic.com/news/article.html?no=30628",
-      "pubDate": "Mon, 18 May 2026 16:38:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "제2경춘국도 하색IC 신설 예정에 따른 '가평역 벽산블루밍 리베르' 공급",
+      "description": "제2경춘국도가 완공되면 서울~양양고속도로와 기존 경춘국도 46번 국도의 교통 정체 완화에도 영향을 줄... 임대 거주 기간 동안 주택 수에 포함되지 않아 취득세, 재산세, 종합부동산세 등 세제 부담이 없다는 점도...",
+      "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1057184",
+      "originallink": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1057184",
+      "pubDate": "Tue, 19 May 2026 18:10:00 +0900",
+      "pub_date": "2026-05-19"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "이재명 정부 1년 부동산 정책 도마… \"극단적 처방만 나와\"",
-      "description": "종합부동산세 강화 역시 임대시장 불안 요인으로 거론됐다. 세 부담 증가가 임대료 인상으로 전가되면서 월세... 일률성 완화와 실수요자 예외체계 정교화 ▲세제 정책의 단기 처방화 방지 및 중장기 로드맵 제시...",
-      "link": "https://www.newscj.com/news/articleView.html?idxno=3401748",
-      "originallink": "https://www.newscj.com/news/articleView.html?idxno=3401748",
-      "pubDate": "Mon, 18 May 2026 16:34:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "농식품부, ‘황당 규제’ 50개 개선",
+      "description": "저수지와 담수호 등의 수상형 태양광 설치 면적 기준을 완화하고, 행정안전부와 협업해 ‘햇빛소득마을’ 조성을 위해 임차하는 저수지·농지의 재산세율 인하(분리과세) 및 종합부동산세 면제를 추진한다....",
+      "link": "https://www.farmnmarket.com/news/article.html?no=26490",
+      "originallink": "https://www.farmnmarket.com/news/article.html?no=26490",
+      "pubDate": "Tue, 19 May 2026 18:00:00 +0900",
+      "pub_date": "2026-05-19"
     },
     {
       "category": "tax",
       "keyword": "양도소득세 인하",
-      "title": "이재명 정부 부동산 1년 野토론회…\"핵심지 공급 대안 없고 규제만 반복...",
-      "description": "정 교수는 \"취득세와 재산세, 양도소득세에 붙는 지방소득세가 지방재정에서 거의 60%를 차지하기 때문에 이를 흔들면 자치단체 재정이 버티지 못하는 원천적 한계를 안고 있다\"며 \"이 구조를 바꾸지 않은 채 미국처럼...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005764565?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026051819293070271",
-      "pubDate": "Mon, 18 May 2026 19:29:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "일반 국채 흔들릴 때, 자산 방어 대안으로 부상한 미국 TIPS",
+      "description": "국내 자산운용사 채권운용본부 관계자는 \"미국 국채 금리 급등은 한국 기준금리 인하 시점을 뒤로 미루는... 22%의 양도소득세가 부과되므로 연금계좌나 ISA를 활용한 절세 전략 병행이 필요하다. 인플레이션 둔화 시...",
+      "link": "https://www.g-enews.com/view.php?ud=202605231736184148fbbec65dfb_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=202605231736184148fbbec65dfb_1",
+      "pubDate": "Sun, 24 May 2026 03:26:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "tax",
       "keyword": "양도소득세 인하",
-      "title": "이창무 교수 “다주택자, 투기적 행태 보이고 있지 않다… 세제 정상화...",
-      "description": "다주택자 종부세 세율의 인하 조정, 그리고 양도소득세 및 취득세 중과 폐지가 필요하다”고 했다. 근본적인 신축 주택공급 방안으로는 재건축ㆍ재개발 등 도시정비사업 활성화가 필요하다고도 덧붙였다. 이창무 교수는...",
-      "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605181637267670169",
-      "originallink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605181637267670169",
-      "pubDate": "Mon, 18 May 2026 17:02:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[탐사보도 뉴스프리즘] 연내 금리인하물 건너갔나 금리인상 '깜박이'",
+      "description": "[프리즘1] 물가 상승·워시 불확실성…물건너가는 美 금리인하 중동 전쟁 장기화로 각국의 물가 상승 압력이... <이혜영 / 한국은행 금융통계팀장> \"다주택자 양도소득세 중과 유예 종료 이전에 매물들이 출회하면서 증가한...",
+      "link": "https://n.news.naver.com/mnews/article/422/0000867845?sid=102",
+      "originallink": "http://www.yonhapnewstv.co.kr/news/MYH202605231336073nY",
+      "pubDate": "Sat, 23 May 2026 22:01:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "tax",
       "keyword": "양도소득세 인하",
-      "title": "[연금테크 따라잡기] 코스피 '팔천피' 도전…글로벌 증시 상승률 1위",
-      "description": "코스피가 단기에 너무 올랐다는 고점 부담과 함께, 고물가로 금리 인하 시점이 뒤로 밀리면서 환율까지... 마침 5월은 해외주식 양도소득세 확정 신고 기간입니다. 수익의 22%를 세금으로 내고 나면 '남는 게 없다'는...",
-      "link": "https://n.news.naver.com/mnews/article/374/0000510798?sid=101",
-      "originallink": "https://biz.sbs.co.kr/article_hub/20000311025?division=NAVER",
-      "pubDate": "Mon, 18 May 2026 14:40:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[AI로 본 부동산] 하반기 집값, 한강벨트가 이끈다…강남3구 오름폭 '최...",
+      "description": "지난 10일 다주택자 양도소득세 중과가 재개되면서 그간 규제 영향으로 상승세가 둔화됐던 서울 아파트... 기준금리 인하 또는 동결 기조가 이어질 경우 유동성이 다시 강남권으로 유입될 가능성이 크다. 반면 물가...",
+      "link": "https://www.newspim.com/news/view/20260521000638",
+      "originallink": "https://www.newspim.com/news/view/20260521000638",
+      "pubDate": "Sat, 23 May 2026 06:00:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "tax",
       "keyword": "양도소득세 인하",
-      "title": "서울 아파트값 상승세 확대 … 구윤철 \"공급 가용 수단 총동원\"",
-      "description": "시장에서는 다주택자 양도소득세 중과 재개 영향이 집값 반등을 자극했다는 분석이 나온다. 지난 10일부터... 특히 금리 인하 기대감까지 겹치면서 매수 심리가 살아나는 분위기다. 서울 전역이 상승 국면에 들어서자...",
-      "link": "http://www.queen.co.kr/news/articleView.html?idxno=457022",
-      "originallink": "http://www.queen.co.kr/news/articleView.html?idxno=457022",
-      "pubDate": "Mon, 18 May 2026 09:30:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "소비자심리 반등했지만 선행지표 '흔들'...집값 상승 기대심리는 '꿈틀...",
+      "description": "집값 기대심리는 다주택자 양도소득세 중과 재개 여파로 다시 들썩이며 '상승 우위론'이 4개월 만에 최대... 유류세 인하 조치로 체감수준이 상대적으로 완화된 영향으로 분석된다. 주택가격전망CSI 추이 [자료출처...",
+      "link": "http://www.updownnews.co.kr/news/articleView.html?idxno=317312",
+      "originallink": "http://www.updownnews.co.kr/news/articleView.html?idxno=317312",
+      "pubDate": "Fri, 22 May 2026 15:02:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "tax",
       "keyword": "양도소득세 인하",
-      "title": "강남 다시 '빨간불'…서울 전역 아파트값 '반등'",
-      "description": "다주택자 양도소득세 중과 유예 종료 전 급매물이 대거 소진된 이후 매물이 줄어든 데다 재건축 기대감과 금리 인하 기대까지 겹치면서 강남권을 중심으로 매수세가 살아나는 분위기입니다. 한동안 강북과 외곽 지역...",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1301079&inflow=N",
-      "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1301079&inflow=N",
-      "pubDate": "Sun, 17 May 2026 14:36:00 +0900",
-      "pub_date": "2026-05-17"
+      "title": "반도체·코스피 훈풍에 소비심리 반등…11개월 만 최대폭 상승",
+      "description": "한국은행은 다주택자 양도소득세 중과 재개 이후 서울 아파트 매물이 감소한 데다 전셋값 상승과 중동... 최근 서울 주요 지역에서는 공급 감소 우려와 기준금리 인하 기대가 맞물리며 매수 심리가 다시 살아나는...",
+      "link": "https://www.sentv.co.kr/article/view/sentv202605220001",
+      "originallink": "https://www.sentv.co.kr/article/view/sentv202605220001",
+      "pubDate": "Fri, 22 May 2026 08:40:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "\"서울 강남권 빼고 토허제 풀어야 전·월세 안정된다\"",
-      "description": "84% 더 크게 상승했다. 이들 지역의 전세와 월세 가격은 각각 1.09%, 2.39%에서 12.63%, 13.14% 급등했다. 이 교수는 “지난해 10.15대책이 나오기 직전에 부동산 시장 가격이 안정되고 있었는데 너무 갑자기 강한 규제(서울 전역...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006284620?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=04467366645450232",
-      "pubDate": "Mon, 18 May 2026 17:13:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "‘정원오 정책 설계’ 오기형 “G2 서울, 한국 경제 이끄는 견인차 역할...",
+      "description": "상승분만큼 한시적으로 감면해주는 것”이라고 강조했다. 오 본부장은 지난 22일 국회 의원회관에서 서울신... 오 본부장은 부동산 세제 기조와 관련해 “‘세금으로 부동산 가격을 잡겠다?’ 이게 가능한 것이냐”며...",
+      "link": "https://n.news.naver.com/mnews/article/081/0003646651?sid=100",
+      "originallink": "https://www.seoul.co.kr/news/politics/2026/05/25/20260525500111?wlog_tag3=naver",
+      "pubDate": "Mon, 25 May 2026 18:14:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "서울 아파트 매매·전월세 가격 ‘동반 상승’",
-      "description": "18일 한국부동산원 주간아파트가격동향에 따르면, 올해 초부터 5월 2주(11일 기준)까지 서울 아파트 값은 누적 3.10% 상승했다. 이는 지난해 같은 기간 상승률인 1.53%와 비교하면 두 배에 달하는 속도다. 1~4월 서울...",
-      "link": "https://n.news.naver.com/mnews/article/421/0008951652?sid=101",
-      "originallink": "https://www.news1.kr/photos/7912296",
-      "pubDate": "Mon, 18 May 2026 15:36:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[여의대로] 부동산 규제의 역설",
+      "description": "서울 아파트가격은 대략 110.4% 상승, 서울 평균 주택(빌라 등 포함) 매매가격은 70.7% 상승했다는 통계가 있다.지금의 부동산 시장에도 여러 규제책이 적용되고 있다. 수도권 등 규제지역에서 주택담보대출 한도는...",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260521010006194",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20260521010006194",
+      "pubDate": "Mon, 25 May 2026 17:54:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "서울 아파트 매매·전세·월세 동반 강세...'트리플 상승' 조짐",
-      "description": "18일 한국부동산원 주간아파트가격동향에 따르면, 올해 초부터 5월 2주(11일 기준)까지 서울 아파트 값은 누적 3.10% 상승했다. 이는 지난해 같은 기간 상승률인 1.53%와 비교하면 두 배에 달하는 속도다. 1~4월 서울...",
-      "link": "https://n.news.naver.com/mnews/article/421/0008951650?sid=101",
-      "originallink": "https://www.news1.kr/photos/7912295",
-      "pubDate": "Mon, 18 May 2026 15:36:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[기자24시] '희망고문' 부동산 기획소송",
+      "description": "그러나 대법원은 계약금을 돌려주라고 한 원심을 깨고 사건을 서울고법으로 돌려보냈다. 대법원은 '주거... 이들은 부동산 가격 상승을 기대했다가 입주 초반 가격이 떨어진 곳만 집중적으로 찾아다니고 있다. 그러나...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005684621?sid=110",
+      "originallink": "https://www.mk.co.kr/article/12056997",
+      "pubDate": "Mon, 25 May 2026 17:03:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "반도체 슈퍼사이클 맞은 코스피, 수도권 주택시가총액 넘은 듯",
-      "description": "지난달 전국의 주택종합 매매가격지수는 비상계엄의 충격이 국민 경제에 큰 영향을 미쳤던 2024년 12월과 비교해 1.9% 상승하는 데 그쳤다. 같은 기간 서울 상승률은 9.8%로 더 높았지만 코스피 성장세에 비할 정도는...",
-      "link": "https://n.news.naver.com/mnews/article/658/0000144170?sid=101",
-      "originallink": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260518.99099004647",
-      "pubDate": "Mon, 18 May 2026 15:26:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "“전세보증 조인다는데…전세 넘어 월세난 우려” 확산",
+      "description": "실제 서울 아파트 전세가격은 한국부동산원 기준 올해 들어 상승세를 이어가고 있으며, 5월 첫째 주 기준 누적 상승률은 2%를 넘어섰다. 신규 전세계약 물량도 급감하고 있다. 지난달 서울 신규 전세계약 건수는 3600여건...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006290226?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01951606645452528",
+      "pubDate": "Mon, 25 May 2026 16:34:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "불장에 집보다 주식… 코스피, 수도권 주택 시총 추월",
-      "description": "매매가격지수는 2024년 12월보다 전국은 1.9%, 수도권의 경우 4.4% 상승하는 데 그쳤다. 같은 기간 서울... 다만 한국부동산원은 전국주택가격동향조사의 평균 가격이 표본구성·재고량 변화로 인한 가중치 조정...",
-      "link": "https://www.newscj.com/news/articleView.html?idxno=3401715",
-      "originallink": "https://www.newscj.com/news/articleView.html?idxno=3401715",
-      "pubDate": "Mon, 18 May 2026 15:12:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "동결 유력한 5월 금통위…증권가 관심은 ‘인상의 싹’",
+      "description": "한국부동산원 주간 아파트가격 동향에 따르면 서울 아파트 매매가격은 5월 1주 0.15%, 2주 0.28%, 3주 0.31% 오르며 상승폭을 키웠다. 앞서 4월 전국주택가격동향조사에서도 서울 주택종합 매매가격은 대단지와 역세권 등 주요...",
+      "link": "https://m.skyedaily.com/news_view.html?ID=304647",
+      "originallink": "https://m.skyedaily.com/news_view.html?ID=304647",
+      "pubDate": "Mon, 25 May 2026 12:04:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "'공급 절벽', 서울 아파트 값 상승세",
-      "description": "18일 한국부동산원 주간아파트가격동향에 따르면, 올해 초부터 5월 2주(11일 기준)까지 서울 아파트 값은 누적 3.10% 상승했다. 이는 지난해 같은 기간 상승률인 1.53%와 비교하면 두 배에 달하는 속도다. 1~4월 서울...",
-      "link": "https://n.news.naver.com/mnews/article/421/0008951462?sid=101",
-      "originallink": "https://www.news1.kr/photos/7912114",
-      "pubDate": "Mon, 18 May 2026 14:39:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "오세훈 \"정원오, 578개 재건축·재개발 2~3년씩 늘릴 건가…실력 과대포...",
+      "description": "오세훈 국민의힘 서울시장 후보가 성동구 행당7구역 재개발·재건축 지연에 대해 \"재건축·재개발에 대한... 오 후보는 '성북구 등 부동산 가격 상승'에 대해 \"이재명정부의 부동산정책은 완전히 실패했다\"며 \"실거주를...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005362337?sid=162",
+      "originallink": "https://www.mt.co.kr/politics/2026/05/25/2026052511260676736",
+      "pubDate": "Mon, 25 May 2026 11:39:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "서울 아파트 매매·전세·월세 '트리플 상승'",
-      "description": "18일 한국부동산원 주간아파트가격동향에 따르면, 올해 초부터 5월 2주(11일 기준)까지 서울 아파트 값은 누적 3.10% 상승했다. 이는 지난해 같은 기간 상승률인 1.53%와 비교하면 두 배에 달하는 속도다. 1~4월 서울...",
-      "link": "https://n.news.naver.com/mnews/article/421/0008951463?sid=101",
-      "originallink": "https://www.news1.kr/photos/7912118",
-      "pubDate": "Mon, 18 May 2026 14:39:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "\"보너스만 6억\" 삼성·SK 반도체 다니면...결혼시장선 '변호사급' 특급 ...",
+      "description": "셔틀버스와 역세권을 결합한 '셔세권'으로 불리는 용인 수지, 수원 영통, 화성 동탄 일대는 물론 송파구와 강남구 등 서울 동남권 부동산 가격에도 상승 압력이 가해질 것이라는 전망이 제기된다. 온라인 공간에서는...",
+      "link": "https://www.insight.co.kr/news/555432",
+      "originallink": "https://www.insight.co.kr/news/555432",
+      "pubDate": "Mon, 25 May 2026 09:34:00 +0900",
+      "pub_date": "2026-05-25"
+    },
+    {
+      "category": "market",
+      "keyword": "서울 부동산 가격 상승",
+      "title": "클수록 돈 된다… 집값 상승폭 '2배' 가까이 벌어진 뜻밖의 이유",
+      "description": "중심으로 상승 거래가 다시금 고개를 들고 있다.지난 21일 한국부동산원의 전국 주간 아파트 가격 동향에 따르면 이달 셋째 주(지난 18일 기준) 서울의 주간 아파트 매매가격은 0.31%로 전주(0.28%)와 비교해 소폭...",
+      "link": "https://www.wikitree.co.kr/articles/1138147",
+      "originallink": "https://www.wikitree.co.kr/articles/1138147",
+      "pubDate": "Mon, 25 May 2026 09:28:00 +0900",
+      "pub_date": "2026-05-25"
+    },
+    {
+      "category": "market",
+      "keyword": "서울 부동산 가격 상승",
+      "title": "수도권 대단지 선호 뚜렷…규모 클수록 매매가 상승폭 커",
+      "description": "정보업체 부동산R114에 따르면 지난해 1월부터 올해 3월까지 수도권 아파트 단지 규모별 매매가격 상승률... 우선 대우건설은 서울 동작구 흑석11구역 재개발을 통해 '써밋 더 힐'을 선보인다. 지하 6층부터 지상 16층...",
+      "link": "https://n.news.naver.com/mnews/article/003/0013965349?sid=101",
+      "originallink": "https://www.newsis.com/view/NISX20260522_0003640533",
+      "pubDate": "Mon, 25 May 2026 08:00:00 +0900",
+      "pub_date": "2026-05-25"
+    },
+    {
+      "category": "market",
+      "keyword": "서울 부동산 가격 상승",
+      "title": "물가·환율·집값 3중고… 한은 기준금리 인상 깜박이 켜나",
+      "description": "서울 주요 지역을 중심으로 집값 상승세가 이어지면서 금융당국의 대출 규제에도 자산시장 과열 우려가... 7월 인상론은 고유가와 환율 불안, 부동산 가격 상승이 동시에 이어질 경우 한은이 조기 대응에 나설 수 있다는...",
+      "link": "https://it.chosun.com/news/articleView.html?idxno=2023092162652",
+      "originallink": "https://it.chosun.com/news/articleView.html?idxno=2023092162652",
+      "pubDate": "Mon, 25 May 2026 06:00:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "[EBN 오늘(18일) 이슈 종합] 코스피 냉온탕 끝에 강보합, 삼성전자 주주...",
-      "description": "■﻿\"218억 에테르노청담\" 다시 열린 초고가 시장…강남·판교로 자금 쏠림 ﻿5월 11일부터 5월 15일까지 신고된 국토교통부 실거래가 자료에 따르면 전국 아파트 매매가 상위 거래는 서울 강남권에 뚜렷하게 집중됐다....",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1709240",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1709240",
-      "pubDate": "Mon, 18 May 2026 20:40:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "\"씨 말랐다\" 강남도 아닌데 '월 300만'…전·월세 품귀",
+      "description": "서울 신도림의 한 아파트는 최근 보증금 1억원에 월세 360만원으로 거래가 성사됐고, 서울 미아동의 한 아파트도 보증금 5000만원, 월세 280만원에 계약이 체결됐습니다. 실제로 지난 3월 서울의 아파트 전셋값은 전월 대비...",
+      "link": "https://n.news.naver.com/mnews/article/437/0000492856?sid=101",
+      "originallink": "https://news.jtbc.co.kr/article/NB12299738?influxDiv=NAVER",
+      "pubDate": "Mon, 25 May 2026 20:10:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "'다주택자 급매' 3월 서울 아파트 실거래가 7개월 만에 하락",
-      "description": "따라서 지수 하락은 같은 아파트가 직전보다 낮은 값에 팔린 거래가 많았다는 뜻이다. 강남권에서는 양도소득세와 종합부동산세 부담을 줄이려는 다주택자와 1주택자들이 수천만 원에서 수억 원씩 낮춘 급매를...",
-      "link": "https://www.g-enews.com/view.php?ud=20260518193632333e207547429_1",
-      "originallink": "https://www.g-enews.com/view.php?ud=20260518193632333e207547429_1",
-      "pubDate": "Mon, 18 May 2026 19:40:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "역대급 공급난이 부른 제2 상승장… 서울 집값 67주째 올라",
+      "description": "거래는 위축됐지만 매물 잠김과 공급 부족 우려가 가격을 떠받치고 있다는 평가다. 25일 한국부동산원에... 서울 아파트 강세는 좀처럼 꺾이지 않고 있다. 과거 강남3구(강남·서초·송파)의 급등이 나머지 지역을...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005526094?sid=101",
+      "originallink": "http://www.fnnews.com/news/202605251909283162",
+      "pubDate": "Mon, 25 May 2026 19:11:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "남양주 아파트 거래량 82.2% 급증… 교통·산업호재 '왕숙 아테라'로 이...",
-      "description": "아파트 거래량이 전년 대비 80% 이상 증가한 데 이어, 아파트값도 9개월 연속 상승세를 기록하면서 시장... 향후 광역교통망이 확충될 경우 서울 강남·여의도·용산 등 핵심 업무지구까지 30~40분대 이동이 가능해...",
-      "link": "http://www.ikld.kr/news/articleView.html?idxno=334701",
-      "originallink": "http://www.ikld.kr/news/articleView.html?idxno=334701",
-      "pubDate": "Mon, 18 May 2026 19:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "6억 성과급 챙겨든 삼성맨 몰려온다 …동탄·수지·영통 집값 두둥실",
+      "description": "실거래가 및 부동산업계에 따르면 동탄역시범더샵센트럴시티 전용 84㎡는 노사 합의 당일 호가가 17억원에서... 실제 5월 셋째주 아파트 매매가격지수 변동률에서 강남3구 중 송파구가 0.35%를 기록하며 강남(0.19%)과 서초(0....",
+      "link": "https://n.news.naver.com/mnews/article/018/0006290243?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02010646645452528",
+      "pubDate": "Mon, 25 May 2026 17:44:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "[단독] 집 안 사고 월세 산다… 서울 초고가 월세 급증",
-      "description": "아파트 구매에 쓰는 대신 다른 자산에 투자한 것으로 해석된다. 국민일보가 18일 국토교통부 실거래가... 일례로 서울 대표 부자 동네 중 하나로 알려진 강남구 청담동은 지난해 같은 기간 월세 500만원 이상 계약이...",
-      "link": "https://n.news.naver.com/mnews/article/005/0001849660?sid=101",
-      "originallink": "https://www.kmib.co.kr/article/view.asp?arcid=1779093504&code=11151500&cp=nv",
-      "pubDate": "Mon, 18 May 2026 18:38:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "서울 집값 상승폭 둔화…'다주택 규제'에 강남구 3개월 연속 내림세",
+      "description": "올해 5월 서울 아파트값 상승률이 전월보다 소폭 둔화했다. 특히 강남구는 전월 대비 하락 폭이 커졌다. 10일 다주택자 양도세 중과 종료를 앞두고 5월 초 호가를 내린 매물이 잇따라 거래된 결과로 풀이된다. 25일...",
+      "link": "https://n.news.naver.com/mnews/article/421/0008964827?sid=101",
+      "originallink": "https://www.news1.kr/realestate/general/6176866",
+      "pubDate": "Mon, 25 May 2026 17:02:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "자산가들, 집 대신 '고가 임대' 선택하는 이유는?",
-      "description": "2500만원에 거래된 바 있다. 강남에서만 볼 수 있었던 고가 월세는 서울 전역으로 확산되는 모습이다.... 같은 임대료를 내더라도 일반 아파트보다 조식, 컨시어지, 하우스키핑 등 일상 관리 기능을 함께 누릴 수 있는...",
-      "link": "https://www.thegolftimes.co.kr/news/articleView.html?idxno=81140",
-      "originallink": "https://www.thegolftimes.co.kr/news/articleView.html?idxno=81140",
-      "pubDate": "Mon, 18 May 2026 18:32:00 +0900",
-      "pub_date": "2026-05-18"
-    },
-    {
-      "category": "market",
-      "keyword": "강남 아파트 거래",
-      "title": "\"공급 없는 수요억제 정책, 전월세 시장 불안 더 키웠다\"",
-      "description": "토지거래허가자료 등을 토대로 새 정부 출범 1년(2025년 6월 2일 ~ 2026년 5월 11일)과 직전 1년(2024년 6월 3일 ~ 2025년 6월 2일)을 비교·분석했다. 우선 강남4구(강남·서초·송파·강동구)의 경우 아파트 매매가 상승률이...",
-      "link": "https://n.news.naver.com/mnews/article/014/0005523166?sid=101",
-      "originallink": "http://www.fnnews.com/news/202605181810272847",
-      "pubDate": "Mon, 18 May 2026 18:12:00 +0900",
-      "pub_date": "2026-05-18"
-    },
-    {
-      "category": "market",
-      "keyword": "강남 아파트 거래",
-      "title": "강남 집값만 보다 놓친 전세 경고음[기자수첩]",
-      "description": "서울 아파트 전셋값은 5월 둘째 주 0.28% 오르며 2015년 11월 둘째 주(0.31%) 이후 10년 6개월 만에 가장 높은 상승률을 기록했다. 정부는 토지거래허가구역 확대와 다주택자 규제, 대출 제한 등 강남 집값 억제에 정책 역량을...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006284638?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=04546086645450232",
-      "pubDate": "Mon, 18 May 2026 18:01:00 +0900",
-      "pub_date": "2026-05-18"
-    },
-    {
-      "category": "market",
-      "keyword": "한국은행 기준금리",
-      "title": "AI·경제·저출산 해법 제시…울산 남구갑 유권자 표심 공략",
-      "description": "계약갱신청구권을 현행 10년에서 15년으로 늘리고 임대료 인상률 상한을 한국은행 기준금리 이내로 제한하겠다고 밝혔다. 재건축 과정에서 임차인이 피해를 보는 일을 막기 위해 퇴거 보상제 도입을 추진하겠다고...",
-      "link": "https://www.iusm.co.kr/news/articleView.html?idxno=1062987",
-      "originallink": "https://www.iusm.co.kr/news/articleView.html?idxno=1062987",
-      "pubDate": "Mon, 18 May 2026 20:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[부동산 손자병법] 강남 넘보는 분양가에도 흥행 … 천지개벽 눈앞 노량...",
+      "description": "인근 아파트 가격도 상승 곡선을 그리고 있다. 장승배기역 인근에 있는 '상도동 효성해링턴플레이스' 전용 84㎡는 지난 2월 28일 17억3000만원에 거래돼 최고가 기록을 세웠다. 일각에선 우려도 있다. 특히 최근 공급되는...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005684594?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12056957",
+      "pubDate": "Mon, 25 May 2026 16:29:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "충북교육청, 일반고 교사 대상 '고교 학업 설계 역량 강화 연수' 운영",
-      "description": "이번 연수는 2022 개정 교육과정 도입과 대입 제도 개편에 따라 중요성이 커진 교사의 학업 설계 지도 역량을 강화하고, 학생 맞춤형 교육과정 운영과 진로·진학 상담을 체계적으로 돕기 위해 마련됐다. 연수는 온라인...",
-      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2430568",
-      "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2430568",
-      "pubDate": "Mon, 18 May 2026 19:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "진주교대, 교육부 사업 최고 등급 동시 획득",
+      "description": "김성규 총장은 \"2022 개정 교육과정과 대입제도 개편에 발맞춰 수험생과 학부모의 입시 부담을 덜어주고, 공교육 활성화를 선도하는 대학으로서 사회적 책무를 다하겠다\"고 말했다.",
+      "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=637571",
+      "originallink": "https://www.gnnews.co.kr/news/articleView.html?idxno=637571",
+      "pubDate": "Mon, 25 May 2026 20:00:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "대전교육감 후보 5명, 전교조 제안 의제에 시각차 '뚜렷'",
-      "description": "반면 대입 제도 개혁과 고교 체제 개편 등 '입시경쟁 해소와 평등교육' 의제에서는 후보 간 이견이 갈렸다. 성광진·오석진 후보는 내신 절대평가화 및 자사고·외고·국제고 등 특권학교 폐지에 명확한 동의 의사를 밝혔다....",
-      "link": "http://www.ccnnews.co.kr/news/articleView.html?idxno=409794",
-      "originallink": "http://www.ccnnews.co.kr/news/articleView.html?idxno=409794",
-      "pubDate": "Mon, 18 May 2026 18:48:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "임태희 “기초학력 중점… 경기미래교육 완성” [경기도교육감 후보 인...",
+      "description": "임 후보는 “향후 4년간은 새로운 출발이 아니라 경기미래교육이라는 공교육 체제를 완성해 가는 단계”라며 “학교 현장에서 이미 시작된 변화를 대입 제도 개편과 현장 중심 정책으로 뒷받침해 흔들림 없는 구조로...",
+      "link": "https://www.kyeongin.com/article/1764215",
+      "originallink": "https://www.kyeongin.com/article/1764215",
+      "pubDate": "Mon, 25 May 2026 19:02:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "도성훈 인천시교육감 후보, 교육시민단체와 대학무상화·평준화 정책 연...",
-      "description": "양측은 협약식에서 입시경쟁교육 해소를 위한 대입제도 개편, 대학 및 고교 서열체제 해소, 초·중등 및 고등교육 재정의 안정적 확보 등 3대 의제를 중심으로 상호 협력하기로 뜻을 모을 예정이다....",
-      "link": "https://www.kmaeil.com/news/articleView.html?idxno=640420",
-      "originallink": "https://www.kmaeil.com/news/articleView.html?idxno=640420",
-      "pubDate": "Mon, 18 May 2026 18:04:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "5등급제 첫 적용 고2 평균점수 올랐다",
+      "description": "2028 대입제도 개편에 따라 내신 5등급제가 처음 적용된 현 고2 학생들의 학교시험 평균점수와 A등급 비율이 일제히 상승한 것으로 나타났다. 주요 대학들이 내신을 강화하면서 수험생들은 내신 등급은 물론...",
+      "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1079895",
+      "originallink": "https://www.ccdn.co.kr/news/articleView.html?idxno=1079895",
+      "pubDate": "Mon, 25 May 2026 18:08:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "충북교육청, 고교 학업 설계 역량 연수",
-      "description": "도교육청은 18일~28일까지 6회에 걸쳐 2022 개정 교육과정 도입과 대입 제도 개편에 따라 중요성이 커진 교사의 학업 설계 지도 역량을 강화하고, 학생 맞춤형 교육과정 운영과 진로‧진학 상담 지원을 체계적으로...",
-      "link": "http://www.dynews.co.kr/news/articleView.html?idxno=850821",
-      "originallink": "http://www.dynews.co.kr/news/articleView.html?idxno=850821",
-      "pubDate": "Mon, 18 May 2026 17:04:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "5등급제 후 고교 내신 평균 점수↑…학원가 “내신 인플레 현실화”",
+      "description": "고등학교 내신 제도가 5등급제로 개편된 첫해 전국 고등학교의 내신 평균 점수가 전보다 상승한 것으로 나타났다. 입시업계에선 예상했던 내신의 대입 변별력 약화가 현실화했다고 평가했다. 대학들이 이를...",
+      "link": "https://n.news.naver.com/mnews/article/025/0003525557?sid=102",
+      "originallink": "https://www.joongang.co.kr/article/25431050",
+      "pubDate": "Mon, 25 May 2026 14:06:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "도성훈 인천교육감 후보, 대학무상화 협약 추진… 과학인재 육성 논의",
-      "description": "양측은 협약식에서 ▲입시경쟁교육 해소를 위한 대입제도 개편 ▲대학 및 고교 서열체제 완화 ▲초·중등 및 고등교육 재정의 안정적 확보 등 3대 의제 실현을 위해 협력하기로 뜻을 모을 예정이다....",
-      "link": "https://www.newscj.com/news/articleView.html?idxno=3401752",
-      "originallink": "https://www.newscj.com/news/articleView.html?idxno=3401752",
-      "pubDate": "Mon, 18 May 2026 16:44:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "“고교학점제 뭐가 달라지나”…서울시교육청, 학부모 설명회 6월 12~20일...",
+      "description": "특히 2028학년도 대입 개편과 맞물리면서 학부모 대상 정보 제공 필요성도 커지고 있다. 서울특별시교육청은... 선택 제도를 쉽게 이해할 수 있도록 하기 위해 진행된다. 설명회는 6월 12일부터 20일까지 권역별 지정...",
+      "link": "https://www.gosiweek.com/article/1065582469158647",
+      "originallink": "https://www.gosiweek.com/article/1065582469158647",
+      "pubDate": "Mon, 25 May 2026 12:20:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "[위클리국회세미나] '이란전쟁이 던진 질문 '드론·AI' 준비돼 있는가?'...",
-      "description": "법·제도를 개선할 것을 요청하는 내용이다. 지난 13일 공개된 '대입 농어촌 전형 개편 요청에 관한 청원'은 현재 동의 진행 중(6월 12일까지 5만명 동의 필요)이다. 대입 농어촌 전형에 수도권인 경기도 지역을 제외하고...",
-      "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7164735",
-      "originallink": "https://weekly.hankooki.com/news/articleView.html?idxno=7164735",
-      "pubDate": "Mon, 18 May 2026 16:12:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "경기도교육청, 신설고 대상 진학지도 연수 성료",
+      "description": "도교육청은 2028학년도 대입 제도 개편에 선제적으로 대응하고 신설 고등학교의 안정적인 진학교육 체계 구축을 지원하기 위해 이번 연수를 운영했다. 연수는 올해 3월 개교한 도내 신설 고등학교 가운데 참여를 희망한...",
+      "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1259103",
+      "originallink": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1259103",
+      "pubDate": "Mon, 25 May 2026 10:48:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "충북교육청, 고교 학업 설계 역량 강화 연수",
-      "description": "이번 연수는 대입 제도 개편과 고교학점제 시행에 따라 중요성이 커진 교사의 학업 설계 지도 능력을 높이기 위해 마련됐다. 참여 교사들은 실시간 온라인 화상 서비스인 '채움모니터'를 통해 학생 맞춤형 교육과정...",
-      "link": "https://www.newstnt.com/news/articleView.html?idxno=702931",
-      "originallink": "https://www.newstnt.com/news/articleView.html?idxno=702931",
-      "pubDate": "Mon, 18 May 2026 13:46:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "고교 5등급제 전환 후 내신 3.5점 상승 ... 성적 '인플레' 뚜렷",
+      "description": "대입 내신 제도가 5등급제로 개편된 첫해인 지난해, 전국 고등학교의 내신 평균 점수가 전년 대비 3.5점 오른 것으로 나타나 변별력 하락 우려가 현실화되고 있다. 25일 종로학원이 학교알리미에 공개된 지난해...",
+      "link": "https://www.hidomin.com/news/articleView.html?idxno=706606",
+      "originallink": "https://www.hidomin.com/news/articleView.html?idxno=706606",
+      "pubDate": "Mon, 25 May 2026 10:34:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "강미애 세종교육감 후보 “획일적 일반고 구조 혁신해 세종형 자율고 키...",
-      "description": "7%를 차지하고 있어, 대입 중심의 획일화된 교육 과정에서 벗어나야 한다는... 고교체제 개편안을 발표했다. 강 후보는 “일반고 비율이 이토록 높다는 것은 학교...",
-      "link": "http://www.breaknews.com/1207834",
-      "originallink": "http://www.breaknews.com/1207834",
-      "pubDate": "Mon, 18 May 2026 12:26:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "내신 A등급 쏟아져도 모의고사는 못 봤다…\"5등급제의 역설\"",
+      "description": "지난해 대입 내신제도가 5등급제로 개편된 영향으로, 내신과 수능 간 난이도 격차가 심화되면서 변별력이 하락할 수 있다는 우려가 나온다. 25일 종로학원이 발표한 '전국 1695개 일반고의 지난해 2학기 학업성취도...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005362302?sid=102",
+      "originallink": "https://www.mt.co.kr/policy/2026/05/25/2026052510110750586",
+      "pubDate": "Mon, 25 May 2026 10:16:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "충북교육청 '고교 학업 설계 역량 강화 연수' 운영",
-      "description": "이번 연수는 2022 개정 교육과정 도입과 대입 제도 개편에 따라 중요성이 커진 교사의 학업 설계 지도 역량을 강화하고, 학생 맞춤형 교육과정 운영과 진로·진학 상담 지원을 체계적으로 돕기 위해 마련됐다. 연수는...",
-      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1158773",
-      "originallink": "https://www.ggilbo.com/news/articleView.html?idxno=1158773",
-      "pubDate": "Mon, 18 May 2026 11:36:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "'5등급 내신의 역설' 학교선 A등급 쏟아지는데 수능 모의고사선 상위 1~...",
+      "description": "대입 내신 제도가 5등급제로 개편된 첫해인 지난해, 전국 고등학교의 내신 평균 점수가 전년 대비 3.5점 상승하며 변별력 하락 우려가 현실화됐다. 학교 시험에서는 원점수 90점 이상인 A등급이 24.1%나 쏟아졌지만...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005525847?sid=102",
+      "originallink": "http://www.fnnews.com/news/202605250902307508",
+      "pubDate": "Mon, 25 May 2026 09:04:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "대입 제도 개편",
-      "title": "“선택이 곧 입시”… 화성오산교육지원청, 학부모 대상 고교학점제 연...",
-      "description": "18일 화성오산교육지원청에 따르면 이번 연수는 ‘선택이 곧 입시가 된다’를 주제로, 2028 대입제도 개편과 고교학점제 시행에 대비해 학부모들이 변화하는 고등학교 교육과정과 대입 환경을 올바르게 이해하고 자녀의...",
-      "link": "https://www.kgnews.co.kr/news/article.html?no=896136",
-      "originallink": "https://www.kgnews.co.kr/news/article.html?no=896136",
-      "pubDate": "Mon, 18 May 2026 11:12:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "경기도교육청, 신설고 대상 맞춤형 대입 연수 운영…\"진학지도 역량 강...",
+      "description": "이번 연수는 2028학년도 대입 제도 개편에 선제적으로 대응하고, 개교 초기 신설 학교의 진학지도 기반을 강화하기 위해 마련됐다. 연수는 올해 3월 새롭게 문을 연 도내 고등학교 가운데 참여를 희망한 4개 학교를 대상으로...",
+      "link": "https://www.lecturernews.com/news/articleView.html?idxno=202990",
+      "originallink": "https://www.lecturernews.com/news/articleView.html?idxno=202990",
+      "pubDate": "Sun, 24 May 2026 17:06:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "전남대 여수캠퍼스 통합 20년, 지역 균형발전 ‘공염불’",
-      "description": "한의대 설립 등 핵심 약속은 지켜지지 않았고 학과와 정원은 줄어들며 여수캠퍼스 위상이 약화했다는 지적이다. 18일 전남대에 따르면 두 대학은 2006년 3월 통합 이후 ‘거점 국립대 경쟁력 강화’와 ‘지역 균형발전’...",
-      "link": "http://www.jndn.com/article.php?aid=1779098934432712107",
-      "originallink": "http://www.jndn.com/article.php?aid=1779098934432712107",
-      "pubDate": "Mon, 18 May 2026 19:12:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "tvN 드라마 '슬기로운 의사생활 시즌2' \"조정석·유연석·정경호·김대명...",
+      "description": "유연석 [사진출처=드라마 '슬기로운 의사생활 시즌2'] 안정원(男/ 의대 99학번, 소아외과 조교수/ 41세) 슈바이처, 아니 공자, 맹자도 이겨 먹을 천사같은 성품의 소유자. 천주교가 모태신앙임에도 불구하고, 별명은 '부처...",
+      "link": "https://www.lecturernews.com/news/articleView.html?idxno=201641",
+      "originallink": "https://www.lecturernews.com/news/articleView.html?idxno=201641",
+      "pubDate": "Mon, 25 May 2026 16:44:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "6·3 지방선거 후보자 마감…'의사' 후보자 몇 명?",
-      "description": "ⓒ의협신문 최근 의대정원과 지역의대신설 등 각종 의료 현안 이슈들이 국민적 관심도가 높아지면서 제9회 전국동시지방선거가 실시되는 가운데 의사 출신 후보자에 대한 의료계의 관심이 높다. 제9회...",
-      "link": "http://www.doctorsnews.co.kr/news/articleView.html?idxno=164602",
-      "originallink": "http://www.doctorsnews.co.kr/news/articleView.html?idxno=164602",
-      "pubDate": "Mon, 18 May 2026 17:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[르포 격전지] \"민주당 단결력으로 승리\" VS \"정당 보다 일잘하는 능력...",
+      "description": "또 2023 정원박람회 성공 개최, 미국 창고형 할인마트 코스트코 유치, 원도심 애니메이션 클러스터 조성 등... 국립의대 유치, 대기업·공공기관 유치 등을 공약으로 내세웠다. 손 후보는 \"갈등이 아닌 배려와 통합으로 순천을...",
+      "link": "https://n.news.naver.com/mnews/article/003/0013965408?sid=102",
+      "originallink": "https://www.newsis.com/view/NISX20260524_0003642583",
+      "pubDate": "Mon, 25 May 2026 09:01:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "'목숨 살리는' 정부···통합돌봄·지역의료·응급실 뺑뺑이 대응 관건",
-      "description": "복지부는 2027학년도 입시부터 2031학년도까지 기존 의대 정원 3058명(2024년 기준)을 초과해 증원하는 인원은 모두 지역의사전형으로 선발한다. 지역의사전형으로 선발된 학생은 등록금 등 정부 지원을 받고 졸업 후 지역...",
-      "link": "https://n.news.naver.com/mnews/article/629/0000500192?sid=102",
-      "originallink": "https://news.tf.co.kr/read/life/2323823.htm",
-      "pubDate": "Mon, 18 May 2026 16:35:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "‘10대 정책’에 담긴 ‘지방소멸’ 대응 전략은?",
+      "description": "약속하고 버스 공영화, 무상교통 실현을 공약했습니다. 또, 공공병원 확대와 공공산후조리원 확충, 의대 정원 확대, 지역별 공공임대주택 20% 의무 확보 등 기본권 보장을 위한 정책들을 제시했습니다. KBS 뉴스 손원혁입니다.",
+      "link": "https://n.news.naver.com/mnews/article/056/0012187315?sid=100",
+      "originallink": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569050&ref=A",
+      "pubDate": "Mon, 25 May 2026 07:38:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "케이메디허브, 사람 대신 '가상 환자' 세운다",
-      "description": "의대 정원 확대와 고령화, 감염병 대응까지 겹치면서 의료인 교육 방식도 바뀌어야 한다는 목소리가 커지는 이유다. 케이메디허브(K-MEDI hub·대구경북첨단의료산업진흥재단)가 오는 9월 개원을 추진 중인...",
-      "link": "https://www.dkilbo.com/news/articleView.html?idxno=544632",
-      "originallink": "https://www.dkilbo.com/news/articleView.html?idxno=544632",
-      "pubDate": "Mon, 18 May 2026 11:46:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "“내가 배신자? 그 마음 이해한다”… 한동훈, 삼광사서 계엄·탄핵 다시...",
+      "description": "이어 의대 정원 문제와 비상계엄 국면까지 직접 언급했습니다. 특히 “계엄에 반대하고 탄핵에 찬성하더라”는 발언이 나오자 일부 신도들은 웅성거리기 시작했고, 불편한 반응도 이어졌습니다. 행사장 안팎에서는 한...",
+      "link": "https://n.news.naver.com/mnews/article/661/0000076859?sid=100",
+      "originallink": "https://www.jibs.co.kr/news/articles/articlesDetail/61566?feed=na",
+      "pubDate": "Sun, 24 May 2026 21:40:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "경북 북부권은 '의대 신설' 속도전인데… 포항 정치권은 '문 닫고 침묵'",
-      "description": "표를 달라고 고개를 숙일 때는 '포항의 백년대계'를 외치던 이들이, 정작 포항의대 신설에 필수적인 정부의 의대 정원 배정이라는 단 한 번뿐인 기회 앞에서는 입을 꾹 닫고 있다. 지역 정가에서는 보수 진영 내의 진흙탕...",
-      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=302671",
-      "originallink": "https://www.straightnews.co.kr/news/articleView.html?idxno=302671",
-      "pubDate": "Mon, 18 May 2026 09:38:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "학령인구가 바꾸는 입시판 [임성호의 입시지계]",
+      "description": "2023학년도에는 967명, 2024학년도에는 1025명, 2025학년도에는 의대 모집 정원 확대 영향으로 1913명까지 늘었다. 2026학년도에는 1232명, 2028학년도에는 1673명으로 확대된다. 2027학년도 배정 인원은 아직 확정되지 않은...",
+      "link": "https://n.news.naver.com/mnews/article/243/0000098185?sid=110",
+      "originallink": "https://economist.co.kr/article/view/ecn202605200031",
+      "pubDate": "Sun, 24 May 2026 08:00:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "[금융 게시판] 은행권, 포용금융·플랫폼 경쟁 가속…KB·신한·우리·농...",
-      "description": "서울 서초구 aT센터에서 열린 이번 행사에서 KB국민은행은 세무사와 PB(프라이빗 뱅커) 등 자산관리 전문가를... ■ 우리은행, 'WON하는 부동산'으로 주거 플랫폼 확장 우리은행은 모바일 뱅킹 플랫폼 '우리WON뱅킹' 내...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=202294",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=202294",
-      "pubDate": "Mon, 18 May 2026 20:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "선택받은 부자만 쓴다…'연회비 700만원' 카드의 세계",
+      "description": "금융권의 슈퍼리치 경쟁은 은행 PB(프라이빗뱅킹)센터와 증권사 WM(자산관리) 서비스를 넘어 카드업권으로 확산되고 있다. 카드 한 장이 고액자산가와 금융회사를 연결하는 첫 접점이 되고 이후 자산관리·세무·부동산...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001144643?sid=101",
+      "originallink": "https://www.sidae.com/article/2026052215004870536",
+      "pubDate": "Mon, 25 May 2026 08:55:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "교보증권, 채용연계형 인턴사원 공개채용",
-      "description": "본사 사원은 본사 관리 및 보고자료 작성 등 행정직을 수행하며, 지점 사원은 프라이빗뱅킹(PB) 영업 지원 및 내방 고객 상담과 창구 업무 지원을 담당한다. 채용 절차는 ▲서류 전형 ▲실무 면접 ▲인턴십(10주간) ▲최종...",
-      "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=359112",
-      "originallink": "http://www.ftoday.co.kr/news/articleView.html?idxno=359112",
-      "pubDate": "Mon, 18 May 2026 17:44:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[뱅커스토리] 김진우 하나은행 부행장 \"노후부터 상속까지...'모두의 자...",
+      "description": "과거 고액 자산가를 대상으로 한 맞춤형 서비스가 대세였다면, 지금은 프라이빗 뱅킹(PB)과 신탁 상품을 중심으로 자신의 노후는 물론 가족들의 미래까지 지원하는 '모두의 자산관리'가 핵심으로 떠오르고 있다....",
+      "link": "https://www.newspim.com/news/view/20260522000449",
+      "originallink": "https://www.newspim.com/news/view/20260522000449",
+      "pubDate": "Mon, 25 May 2026 08:00:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "[금융권 소식] 신한은행ㆍKB국민은행ㆍNH농협은행(5.18)",
-      "description": "현장에는 세무사와 프라이빗뱅커(PB) 등 자산관리 전문가가 참여해 '1대1 맞춤형 멘토링 부스'를 운영했고... 'NH원클릭 세무'를 이용한 뒤 농협은행 기업인터넷뱅킹 또는 스마트뱅킹에 후기를 남기면 추첨을 통해...",
-      "link": "http://www.weeklytoday.com/news/articleView.html?idxno=776089",
-      "originallink": "http://www.weeklytoday.com/news/articleView.html?idxno=776089",
-      "pubDate": "Mon, 18 May 2026 16:06:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "천수답 상징 '브로커리지', 팔천피 시대엔 황금알…미래에셋증권 최선두",
+      "description": "증권사 한 고위관계자는 \"거액자산가 중심의 PB(프라이빗뱅킹)점에서 위탁매매와 상품 판매 등이 급증하고 있다\"며 \"신용공여 같은 빚투(빚내서 투자)도 소액투자자가 아닌 자산가들이 주로 활용하고 있을 만큼 지점...",
+      "link": "https://news.mtn.co.kr/news-detail/2026052216315341014",
+      "originallink": "https://news.mtn.co.kr/news-detail/2026052216315341014",
+      "pubDate": "Mon, 25 May 2026 07:32:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "광주은행, 변동성 장세 속 ‘자산관리 해법’ 제시",
-      "description": "광주은행이 요동치는 금융시장 상황에 대응해 PB(프라이빗 뱅킹) 고객들을 위한 ‘자산관리 나침반’을 제시했다. 18일 광주주은행에 따르면 최근 본점 상생마루에서 독립 리서치 법인 ‘광수네복덕방’의 이광수 대표를...",
-      "link": "https://n.news.naver.com/mnews/article/081/0003644663?sid=102",
-      "originallink": "https://www.seoul.co.kr/news/society/2026/05/18/20260518500109?wlog_tag3=naver",
-      "pubDate": "Mon, 18 May 2026 13:25:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "잠실 집값 뛰고 부자 늘자...우리은행, VIP 전용 점포 열었다",
+      "description": "우리은행 관계자는 “작년 대비 올해만 프라이빗 뱅킹(PB) 대상 고객이 500명 넘게 늘었다”고 말했다. 잠실 르엘, 잠실 래미안아이파크 등 고가의 신축 단지가 속속 들어선 여파로 풀이된다. 기존 잠실 대장 단지들인...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005684228?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12056425",
+      "pubDate": "Sun, 24 May 2026 10:22:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "광주은행, PB고객 세미나…변동성 장세 투자 해법 제시",
-      "description": "광주은행이 금융시장 변동성 확대에 대응해 PB(프라이빗뱅킹) 고객 대상 자산관리 세미나를 열고 투자 전략과 자산배분 방향을 제시했다. 18일 광주은행에 따르면 최근 본점 상생마루에서 독립 리서치 법인...",
-      "link": "https://n.news.naver.com/mnews/article/003/0013951018?sid=102",
-      "originallink": "https://www.newsis.com/view/NISX20260518_0003633785",
-      "pubDate": "Mon, 18 May 2026 10:57:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "\"가문을 맡긴다\"…초고액자산가가 찾는 그곳",
+      "description": "기업 오너와 대기업 임원, 전문직 자산가들이 모여 있는 이곳 한복판에 자리한 하나은행 클럽원(Club1) 도곡 PB(프라이빗뱅킹)센터는 단순한 은행 지점이라기보다 '프라이빗 클럽'에 가깝다. 문을 열고 들어서면 일반...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001144584?sid=101",
+      "originallink": "https://www.sidae.com/article/2026042715035450903",
+      "pubDate": "Sun, 24 May 2026 09:00:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "국내 넘어 해외 VIP까지...요즘 고액자산가들 ‘이곳’ 달려간다는데",
-      "description": "제일은행은 올해 하반기 프라이빗 뱅킹 센터를 추가로 확충해 PB 고객을 늘린다는 구상이다. SC제일은행의 이러한 행보는 한국에서 부유층을 대상으로 자산관리 비즈니스를 확대해 지속가능한 성장을 이루겠다는...",
-      "link": "https://www.ekn.kr/web/view.php?key=20260517025045096",
-      "originallink": "https://www.ekn.kr/web/view.php?key=20260517025045096",
-      "pubDate": "Mon, 18 May 2026 07:10:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "VVIP관심은 수익률서 상속으로…농협은행 '인생설계'로 승부",
+      "description": "\"이곳에서는 금융 상담이 아니라 인생 설계를 도와드립니다.\" 최근 초고액자산가(VVIP)들의 발걸음이 향하는 곳은 단순한 프라이빗뱅킹(PB)센터가 아니다. 이제 PB센터는 자산 증식 중심의 기존 자산관리에서 벗어나 자산...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001144583?sid=101",
+      "originallink": "https://www.sidae.com/article/2026050410572398079",
+      "pubDate": "Sun, 24 May 2026 08:55:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "외국계 은행 엇갈린 1Q 성적표",
-      "description": "SC제일은행은 글로벌 자산관리와 PB(프라이빗뱅킹) 중심 리테일 전략 강화에 집중하고 있는 가운데, 한국씨티은행은 소비자금융 축소 이후 외환·자본시장·증권서비스 등 기업금융 중심 구조 재편 효과가...",
-      "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5021344",
-      "originallink": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5021344",
-      "pubDate": "Sat, 16 May 2026 17:00:00 +0900",
-      "pub_date": "2026-05-16"
+      "title": "[금쪽상식] '토스·네이버페이'는 은행일까···핀테크 쉽게 풀어보기",
+      "description": "실제로 모바일뱅킹 이용 건수와 간편결제 이용 규모는 매년 빠르게 증가하고 있다. 금융권에서는 핀테크... 과거에는 은행 프라이빗뱅커(PB)를 통해서만 가능했던 자산관리 서비스를 이제는 모바일 앱에서 비교적 쉽게...",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2432347",
+      "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2432347",
+      "pubDate": "Sat, 23 May 2026 10:00:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "SC제일은행, 1분기 순이익 1049억…전년比 6.3% 감소",
-      "description": "특히 지난해 11월에는 자산 10억원 이상 고액 자산가를 대상으로 한 압구정 프라이빗뱅킹(PB)센터를 출범해 글로벌 자산관리 서비스를 강화했다. 모바일뱅킹과 디지털 채널을 통한 자산관리 서비스 확대와...",
-      "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=81120",
-      "originallink": "https://www.industrynews.co.kr/news/articleView.html?idxno=81120",
-      "pubDate": "Fri, 15 May 2026 18:08:00 +0900",
-      "pub_date": "2026-05-15"
+      "title": "우리은행, 자산관리 특화채널 '투 체어스 W 잠실' 열어",
+      "description": "우리은행의 대표 프라이빗뱅킹(PB) 브랜드인 'TWO CHAIRS'는 고액자산가 고객을 대상으로 1대1 맞춤형 자산관리 상담을 제공하는 특화 채널이다. 이번 잠실 센터는 단순 자문을 넘어 자산 축적 거점별 맞춤형 종합...",
+      "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=691258",
+      "originallink": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=691258",
+      "pubDate": "Fri, 22 May 2026 15:48:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "wealth",
       "keyword": "PB 프라이빗뱅킹",
-      "title": "SC제일은행, 1분기 순익 1049억원…NIM 하락에 6.3% 감소",
-      "description": "지난해 11월 압구정 프라이빗뱅킹(PB)센터를 열고 고액자산가 대상 서비스를 강화했으며, 글로벌 네트워크를 활용한 기업금융 영업도 확대 중이다. 파이낸셜투데이",
-      "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=359017",
-      "originallink": "http://www.ftoday.co.kr/news/articleView.html?idxno=359017",
-      "pubDate": "Fri, 15 May 2026 17:20:00 +0900",
-      "pub_date": "2026-05-15"
+      "title": "우리은행, WM 특화채널 TWO CHAIRS W 잠실 개점",
+      "description": "'TWO CHAIRS(투체어스)'는 우리은행의 프라이빗뱅킹(PB) 브랜드로, 자산관리 전문가와 고객 간 1대1 맞춤 컨설팅을 기반으로 운영된다. 세무·부동산·보험 등 종합 자산관리 및 법률 상담 서비스를 제공하며, 고객의...",
+      "link": "https://www.kbanker.co.kr/news/articleView.html?idxno=225045",
+      "originallink": "https://www.kbanker.co.kr/news/articleView.html?idxno=225045",
+      "pubDate": "Fri, 22 May 2026 15:02:00 +0900",
+      "pub_date": "2026-05-22"
+    },
+    {
+      "category": "wealth",
+      "keyword": "PB 프라이빗뱅킹",
+      "title": "우리은행, 고액자산가 특화 지점 'TWO CHAIRS W 잠실' 개점",
+      "description": "자산시장 변동성이 커질수록 단순 예·적금이나 투자상품 판매를 넘어 종합 자산관리 수요가 확대되고 있다. 자산 이전과 리스크 관리 중요성이 커지면서 은행권의 프라이빗뱅킹(PB) 경쟁도 치열해지는 모습이다.",
+      "link": "http://www.econonews.co.kr/news/articleView.html?idxno=438768",
+      "originallink": "http://www.econonews.co.kr/news/articleView.html?idxno=438768",
+      "pubDate": "Fri, 22 May 2026 12:08:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
-      "title": "[오늘의 ABC 뉴스룸] \"오늘 아침 시작됐습니다, 빨리 신청하세요\" 2차 고...",
-      "description": "다만, 재산세 과세표준 12억 원이나 금융소득 2,000만 원을 초과하는 고액 자산가는 제외됩니다. 지급되는... 주식 결제 T+1 단축… 내년 10월 시행 유력 ​​​​​​​투자금 회전 속도와 주식 시장의 효율성을 높이기 위해...",
-      "link": "https://www.ajunews.com/view/20260518134352735",
-      "originallink": "https://www.ajunews.com/view/20260518134352735",
-      "pubDate": "Mon, 18 May 2026 18:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "메시, '냅킨 계약' 13세 소년에서 1조5000억원 갑부로",
+      "description": "식당 냅킨 위에 적힌 유소년 계약서에서 출발한 리오넬 메시(인터 마이애미)의 커리어가 이제 1조5000억원 자산가로 성장했다. 고액 연봉을 넘어 광고·투자·지분 참여·미디어 사업까지 확장하며 세계 스포츠 산업의...",
+      "link": "https://www.newspim.com/news/view/20260525000254",
+      "originallink": "https://www.newspim.com/news/view/20260525000254",
+      "pubDate": "Mon, 25 May 2026 19:53:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
-      "title": "하나증권, 홍콩 VIP 투자자 초청 ‘코리아 밸류업 투자 포럼’ 개최",
-      "description": "지난달 미국 부동산 투자 플랫폼 기업 ‘빌드블록’과 전략적 업무협약(MOU)을 체결하고 패밀리오피스 및 고액자산가 고객 대상 미국 부동산 투자 자문과 글로벌 자산관리 서비스 강화를 추진하고 있다.",
-      "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065605652424098",
-      "originallink": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065605652424098",
-      "pubDate": "Mon, 18 May 2026 18:38:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[사설] 활화산된 노노갈등·K양극화, 임금개혁 급하다",
+      "description": "비교적 고액 임금자로 분류되는 대기업 직원들 평균 연봉이 이 수준인데, 삼성전자 직원들은 이들의 7배나... 자산가, 의사, 법조인 등 전통적 전문직이 여기에 속하는데 삼성전자 직원들 신분이 비슷하게 격상된 셈이다....",
+      "link": "https://n.news.naver.com/mnews/article/014/0005526100?sid=110",
+      "originallink": "http://www.fnnews.com/news/202605251909373902",
+      "pubDate": "Mon, 25 May 2026 19:12:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
-      "title": "“나는 왜 안 줘?” 고유가 지원금 2차 신청 시작, 과거 소비 쿠폰과 비...",
-      "description": "정부는 소비쿠폰 지급 당시에도 단순 소득 기준 외에 고액 자산가 제외 조건을 함께 적용했다. 구체적으로는... 배당수익률 2% 기준으로도 투자자산 약 10억원 규모가 있어야 가능한 수치다. 정부는 당시 소비쿠폰 정책에...",
-      "link": "https://www.wikitree.co.kr/articles/1137111",
-      "originallink": "https://www.wikitree.co.kr/articles/1137111",
-      "pubDate": "Mon, 18 May 2026 17:36:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "“이미 올랐단 선입견, 늦었다는 편견 다 버려라” 20조 굴리는 투자법...",
+      "description": "여의도 본점이라는 입지 특성상 본사 투자은행(IB)과 연계된 법인 고객들이 많아서다. 최근 고액 자산가와 법인 고객의 가장 큰 변화는 채권에서 주식형 상품으로의 이동이다. 구 부지점장은 “금리 인상기에 채권을...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002647800?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10743638?ref=naver",
+      "pubDate": "Mon, 25 May 2026 18:40:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
-      "title": "하나증권, 홍콩·중국 VIP 초청…'코리아 밸류업' 투자 매력 알려",
-      "description": "/하나증권 하나증권이 홍콩과 중국의 고액자산가를 초청해 한국 자본시장의 투자 매력과 주요 산업의 성장 가능성을 소개했다. 다음 달부터 홍콩 기반 글로벌 디지털 증권사인 푸투 증권(Futu Holdings)과 외국인 통합계좌...",
-      "link": "http://www.metroseoul.co.kr/article/20260518500401",
-      "originallink": "http://www.metroseoul.co.kr/article/20260518500401",
-      "pubDate": "Mon, 18 May 2026 17:26:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "'영업일 이틀 만에'..내일 완판 예감 국민성장펀드, 추가물량 검토",
+      "description": "없었다\"라며 \"경험없는 투자자들이 신규로 들어오기에 비교적 메리트가 있었던 것으로 본다\"고 했다. 특히 금융권에서는 고액 자산가의 자녀 등 금융소득종합과세 대상이 아닌 신규 고객 유입이 많았던 것으로 보고...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005362363?sid=101",
+      "originallink": "https://www.mt.co.kr/finance/2026/05/25/2026052510433923772",
+      "pubDate": "Mon, 25 May 2026 14:12:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
-      "title": "“나도 나라에서 주는 돈 쓰고 싶다”...부자들도 받는 ‘피해 지원금’...",
-      "description": "정부가 정한 고액 자산가 배제 기준은 ‘가구원 합산 재산세 과세표준 12억 원 초과(시세 30억~40억 원 상당)’ 또는 ‘연간 금융소득 2000만 원 초과(투자금 10억 원 이상)’다. 결과적으로 수십억 원 상당의 수도권 고가...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004622037?sid=102",
-      "originallink": "https://www.sedaily.com/article/20045458?ref=naver",
-      "pubDate": "Mon, 18 May 2026 17:04:00 +0900",
-      "pub_date": "2026-05-18"
-    },
-    {
-      "category": "wealth",
-      "keyword": "고액 자산가 투자",
-      "title": "현대건설 vs DL이앤씨, 압구정5구역 1조5000억 수주전 해부",
-      "description": "의미이고, 투자 관점에서는 신축 프리미엄을 얹은 매각이나 임대 수익 실현 시점이... 둘째는 현금 흐름과 자산 운용을 중시하는 고액 자산가들이다. 이주 기간의 자금 조달...",
-      "link": "http://www.breaknews.com/1207974",
-      "originallink": "http://www.breaknews.com/1207974",
-      "pubDate": "Mon, 18 May 2026 16:18:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "'정부 백업'에 서민 자금도 몰렸다…국민성장펀드 흥행 과제는",
+      "description": "원을 투자하면 계산상 공제액은 1천200만 원이다. 하지만 실제 추가로 인정되는 금액은 잔여 한도인 600만 원에 그친다. 절세 효과만 보고 고액을 넣기 전 본인의 공제 한도 여력을 먼저 살펴야 하는 이유다. ◆하반기 추가...",
+      "link": "https://www.idaegu.com/news/articleView.html?idxno=662703",
+      "originallink": "https://www.idaegu.com/news/articleView.html?idxno=662703",
+      "pubDate": "Mon, 25 May 2026 13:20:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "유가·금리 상승에…비트코인 보름여만에 7.6만달러대 ‘뚝’",
-      "description": "투기성 자산에 대한 노출을 줄이고 있다. 실제 국제유가가 110달러를 넘어서면 국채 전반의 매도세를 촉발했고, 이에 시장 기준물인 미국 10년물 국채금리는 2025년 초 이후 최고치로 올랐다. 트레이더들은...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006284483?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=03867126645450232",
-      "pubDate": "Mon, 18 May 2026 15:08:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "리플(XRP) 제도권 진입 빨라지나…BofA ETF 보유 확대 속 트럼프 안전 변...",
+      "description": "국제 정세 불안은 위험자산 투자심리에 영향을 줄 수 있는 변수로 꼽힌다. 한편 XRP는 CME 선물 시장에서 거래 규모가 빠르게 증가하고 있다. 1년 누적 거래대금이 630억달러를 넘어선 것으로 집계되며, 시장에서는 \"기관...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=576847",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=576847",
+      "pubDate": "Mon, 25 May 2026 08:30:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "국제정세 불안에…중국 4월 생산·소비·투자 일제히 둔화(상보)",
-      "description": "중국 상하이 국제항에 배들이 정박해있다. (사진=AFP) 중국 국가통계국은 4월 산업생산이 전년동월대비 4.1... 올해 1~4월 고정자산 투자는 전년동기대비 1.6% 감소해 시장 예상치(1.7%)를 하회했다. 1~3월에는...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006284292?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=03155366645450232",
-      "pubDate": "Mon, 18 May 2026 11:27:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "김용범 \"고금리·고물가·고환율은 성공비용, 위기전조 아냐\"",
+      "description": "또 김 실장은 \" 외화보유액은 8년째 4000억달러대에 정체돼 있고 원화 국제화로 자금이동의 속도와 규모는 더 커질 전망\"이라면서 \"순자산 규모나 환율 레벨보다 경상흑자의 지속성과 외화자금시장의 안정성을 핵심...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005767224?sid=100",
+      "originallink": "https://view.asiae.co.kr/article/2026052422593223413",
+      "pubDate": "Sun, 24 May 2026 22:59:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "[속보] 비트코인 리플 도지코인 등 시세 약세…중동 리스크도 주목",
-      "description": "가상자산 시장은 최근 미국 금리 전망 변화와 중동발 지정학적 변수 등이 동시에 얽히며 투자심리가 다소 위축된 상태다. 일각에서는 향후 국제유가와 달러 흐름, 중동 정세 변화 등이 비트코인과 주요 알트코인의...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=575181",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=575181",
-      "pubDate": "Mon, 18 May 2026 10:38:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "코스피, 글로벌 불안감 속 7,800선 회복하며 반등 마감",
+      "description": "지난주 국내 증시는 미국 국채금리 급등과 중동 정세 불안이 겹치며 큰 폭으로 흔들렸지만, 주 후반 들어... 금융시장에서 위험자산 회피 심리가 빠르게 확산했다. 일반적으로 금리가 오르면 주식의 상대적 매력이...",
+      "link": "https://www.tokenpost.kr/news/market/362752",
+      "originallink": "https://www.tokenpost.kr/news/market/362752",
+      "pubDate": "Sun, 24 May 2026 10:46:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "오늘 금시세(금값) 얼마?…시장은 美·이란 전쟁 변수 주시",
-      "description": "최근 국제 금값은 단기 차익실현 매물과 달러 흐름, 글로벌 위험자산 선호 심리 변화 등에 영향을 받으며 변동성을 키우고 있다. 다만 시장에서는 중동 정세 불안이 완전히 해소되지 않은 만큼 금 시장의 긴장감 역시...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=575096",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=575096",
-      "pubDate": "Mon, 18 May 2026 00:00:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "뉴욕증시, 이란 종전 합의 향배에 촉각…유가와 금리 전망도 주목",
+      "description": "시장은 그동안 중동 긴장이 국제유가와 물가, 금리 전망을 동시에 흔들어 온 만큼, 전쟁 종결 여부를 가장... 이런 흐름은 주식시장에는 위험자산 선호 심리를 키우는 재료가 된다. 반대로 협상이 틀어져 다시 군사적...",
+      "link": "https://www.tokenpost.kr/news/market/362748",
+      "originallink": "https://www.tokenpost.kr/news/market/362748",
+      "pubDate": "Sun, 24 May 2026 09:56:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "경제기사를 읽는 힘, 시장을 이해하는 첩경",
-      "description": "금리와 환율, 물가와 주가가 하루가 다르게 흔들리고, 국제 정세의 작은 균열도 곧바로 경제적 충격으로... 금리 인상과 자산시장 반응, 환율 변화와 수출입 구조 같은 관계는 일정한 패턴을 보여준다. 이 책은 이런 패턴을...",
-      "link": "https://www.abcn.kr/news/articleView.html?idxno=87964",
-      "originallink": "https://www.abcn.kr/news/articleView.html?idxno=87964",
-      "pubDate": "Sun, 17 May 2026 12:24:00 +0900",
-      "pub_date": "2026-05-17"
+      "title": "[코스피·코스닥지수] 코스피, 롤러코스터 장세 끝 반등…'8천피' 재도전...",
+      "description": "금융시장에서 위험자산 회피 심리가 급격히 확대됐다. 특히 중동 지역 긴장 고조로 국제유가가 급등하자... 이에 국제유가와 미국 국채금리가 안정세를 보였고, 뉴욕증시 역시 반도체 중심으로 강하게 반등했다. 국내...",
+      "link": "https://www.lecturernews.com/news/articleView.html?idxno=202994",
+      "originallink": "https://www.lecturernews.com/news/articleView.html?idxno=202994",
+      "pubDate": "Sun, 24 May 2026 07:42:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "중동변수 여전하지만…황금연휴 특수 등 2분기 전망도 '맑음'[미소 찾은...",
-      "description": "시장에서는 최근 자산시장 회복 흐름도 영향을 미친 것으로 보고 있다. 증시 강세와 자산 가치 상승으로... 중동 지역 지정학적 긴장 고조에 따른 국제유가 상승과 글로벌 경기 둔화 가능성, 소비 양극화 심화 등은 하반기...",
-      "link": "https://n.news.naver.com/mnews/article/003/0013949137?sid=101",
-      "originallink": "https://www.newsis.com/view/NISX20260515_0003631409",
-      "pubDate": "Sun, 17 May 2026 06:00:00 +0900",
-      "pub_date": "2026-05-17"
+      "title": "휴림로봇 레인보우로보틱스 상승 두산로보틱스 현대무벡스 하락 로봇 관...",
+      "description": "최근 중동 지역에서 휴전 기대감이 일부 형성됐지만 협상 불확실성이 다시 커지면서 글로벌 위험자산 시장... 시장에서는 휴전 분위기가 유지되지 못할 경우 국제유가와 물류·방산·환율 변동성이 다시 확대될 가능성을...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=576797",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=576797",
+      "pubDate": "Sun, 24 May 2026 00:00:00 +0900",
+      "pub_date": "2026-05-24"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "두 손 맞잡은 미중 정상...이란 해법은 '빈손'",
-      "description": "국제 정세와 경제 영향 짚어보겠습니다. 백승훈 한국외대 중동연구소 전임연구원, 이인철... 이건 자산시장의 변곡점을 그릴 수 있는 부분이기 때문에 만에 하나 국채금리가 계속해서 추세적으로 올라가는지 여부를...",
-      "link": "https://n.news.naver.com/mnews/article/052/0002353790?sid=104",
-      "originallink": "https://www.ytn.co.kr/_ln/0104_202605161636179150",
-      "pubDate": "Sat, 16 May 2026 16:36:00 +0900",
-      "pub_date": "2026-05-16"
+      "title": "신현송 한은 총재, G7 설전서 존재감 각인",
+      "description": "다음 주 예정된 5월 금융통화위원회를 앞두고, 고금리 장기화와 글로벌 금융시장 불안을 가늠해야 하는 한국은행으로서는 이번 회의에서 직접 확인한 국제 정세 판단이 중요한 전략 자산이 될 것으로 보인다.",
+      "link": "https://n.news.naver.com/mnews/article/011/0004623861?sid=101",
+      "originallink": "https://www.sedaily.com/article/20047522?ref=naver",
+      "pubDate": "Sat, 23 May 2026 09:01:00 +0900",
+      "pub_date": "2026-05-23"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "두나무, 1분기 매출·영업益 반토막… “실적 부진에도 영업이익률 37%”",
-      "description": "중동 전쟁 등 국제 정세 불확실성도 가상자산 시장 위축에 한몫하면서 두나무 실적에 영향을 미쳤다. 업비트 운영사 두나무는 올해 1분기 매출 2346억 원, 영업이익 880억 원의 경영실적을 기록했다고 15일 공시를 통해...",
-      "link": "https://n.news.naver.com/mnews/article/020/0003719975?sid=101",
-      "originallink": "https://www.donga.com/news/Economy/article/all/20260515/133932801/1",
-      "pubDate": "Fri, 15 May 2026 19:12:00 +0900",
-      "pub_date": "2026-05-15"
+      "title": "\"달러 패권 수호 위해 크립토 삼킨 미국\"…오태민 한양대 대학원 교수,...",
+      "description": "글로벌 자산 시장에서 비트코인이 단순한 투자 자산을 넘어 국가 간 지정학적 정세와 달러 패권을 흔드는... 넘나드는 국제 송금 과정에서 기존 은행망이 완전히 패싱당할 것\"이라고 내다봤다. 결국 금융의 기능은...",
+      "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=124511",
+      "originallink": "http://www.dailysmart.co.kr/news/articleView.html?idxno=124511",
+      "pubDate": "Fri, 22 May 2026 15:18:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "global",
       "keyword": "국제정세 자산시장",
-      "title": "외국인 자금, 한국 주식선 떠나고 채권으로 몰렸다",
-      "description": "한국은행은 중동 정세를 둘러싼 지정학적 긴장으로 투자자들이 위험자산에 신중한 태도를 유지했다고 설명했다. 다만 미국과 이란의 휴전 합의 이후 시장 심리가 다소 회복되면서, 3월 역대 최대 수준이었던 주식자금...",
-      "link": "https://www.tokenpost.kr/news/economy/360062",
-      "originallink": "https://www.tokenpost.kr/news/economy/360062",
-      "pubDate": "Fri, 15 May 2026 16:50:00 +0900",
-      "pub_date": "2026-05-15"
-    },
-    {
-      "category": "global",
-      "keyword": "국제정세 자산시장",
-      "title": "[미중정상회담] 협상 잘됐다? \"주말 트럼프 SNS 봐야\"‥코스피 8천 찍고...",
-      "description": "저희가 교수님하고 어제 중국 외교부의 브리핑도 들었지만 중국에서는 ‘중동 정세를 논의했다’ 굉장히... 그 내용들이 상당히 자산시장에 변동성을 가져오지 않을까 예상해봅니다. ◎ 진행자 > 평론가님은 외국인들...",
-      "link": "https://n.news.naver.com/mnews/article/214/0001499216?sid=104",
-      "originallink": "https://imnews.imbc.com/replay/2026/nw1400/article/6822768_36974.html",
-      "pubDate": "Fri, 15 May 2026 15:47:00 +0900",
-      "pub_date": "2026-05-15"
+      "title": "비트코인 하락 이유, 중동 긴장·ETF 자금 유출에 암호화폐 시장 흔들",
+      "description": "위험 자산 비중을 줄이며 보다 보수적인 전략을 선택하고 있다는 분석도 나온다. 중동 정세 역시 시장 불안을 키우는 핵심 변수로 떠올랐다. 미국과 이란 간 갈등이 다시 고조되면서 국제 금융시장 전반이 긴장 상태에...",
+      "link": "https://www.mediafine.co.kr/news/articleView.html?idxno=79355",
+      "originallink": "https://www.mediafine.co.kr/news/articleView.html?idxno=79355",
+      "pubDate": "Fri, 22 May 2026 09:06:00 +0900",
+      "pub_date": "2026-05-22"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "'외국인 매도'에 코스피 또 무너질 뻔했지만…개미가 지켜냈다",
-      "description": "삼성전자가 노조를 상대로 제기한 가처분이 일부 받아들여져 생산 차질 우려를 덜게 된 것도 영향을... \" 원·달러 환율은 7거래일 만에 소폭 하락했지만, 여전히 1500원대를 유지하며 주간 거래를 마쳤습니다. MBN뉴스...",
-      "link": "https://n.news.naver.com/mnews/article/057/0001949709?sid=101",
-      "originallink": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5194544",
-      "pubDate": "Mon, 18 May 2026 20:14:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[인도증시] 유가 급락에 투심 개선, 상승...석유株·은행株 ↑",
+      "description": "긍정적 영향을 미쳤다. 비자야쿠마르는 \"최근 달러당 96.96루피까지 치솟았던 루피화 환율이 하락한 것은 반가운 추세\"라며 \"통화 안정은 지속적인 매도세를 보여온 외국인기관투자자들을 다시 (인도) 시장으로...",
+      "link": "https://www.newspim.com/news/view/20260525000256",
+      "originallink": "https://www.newspim.com/news/view/20260525000256",
+      "pubDate": "Mon, 25 May 2026 20:08:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "달러-원, 런던장서 1,494.10원까지 하락…6.70원↓",
-      "description": "글로벌 달러가 약세로 전환하고 당국 추정 물량이 나오면서 환율을 밀어 내렸다. 영국중앙은행(BOE)의 메건 그린 통화정책 위원이 이날 이란 전쟁에서 비롯된 인플레이션의 영향을 일시적으로 봐서는 안 된다는...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415509",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415509",
-      "pubDate": "Mon, 18 May 2026 19:46:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "[사설] 고물가 장기화, 실효성 있는 정부 대책 마련해야",
+      "description": "중동 전쟁 등 여파로 국제 유가와 원재료 가격이 오른 영향이 크다. 실제로 석탄 및 석유제품(31.9%) 상승률이... 지난해 말부터 원/달러 환율이 고공행진을 거듭해 지난 주엔 장중 한때 달러당 1520원대까지 치솟았다....",
+      "link": "https://n.news.naver.com/mnews/article/658/0000144786?sid=110",
+      "originallink": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20260526.22019006412",
+      "pubDate": "Mon, 25 May 2026 19:14:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "[亞증시-종합] 트럼프의 이란 위협에 대부분 하락",
-      "description": "◇ 일본 = 일본 증시의 주요 지수는 장기 금리 상승 영향에 61,000선을 내줬다. 연합인포맥스 세계주가지수... 달러-위안 환율 상승은 달러 대비 위안화 가치의 하락을 의미한다. ◇ 홍콩 = 홍콩증시는 이란전쟁 장기화...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415506",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415506",
-      "pubDate": "Mon, 18 May 2026 19:14:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "고환율 지속에…김용범 \"불가피한 성공 비용\"",
+      "description": "[기자] 원달러 환율은 최근 1,500원 선을 계속해서 웃돌고 있습니다. 중동 전쟁 영향에 더해 시장에선 미국의 연내 금리 인하 가능성을 낮게 보는 전망이 우세하면서, 환율 상승을 더욱 부채질 하고 있습니다. 최근 이재명...",
+      "link": "https://n.news.naver.com/mnews/article/422/0000868214?sid=161",
+      "originallink": "http://www.yonhapnewstv.co.kr/news/MYH20260525182940AJl",
+      "pubDate": "Mon, 25 May 2026 18:30:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "'V자' 반등한 코스피…7,500선 마감",
-      "description": "원·달러 환율은 전 거래일보다 0.5원 내린 1,500.3원에 마감했습니다. 2거래일 연속 1,500원 밑으로 떨어지지 않고 있는데, 중동 리스크로 국제유가가 상승하면서 달러 같은 안전자산 선호 심리가 강해지는 영향입니다....",
-      "link": "https://n.news.naver.com/mnews/article/422/0000866008?sid=101",
-      "originallink": "http://www.yonhapnewstv.co.kr/news/MYH20260518191020Jeb",
-      "pubDate": "Mon, 18 May 2026 19:11:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "“버티기도 힘든데 성공이라니”… 대통령실 ‘3고 인식’ 논란 확산",
+      "description": "이 과정에 누적 110조 원이 넘는 외국인 매도세가 나타났고, 이 자금이 달러로 빠져나가며 환율을 밀어... 외국인 차익 실현이 최근 환율 상승에 영향을 준 것은 맞지만, 이를 한국 경제 전체의 체질 변화로 확대 해석하는...",
+      "link": "https://n.news.naver.com/mnews/article/661/0000076877?sid=101",
+      "originallink": "https://www.jibs.co.kr/news/articles/articlesDetail/61584?feed=na",
+      "pubDate": "Mon, 25 May 2026 17:54:00 +0900",
+      "pub_date": "2026-05-25"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "환율, 7거래일 만에 하락 마감…1500원대 숨고르기",
-      "description": "뉴시스 원·달러 환율이 수출업체의 달러 매도 물량 유입과 외국인의 국내 주식 순매도 영향 등으로 7거래일 만에 소폭 하락했다. 18일 서울 외환시장에서 원·달러 환율은 전 거래일보다 0.5원 내린 1500.3원으로...",
-      "link": "http://www.segyebiz.com/newsView/20260518516815?OutUrl=naver",
-      "originallink": "http://www.segyebiz.com/newsView/20260518516815?OutUrl=naver",
-      "pubDate": "Mon, 18 May 2026 18:42:00 +0900",
-      "pub_date": "2026-05-18"
+      "title": "서학개미 국장 돌아왔지만 … 원화값 16년 만에 최저 수준",
+      "description": "달러당 원화값은 1517.2원에 마감했다. 국제결제은행(BIS)에 따르면 지난달 원화의 실질실효환율(2020년 기준... 달러로, 지난해 같은 기간보다 34% 감소했다. 국내 증시 강세와 국내시장복귀계좌(RIA) 세제 혜택 등의 영향으...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005684667?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12057053",
+      "pubDate": "Mon, 25 May 2026 17:30:00 +0900",
+      "pub_date": "2026-05-25"
+    },
+    {
+      "category": "global",
+      "keyword": "환율 달러 영향",
+      "title": "8000 넘보는 코스피, \"5·6월 숨 고르기 거쳐 7월 실적 시즌 본격 달린다...",
+      "description": "환율 시장 역시 고금리 지속에 따른 외국인 투자 심리 불안을 반영하며 원·달러 환율이 1500원대 안팎에서... 높은 환율이 유지되더라도 지표의 '안정성'만 확보된다면 국내 증시에 미치는 부정적 영향은 제한적일...",
+      "link": "https://www.etoday.co.kr/news/view/2587241",
+      "originallink": "https://www.etoday.co.kr/news/view/2587241",
+      "pubDate": "Mon, 25 May 2026 17:02:00 +0900",
+      "pub_date": "2026-05-25"
     }
   ]
 }
