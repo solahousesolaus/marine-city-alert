@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-06-08T07:30:38.375714+09:00",
+  "generated_at": "2026-06-08T07:46:05.749596+09:00",
   "candidates": [
     {
       "n": 1,
       "tag": "busan",
       "source_index": 1,
-      "headline": "부산 남천삼익비치 재건축, 수영구의 미래를 다시 그리다",
+      "headline": "부산 남천삼익비치 재건축, 해운대 마린시티 이후 초대형 프리미엄 해안 주거단지",
       "date": "06.05"
     },
     {
       "n": 2,
       "tag": "busan",
       "source_index": 6,
-      "headline": "선거로 미뤄둔 물량 푼다… 부산·경남 분양 기지개",
+      "headline": "선거 끝나자 부산·경남 분양 본격화…해운대 반여 재건축 536세대 등 출격",
       "date": "06.02"
     },
     {
       "n": 3,
       "tag": "busan",
       "source_index": 4,
-      "headline": "성동·송파 전세 강세 뚜렷…서울 아파트 전셋값 0.29% 상승",
+      "headline": "성동·송파 전세 강세 뚜렷…부산 해운대 좌우동 대단지도 상승세",
       "date": "06.04"
     },
     {
       "n": 4,
-      "tag": "tax",
-      "source_index": 17,
-      "headline": "똘똘한 한 채도 끝?…지선 이후 부동산 세제, 오래 산 집 중심으로",
-      "date": "06.07"
-    },
-    {
-      "n": 5,
       "tag": "tax",
       "source_index": 22,
       "headline": "보유세·거래세, 금투세·코인세…해묵은 세제 교통정리 나서나",
       "date": "06.07"
     },
     {
+      "n": 5,
+      "tag": "tax",
+      "source_index": 18,
+      "headline": "똘똘한 한 채도 끝?…지선 이후 부동산 세제, 오래 산 집 중심으로 개편",
+      "date": "06.07"
+    },
+    {
       "n": 6,
       "tag": "market",
       "source_index": 32,
-      "headline": "양도세 중과 후 서울 아파트값 오름폭 실거래가 1.62%↑",
+      "headline": "양도세 중과 후 서울 아파트값 실거래가 1.62%↑…공식통계의 두 배",
       "date": "06.08"
     },
     {
       "n": 7,
       "tag": "market",
-      "source_index": 45,
-      "headline": "서울은 이미 구조적으로 주택 부족 상태… 하반기부터 가격 상승 압력",
+      "source_index": 44,
+      "headline": "서울은 이미 구조적 주택 부족 상태…하반기부터 가격 상승 압력 강화 전망",
       "date": "06.08"
     },
     {
       "n": 8,
       "tag": "market",
-      "source_index": 43,
-      "headline": "반도체 벨트 기대감 커진 동탄…아파트값 상승세 가속",
+      "source_index": 42,
+      "headline": "반도체 벨트 기대감 커진 동탄…아파트값 상승세 강남3구 능가",
       "date": "06.08"
     },
     {
       "n": 9,
       "tag": "edu",
-      "source_index": 58,
-      "headline": "내신 5등급제 1년…경쟁 완화 대신 학업중단·검정고시 늘었다",
-      "date": "06.08"
+      "source_index": 50,
+      "headline": "내신 5등급제 첫 적용 고1, 자퇴생 첫 1만명 돌파",
+      "date": "06.07"
     },
     {
       "n": 10,
       "tag": "wealth",
       "source_index": 72,
-      "headline": "지금이 매수기회? 부자들 이것 1000억 넘게 쓸어담았다",
+      "headline": "지금이 매수기회? 부자들 삼성전자 1000억 넘게 쓸어담았다",
       "date": "06.07"
     }
   ],
@@ -236,20 +236,20 @@
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "\"똘똘한 한 채도 끝?\"…지선 이후 부동산 세제, '오래 산 집' 중심으로 ...",
-      "description": "종합부동산세와 재산세를 직접 인상할 경우 조세 저항이 커질 수 있는 만큼 공정시장가액비율 조정이나 공시가격 현실화율 조정, 과세표준 구간 세분화 등의 우회 과세 방식이 거론된다. 한편 취득세 등 거래세는 완화...",
-      "link": "https://www.ajunews.com/view/20260607132014921",
-      "originallink": "https://www.ajunews.com/view/20260607132014921",
+      "title": "장특공 손보고 보유세 높이나…부동산 세제 개편 본격화 전망",
+      "description": "시장에서는 정부가 윤석열 정부 들어 완화됐던 다주택자 세 부담을 다시 강화하기보다는 현재의 중과 체계를 유지하면서 우회적으로 압박 수위를 높일 가능성에 주목하고 있다. 다주택자에 대한 취득세와 종합부동산세...",
+      "link": "https://www.etoday.co.kr/news/view/2590563",
+      "originallink": "https://www.etoday.co.kr/news/view/2590563",
       "pubDate": "Sun, 07 Jun 2026 17:02:00 +0900",
       "pub_date": "2026-06-07"
     },
     {
       "category": "tax",
       "keyword": "종합부동산세 완화",
-      "title": "장특공 손보고 보유세 높이나…부동산 세제 개편 본격화 전망",
-      "description": "시장에서는 정부가 윤석열 정부 들어 완화됐던 다주택자 세 부담을 다시 강화하기보다는 현재의 중과 체계를 유지하면서 우회적으로 압박 수위를 높일 가능성에 주목하고 있다. 다주택자에 대한 취득세와 종합부동산세...",
-      "link": "https://www.etoday.co.kr/news/view/2590563",
-      "originallink": "https://www.etoday.co.kr/news/view/2590563",
+      "title": "\"똘똘한 한 채도 끝?\"…지선 이후 부동산 세제, '오래 산 집' 중심으로 ...",
+      "description": "종합부동산세와 재산세를 직접 인상할 경우 조세 저항이 커질 수 있는 만큼 공정시장가액비율 조정이나 공시가격 현실화율 조정, 과세표준 구간 세분화 등의 우회 과세 방식이 거론된다. 한편 취득세 등 거래세는 완화...",
+      "link": "https://www.ajunews.com/view/20260607132014921",
+      "originallink": "https://www.ajunews.com/view/20260607132014921",
       "pubDate": "Sun, 07 Jun 2026 17:02:00 +0900",
       "pub_date": "2026-06-07"
     },
@@ -396,16 +396,6 @@
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
-      "title": "양도세 이어 세제개편 온다…2030 버티고, 고령층은 팔고",
-      "description": "양도소득세 중과 이후 부동산 과세 압박이 강해지는 와중 서울 아파트 가격이 오름세를 보이자 2030세대와 60대 이상이 다른 움직임을 보이고 있다. 고령층은 팔고, 청년층은 매수하며 세대간 손바뀜이 일어나는...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006300300?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01439926645479752",
-      "pubDate": "Mon, 08 Jun 2026 05:11:00 +0900",
-      "pub_date": "2026-06-08"
-    },
-    {
-      "category": "market",
-      "keyword": "서울 부동산 가격 상승",
       "title": "[여명] 선거 청구서, 감당할 수 있겠습니까",
       "description": "부동산 시장에서는 가격 불안과 전세 품귀가 동시에 나타나고 있고, N% 성과급을 명분으로 한 대기업 파업의... 밥상 물가와 에너지 가격 상승으로 가장 먼저 신음하는 것은 서민이다. 자영업자와 중소기업도 소비 위축에...",
       "link": "https://n.news.naver.com/mnews/article/011/0004628491?sid=110",
@@ -476,20 +466,20 @@
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "비강남권 중 유일한 '시총 10조' 단지…\"9호선 연장 수혜의 위력\"",
-      "description": "(非)강남권 아파트 단지 중 유일하게 시세총액 10조원을 넘어섰다. 전국 아파트 시세총액 상위권이 강남 3구... 국토교통부 실거래가 공개시스템에 따르면 최근 전용면적 84㎡는 22억~23억원 선에 거래되고 있다. 지난해...",
-      "link": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060503079.html",
-      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060503079.html",
+      "title": "서울 서북권 최대어 갈현1구역…GTX 뚫리자 은평3대장 재개발도 들썩",
+      "description": "뻥 뚫린 부지 위로 대단지 아파트가 들어설 준비를 마친 상태였다. 갈현1구역은 대조1구역(힐스테이트... 위치해 강남 등 주요 업무지구로의 접근성이 떨어진다는 것이 최대 약점으로 꼽혔다. 하지만 GTX-A 노선이...",
+      "link": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502994.html",
+      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502994.html",
       "pubDate": "Mon, 08 Jun 2026 06:02:00 +0900",
       "pub_date": "2026-06-08"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "서울 서북권 최대어 갈현1구역…GTX 뚫리자 은평3대장 재개발도 들썩",
-      "description": "뻥 뚫린 부지 위로 대단지 아파트가 들어설 준비를 마친 상태였다. 갈현1구역은 대조1구역(힐스테이트... 위치해 강남 등 주요 업무지구로의 접근성이 떨어진다는 것이 최대 약점으로 꼽혔다. 하지만 GTX-A 노선이...",
-      "link": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502994.html",
-      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502994.html",
+      "title": "비강남권 중 유일한 '시총 10조' 단지…\"9호선 연장 수혜의 위력\"",
+      "description": "(非)강남권 아파트 단지 중 유일하게 시세총액 10조원을 넘어섰다. 전국 아파트 시세총액 상위권이 강남 3구... 국토교통부 실거래가 공개시스템에 따르면 최근 전용면적 84㎡는 22억~23억원 선에 거래되고 있다. 지난해...",
+      "link": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060503079.html",
+      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060503079.html",
       "pubDate": "Mon, 08 Jun 2026 06:02:00 +0900",
       "pub_date": "2026-06-08"
     },
@@ -521,6 +511,16 @@
       "link": "https://n.news.naver.com/mnews/article/023/0003980710?sid=101",
       "originallink": "https://www.chosun.com/economy/real_estate/2026/06/08/VNQRTXZWWVESPHV4GF3BQ6H7DA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
       "pubDate": "Mon, 08 Jun 2026 00:37:00 +0900",
+      "pub_date": "2026-06-08"
+    },
+    {
+      "category": "market",
+      "keyword": "한국은행 기준금리",
+      "title": "KB국민은행, 주담대 금리 0.2%p 인상",
+      "description": "한은-미연준 기준금리 인상 초읽기에 시중금리 들썩 KB국민은행은 8일 비대면 주택담보대출 상품의... 점점 고조되는 인플레 압력으로 한국은행과 미연준이 금리인상 초읽기에 들어갔다는 관측이 주담대...",
+      "link": "https://www.viewsnnews.com/article?q=236341",
+      "originallink": "https://www.viewsnnews.com/article?q=236341",
+      "pubDate": "Mon, 08 Jun 2026 07:32:00 +0900",
       "pub_date": "2026-06-08"
     },
     {
@@ -656,20 +656,20 @@
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "지역의사 확충 긍정적…늦어지는 연금 구조개혁 아쉬움 [李 정부 1년]",
-      "description": "의대 증원·지필공 의료 이 대통령은 지난해 4월 SNS를 통해 “의대 정원을 합리화하고, 공공의대를 설립하겠다”고 밝혔다. 5월 토론회에선 “의료개혁은 지필공 의료를 반드시 살리는 방향으로 바꿔나가야 한다”고...",
-      "link": "https://n.news.naver.com/mnews/article/025/0003528665?sid=102",
-      "originallink": "https://www.joongang.co.kr/article/25434672",
+      "title": "의사회의 이정표…소통과 통합의 시대로",
+      "description": "의대 정원 증원 사태가 남긴 상흔은 깊고, 정부의 일방적인 의료정책과 표심만을 의식한 정치권의 포퓰리즘은 의료의 근간을 뒤흔들고 있다. 이 거대한 위기 앞에서 대한의사협회를 필두로 한 직역 및 지역 의사회는 지금...",
+      "link": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169115&ref=naverpc",
+      "originallink": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169115&ref=naverpc",
       "pubDate": "Mon, 08 Jun 2026 05:00:00 +0900",
       "pub_date": "2026-06-08"
     },
     {
       "category": "edu",
       "keyword": "의대 정원",
-      "title": "의사회의 이정표…소통과 통합의 시대로",
-      "description": "의대 정원 증원 사태가 남긴 상흔은 깊고, 정부의 일방적인 의료정책과 표심만을 의식한 정치권의 포퓰리즘은 의료의 근간을 뒤흔들고 있다. 이 거대한 위기 앞에서 대한의사협회를 필두로 한 직역 및 지역 의사회는 지금...",
-      "link": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169115&ref=naverpc",
-      "originallink": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169115&ref=naverpc",
+      "title": "지역의사 확충 긍정적…늦어지는 연금 구조개혁 아쉬움 [李 정부 1년]",
+      "description": "의대 증원·지필공 의료 이 대통령은 지난해 4월 SNS를 통해 “의대 정원을 합리화하고, 공공의대를 설립하겠다”고 밝혔다. 5월 토론회에선 “의료개혁은 지필공 의료를 반드시 살리는 방향으로 바꿔나가야 한다”고...",
+      "link": "https://n.news.naver.com/mnews/article/025/0003528665?sid=102",
+      "originallink": "https://www.joongang.co.kr/article/25434672",
       "pubDate": "Mon, 08 Jun 2026 05:00:00 +0900",
       "pub_date": "2026-06-08"
     },
@@ -926,6 +926,36 @@
     {
       "category": "global",
       "keyword": "환율 달러 영향",
+      "title": "韓, 외환보유액 8.8억달러 감소...국민연금 스와프에 고환율 방어 부담",
+      "description": "지난 4월 달러 약세와 운용수익 확대 영향으로 42억2000만달러 증가했던 흐름이 한 달 만에 꺾인 것으로, 고환율 국면에서 국민연금의 해외투자 달러 수요를 외환시장에서 직접 흡수하지 않고 한은 스와프를 통해...",
+      "link": "https://www.newswhoplus.com/news/articleView.html?idxno=61712",
+      "originallink": "https://www.newswhoplus.com/news/articleView.html?idxno=61712",
+      "pubDate": "Mon, 08 Jun 2026 07:30:00 +0900",
+      "pub_date": "2026-06-08"
+    },
+    {
+      "category": "global",
+      "keyword": "환율 달러 영향",
+      "title": "외국인 몰리자 방 한 칸이 '금값' 된 서울···투자자들 몰리고 있다",
+      "description": "원·달러 환율은 지난 3월 중동 전쟁 발발 이후 달러당 1500원대로 상승했다. 관광업계 관계자는 \"최근엔... 한국관광공사 관계자는 \"국내 업체의 인바운드 대응 여력과 시장 영향력을 진단하고 워밍업 단계의 파일럿...",
+      "link": "https://www.smartbizn.com/news/articleView.html?idxno=145645",
+      "originallink": "https://www.smartbizn.com/news/articleView.html?idxno=145645",
+      "pubDate": "Mon, 08 Jun 2026 07:30:00 +0900",
+      "pub_date": "2026-06-08"
+    },
+    {
+      "category": "global",
+      "keyword": "환율 달러 영향",
+      "title": "원·달러 환율, 美 고용 호조에 1560원 돌파...수입물가·증시 부담 확대",
+      "description": "원·달러 환율이 지난 6일 야간 거래에서 장중 1560원을 넘어선 것으로 확인됐다. 미국 5월 고용지표가... 또 금융시장 영향도 제한적 변수에 그치기 어렵다. 전문가들은 외국인 자금 이탈 우려가 커지면 국내 증시...",
+      "link": "https://www.newswhoplus.com/news/articleView.html?idxno=61720",
+      "originallink": "https://www.newswhoplus.com/news/articleView.html?idxno=61720",
+      "pubDate": "Mon, 08 Jun 2026 07:30:00 +0900",
+      "pub_date": "2026-06-08"
+    },
+    {
+      "category": "global",
+      "keyword": "환율 달러 영향",
       "title": "\"1560원도 낮아 보일 것\"…증권가, 원·달러 환율 추가 상승 경고",
       "description": "8일 한국은행에 따르면 서울 외환시장 6일 야간 거래에서 원-달러 환율은 장중 1561.5원까지 올랐다. 미국 5월 고용이 서프라이즈를 보이면서 달러인덱스가 상승한 영향이다. 문다운 한국투자증권 연구원은 \"절대적으로나...",
       "link": "https://www.etoday.co.kr/news/view/2591200",
@@ -941,36 +971,6 @@
       "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=842340",
       "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=842340",
       "pubDate": "Mon, 08 Jun 2026 07:20:00 +0900",
-      "pub_date": "2026-06-08"
-    },
-    {
-      "category": "global",
-      "keyword": "환율 달러 영향",
-      "title": "국민참여성장펀드 2차, 이르면 9월 출시…금융위 의견수렴 착수",
-      "description": "문제는 비아파트 대출을 공급하던 상호금융권마저 규제 영향으로 신규 주담대가 사실상 막혔다는 점으로... 고환율에 다시 뜨는 역직구…4년 반 만에 1조 넘었다 - 핵심 요약: 원·달러 환율이 1560원 안팎까지 오르는...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004628567?sid=101",
-      "originallink": "https://www.sedaily.com/article/20052762?ref=naver",
-      "pubDate": "Mon, 08 Jun 2026 07:18:00 +0900",
-      "pub_date": "2026-06-08"
-    },
-    {
-      "category": "global",
-      "keyword": "환율 달러 영향",
-      "title": "환율 1500원 돌파 국민연금 총동원…당국 추가 카드 소진",
-      "description": "원·달러 환율이 1560원 안팎까지 치솟은 가운데 외환 당국이 국민연금 환 헤지 비율 상향, 한국은행... 순매도하며 달러 수요를 압도하는 상황이다. MUFG는 전략적 환 헤지 비율 5%포인트 상향의 영향력을 30조 원으로...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004628563?sid=101",
-      "originallink": "https://www.sedaily.com/article/20052758?ref=naver",
-      "pubDate": "Mon, 08 Jun 2026 07:15:00 +0900",
-      "pub_date": "2026-06-08"
-    },
-    {
-      "category": "global",
-      "keyword": "환율 달러 영향",
-      "title": "RIA·삼전닉스 레버리지 내놨지만…고환율에 '머쓱'",
-      "description": "2041억6073만 달러(약 316조원)였다는 점을 감안하면, 기대했던 환율 기여효과는 사실상 없었던 셈이다. 단일종목 레버리지와 국민연금 정책 변화, 외환당국의 구두개입 등도 일부 시장 참가자들의 심리에 영향을 줬을 수...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003098576?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1652874/?sc=Naver",
-      "pubDate": "Mon, 08 Jun 2026 07:02:00 +0900",
       "pub_date": "2026-06-08"
     }
   ]
