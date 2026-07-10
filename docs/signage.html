@@ -7,7 +7,7 @@
 <!-- 5분마다 자동 새로고침 -->
 <meta http-equiv="refresh" content="300">
 <style>
-
+{% raw %}
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
     width: 100vw; height: 100vh;
@@ -114,6 +114,7 @@
   }
   .page-dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(212,175,55,0.3); transition: all 0.3s; }
   .page-dot.active { background: var(--gold-bright); transform: scale(1.3); box-shadow: 0 0 12px var(--gold-bright); }
+  .page-dot.hidden { display: none; }
 
   /* 페이지 */
   .pages { position: absolute; top: 80px; bottom: 70px; left: 0; right: 0; overflow: hidden; }
@@ -125,6 +126,7 @@
     pointer-events: none;
   }
   .page.active { opacity: 1; transform: translateX(0); pointer-events: auto; }
+  .page.disabled { display: none; }
 
   .page-header { margin-bottom: 30px; }
   .page-eyebrow {
@@ -213,7 +215,7 @@
   }
   .stat-value .small { font-size: 18px; color: var(--cream); font-weight: 500; margin-left: 6px; }
 
-  /* Page 3: 뉴스 (5건 수용 가능하도록 간격·패딩 약간 축소) */
+  /* Page 3: 뉴스 */
   .news-list { display: flex; flex-direction: column; gap: 16px; margin-top: 16px; }
   .news-item {
     background: var(--navy-card); border-left: 6px solid var(--gold);
@@ -225,14 +227,12 @@
     flex-shrink: 0; padding: 6px 14px; border-radius: 18px;
     font-size: 14px; font-weight: 800; letter-spacing: 1px;
   }
-  /* 신규 6개 카테고리 (v3) */
   .news-tag.busan { background: var(--gold-bright); color: var(--navy-dark); }
   .news-tag.tax { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
   .news-tag.market { background: var(--green); color: var(--white); }
   .news-tag.edu { background: var(--orange); color: var(--navy-dark); }
   .news-tag.wealth { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
   .news-tag.global { background: var(--red-soft); color: var(--white); }
-  /* 구버전 호환 */
   .news-tag.invest { background: var(--green); color: var(--white); }
   .news-tag.local { background: rgba(212,175,55,0.25); color: var(--gold-bright); border: 1px solid var(--gold); }
   .news-tag.policy { background: var(--gold-bright); color: var(--navy-dark); }
@@ -240,7 +240,57 @@
   .news-headline { flex: 1; font-size: 24px; font-weight: 700; color: var(--white); line-height: 1.4; }
   .news-date { flex-shrink: 0; font-size: 16px; color: var(--gray); font-weight: 500; }
 
-  /* Page 4: QR + CTA */
+  /* Page 4: 카드뉴스 (신규) */
+  #page-cards { padding: 30px 60px; }
+  .cards-stage {
+    height: 100%;
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 60px; align-items: center;
+  }
+  .cards-left { padding-right: 20px; }
+  .cards-eyebrow {
+    font-size: 18px; font-weight: 700; color: var(--gold);
+    letter-spacing: 3px; margin-bottom: 16px;
+  }
+  .cards-title { font-size: 64px; font-weight: 900; color: var(--white); line-height: 1.1; }
+  .cards-title .accent { color: var(--gold-bright); }
+  .cards-desc { font-size: 24px; color: var(--cream); line-height: 1.6; margin-top: 26px; font-weight: 400; }
+  .cards-meta { margin-top: 40px; display: flex; align-items: center; gap: 16px; }
+  .cards-counter {
+    font-size: 22px; font-weight: 800; color: var(--gold-bright);
+    font-variant-numeric: tabular-nums;
+  }
+  .cards-dots { display: flex; gap: 10px; }
+  .cards-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: rgba(212,175,55,0.3); transition: all 0.3s;
+  }
+  .cards-dot.active { background: var(--gold-bright); transform: scale(1.3); }
+  .cards-ig {
+    margin-top: 34px; font-size: 20px; color: var(--gray); font-weight: 500;
+  }
+  .cards-ig .handle { color: var(--gold-bright); font-weight: 800; }
+
+  .cards-right {
+    display: flex; align-items: center; justify-content: center;
+    height: 100%;
+  }
+  .card-frame {
+    position: relative;
+    height: 100%; aspect-ratio: 1 / 1;
+    border-radius: 22px; overflow: hidden;
+    border: 3px solid var(--gold);
+    box-shadow: 0 0 60px rgba(212,175,55,0.28);
+    background: var(--navy-card);
+  }
+  .card-frame img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover;
+    opacity: 0; transition: opacity 0.6s ease;
+  }
+  .card-frame img.active { opacity: 1; }
+
+  /* Page 5: QR + CTA */
   .cta-page { height: 100%; display: grid; grid-template-columns: 1.3fr 1fr; gap: 60px; align-items: center; }
   .cta-left { padding: 40px 0; }
   .cta-eyebrow { font-size: 22px; color: var(--gold); font-weight: 700; letter-spacing: 4px; margin-bottom: 24px; }
@@ -269,7 +319,7 @@
     border-radius: 3px; margin: 12px auto 0; overflow: hidden;
   }
   .countdown-fill { height: 100%; background: linear-gradient(90deg, var(--gold-bright), var(--gold)); transition: width 0.1s linear; }
-
+{% endraw %}
 </style>
 </head>
 <body>
@@ -289,15 +339,16 @@
     <div class="topbar-right">
       <div><span class="live-dot"></span><span class="live">LIVE</span></div>
       <div class="clock" id="clock">--:--:--</div>
-      <div class="data-stamp">데이터 갱신: 2026.07.10 06:05 KST</div>
+      <div class="data-stamp">데이터 갱신: {{ data_updated }}</div>
     </div>
   </div>
 
   <!-- 페이지 인디케이터 -->
-  <div class="page-dots">
+  <div class="page-dots" id="page-dots">
     <div class="page-dot active"></div>
     <div class="page-dot"></div>
     <div class="page-dot"></div>
+    <div class="page-dot" id="dot-cards"></div>
     <div class="page-dot"></div>
   </div>
 
@@ -308,71 +359,35 @@
     <div class="page active" id="page1">
       <div class="page-header">
         <div class="page-eyebrow">YESTERDAY · 최근 신고된 우동 거래</div>
-        <h1 class="page-title">최근 신고된 <span class="accent">우동 거래</span></h1>
-        <div class="page-sub">국토부 실거래가 기준 · 최신 신고일 2026-07-07</div>
+        <h1 class="page-title">{{ page1_title }}</h1>
+        <div class="page-sub">{{ page1_sub }}</div>
       </div>
 
-      
+      {% if recent_deals %}
       <div class="deals-grid">
-        
-        <div class="deal-card highlight">
+        {% for deal in recent_deals %}
+        <div class="deal-card{% if deal.highlight %} highlight{% endif %}">
           <div class="deal-row1">
-            <div class="deal-apt"><span class="star">⭐</span>대우마리나3</div>
-            <div class="deal-info">12F · 25평대 · 전용 18.1평</div>
+            <div class="deal-apt">{% if deal.is_marine %}<span class="star">⭐</span>{% endif %}{{ deal.apt }}</div>
+            <div class="deal-info">{{ deal.info }}</div>
           </div>
           <div class="deal-row2">
-            <div class="deal-price">7.6억</div>
-            <div class="deal-pp">평당 4,199만</div>
+            <div class="deal-price">{{ deal.price }}</div>
+            <div class="deal-pp">{{ deal.pp }}</div>
           </div>
           <div class="deal-row3">
-            <span class="change-flat">📊 동평형 첫 거래</span>
+            {{ deal.change_html | safe }}
           </div>
         </div>
-        
-        <div class="deal-card">
-          <div class="deal-row1">
-            <div class="deal-apt"><span class="star">⭐</span>해운대두산위브더제니스</div>
-            <div class="deal-info">24F · 45평대 · 전용 31.6평</div>
-          </div>
-          <div class="deal-row2">
-            <div class="deal-price">11.5억</div>
-            <div class="deal-pp">평당 3,639만</div>
-          </div>
-          <div class="deal-row3">
-            직전 동평형 16.9억 → <span class="change-down">🔻 -5.40억 (-32.0%)</span>
-          </div>
-        </div>
-        
-        <div class="deal-card highlight">
-          <div class="deal-row1">
-            <div class="deal-apt"><span class="star">⭐</span>대우마리나1</div>
-            <div class="deal-info">10F · 34평대 · 전용 25.5평</div>
-          </div>
-          <div class="deal-row2">
-            <div class="deal-price">13.5억</div>
-            <div class="deal-pp">평당 5,294만</div>
-          </div>
-          <div class="deal-row3">
-            직전 동평형 10.85억 → <span class="change-up">🔺 +2.65억 (+24.4%)</span>
-          </div>
-        </div>
-        
-        <div class="deal-card highlight">
-          <div class="deal-row1">
-            <div class="deal-apt"><span class="star">⭐</span>대우트럼프월드마린</div>
-            <div class="deal-info">17F · 65평+ · 전용 51.9평</div>
-          </div>
-          <div class="deal-row2">
-            <div class="deal-price">23.2억</div>
-            <div class="deal-pp">평당 4,470만</div>
-          </div>
-          <div class="deal-row3">
-            <span class="change-flat">📊 동평형 첫 거래</span>
-          </div>
-        </div>
-        
+        {% endfor %}
       </div>
-      
+      {% else %}
+      <div class="empty-state">
+        <div class="empty-icon">🌊</div>
+        <div class="empty-text">오늘은 신규 우동 거래가<br>아직 신고되지 않았습니다</div>
+        <div class="empty-sub">실거래 신고 기한은 계약일로부터 30일 · 매일 7시 자동 갱신</div>
+      </div>
+      {% endif %}
     </div>
 
     <!-- Page 2: 주간 시세 -->
@@ -380,7 +395,7 @@
       <div class="page-header">
         <div class="page-eyebrow">WEEKLY · 한 주 시세 흐름</div>
         <h1 class="page-title">우동 <span class="accent">한 주간 시세</span></h1>
-        <div class="page-sub">2026.07.03 ~ 07.10 · 마린시티 인근 거래 동향</div>
+        <div class="page-sub">{{ week_range }} · 마린시티 인근 거래 동향</div>
       </div>
 
       <div class="week-grid">
@@ -391,39 +406,26 @@
               <tr><th>단지</th><th>평형</th><th>평균가</th><th>주간 변동</th></tr>
             </thead>
             <tbody>
-              
+              {% for row in week_table %}
+              <tr>
+                <td class="apt">{{ row.apt }}</td>
+                <td>{{ row.size }}</td>
+                <td class="price">{{ row.price }}</td>
+                <td class="{{ row.change_class }}">{{ row.change }}</td>
+              </tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>
 
         <div class="stats-card">
           <div class="card-title">📊 주간 통계</div>
-          
+          {% for stat in week_stats %}
           <div class="stat-row">
-            <div class="stat-label">우동 신규 거래</div>
-            <div class="stat-value">2<span class="small">건</span></div>
+            <div class="stat-label">{{ stat.label }}</div>
+            <div class="stat-value">{{ stat.value }}<span class="small">{{ stat.unit }}</span></div>
           </div>
-          
-          <div class="stat-row">
-            <div class="stat-label">⭐ 마린시티 거래</div>
-            <div class="stat-value">0<span class="small">건</span></div>
-          </div>
-          
-          <div class="stat-row">
-            <div class="stat-label">취소 거래</div>
-            <div class="stat-value">0<span class="small">건</span></div>
-          </div>
-          
-          <div class="stat-row">
-            <div class="stat-label">최고가</div>
-            <div class="stat-value">5.73억<span class="small"></span></div>
-          </div>
-          
-          <div class="stat-row">
-            <div class="stat-label">평균 평당가</div>
-            <div class="stat-value">2,002<span class="small">만</span></div>
-          </div>
-          
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -437,35 +439,43 @@
       </div>
 
       <div class="news-list">
-        
-        <div class="news-item">
-          <div class="news-tag busan">BUSAN</div>
-          <div class="news-headline">부산 해운대구 0.15% 상승…동래구 0.15% 동반 상승</div>
-          <div class="news-date">07.02</div>
+        {% for news in news_items %}
+        <div class="news-item{% if news.tag_class == 'hot' %} hot{% endif %}">
+          <div class="news-tag {{ news.tag_class }}">{{ news.tag }}</div>
+          <div class="news-headline">{{ news.headline }}</div>
+          <div class="news-date">{{ news.date }}</div>
         </div>
-        
-        <div class="news-item">
-          <div class="news-tag tax">TAX</div>
-          <div class="news-headline">전문가 60% 종부세 폐지·완화 의견…거래세 낮춰야</div>
-          <div class="news-date">07.06</div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-tag market">MARKET</div>
-          <div class="news-headline">서울 프라임 주택 가격 25.2% 상승…도쿄 이어 2위</div>
-          <div class="news-date">07.06</div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-tag market">MARKET</div>
-          <div class="news-headline">은마아파트 23년 만에 사업시행계획 인가…재건축 본궤도</div>
-          <div class="news-date">07.06</div>
-        </div>
-        
+        {% endfor %}
       </div>
     </div>
 
-    <!-- Page 4: QR + CTA -->
+    <!-- Page 4: 카드뉴스 (이미지가 없으면 자동 스킵) -->
+    <div class="page" id="page-cards">
+      <div class="cards-stage">
+        <div class="cards-left">
+          <div class="cards-eyebrow">CARD NEWS · 오늘의 이슈</div>
+          <h1 class="cards-title">오늘의 <span class="accent">부동산 카드뉴스</span></h1>
+          <p class="cards-desc">
+            부산·해운대 부동산과 자산 시장의<br>
+            핵심 이슈를 한 장씩 정리했습니다.
+          </p>
+          <div class="cards-meta">
+            <div class="cards-counter" id="cards-counter">1 / 1</div>
+            <div class="cards-dots" id="cards-dots"></div>
+          </div>
+          <div class="cards-ig">
+            📷 인스타그램 <span class="handle">@marine_jihwa</span> 에서 전체 보기
+          </div>
+        </div>
+        <div class="cards-right">
+          <div class="card-frame" id="card-frame">
+            <!-- JS가 존재하는 이미지만 삽입 -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page 5: QR + CTA -->
     <div class="page" id="page4">
       <div class="cta-page">
         <div class="cta-left">
@@ -481,7 +491,7 @@
         </div>
         <div class="cta-right">
           <div class="qr-frame">
-            <img class="qr-img" src="qr.png?t=2026.07.10 06:05 KST" alt="카카오톡 오픈채팅 QR">
+            <img class="qr-img" src="qr.png?t={{ data_updated }}" alt="카카오톡 오픈채팅 QR">
           </div>
           <div class="qr-caption">💬 카카오톡 · 마린시티 부동산 최신정보 오픈채팅방</div>
           <div class="qr-sub">QR 스캔 → 즉시 입장</div>
@@ -500,8 +510,8 @@
     <div class="ticker-label">⭐ LIVE TICKER</div>
     <div class="ticker-track">
       <div class="ticker-content">
-        <span class="ticker-item"><span class="apt">⭐ 대우마리나3</span><span>25평대</span><span class="price">7.6억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 해운대두산위브더제니스</span><span>45평대</span><span class="price">11.5억</span><span class="down">🔻 -32.0%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우마리나1</span><span>34평대</span><span class="price">13.5억</span><span class="up">🔺 +24.4%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우트럼프월드마린</span><span>65평+</span><span class="price">23.2억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우마리나3</span><span>34평대</span><span class="price">8.8억</span><span class="down">🔻 -13.6%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">센텀현대</span><span>34평대</span><span class="price">4.4억</span><span class="down">🔻 -1.1%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">센텀경동리인</span><span>34평대</span><span class="price">5.73억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">해운대자이1단지</span><span>34평대</span><span class="price">11.15억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">반도보라빌</span><span>34평대</span><span class="price">6.8억</span><span class="up">🔺 +1.5%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">롯데</span><span>55평대</span><span class="price">8.35억</span><span class="up">🔺 +7.1%</span></span><span class="ticker-sep">◆</span>
-        <span class="ticker-item"><span class="apt">⭐ 대우마리나3</span><span>25평대</span><span class="price">7.6억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 해운대두산위브더제니스</span><span>45평대</span><span class="price">11.5억</span><span class="down">🔻 -32.0%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우마리나1</span><span>34평대</span><span class="price">13.5억</span><span class="up">🔺 +24.4%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우트럼프월드마린</span><span>65평+</span><span class="price">23.2억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">⭐ 대우마리나3</span><span>34평대</span><span class="price">8.8억</span><span class="down">🔻 -13.6%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">센텀현대</span><span>34평대</span><span class="price">4.4억</span><span class="down">🔻 -1.1%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">센텀경동리인</span><span>34평대</span><span class="price">5.73억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">해운대자이1단지</span><span>34평대</span><span class="price">11.15억</span><span class="up">신규</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">반도보라빌</span><span>34평대</span><span class="price">6.8억</span><span class="up">🔺 +1.5%</span></span><span class="ticker-sep">◆</span><span class="ticker-item"><span class="apt">롯데</span><span>55평대</span><span class="price">8.35억</span><span class="up">🔺 +7.1%</span></span><span class="ticker-sep">◆</span>
+        {{ ticker_html | safe }}
+        {{ ticker_html | safe }}
       </div>
     </div>
   </div>
@@ -509,19 +519,24 @@
 </div>
 </div>
 
+<!-- 캐시 버스팅용 스탬프 (Jinja 렌더링) -->
 <script>
+  var DATA_STAMP = "{{ data_updated }}";
+</script>
+
+<script>
+{% raw %}
+  // ===== 카드뉴스 설정 =====
+  const CARD_FILES = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
+  const CARD_MS = 7000;   // 카드 1장당 노출 시간 (ms)
 
   // 화면 크기에 맞춰 1920x1080 디자인을 자동 스케일
-  // 어떤 해상도(1680x1050, 1366x768, 4K 등)에서도 최적 표시
   function fitStage() {
     const stage = document.querySelector('.scale-wrapper .stage');
     if (!stage) return;
     const sw = window.innerWidth;
     const sh = window.innerHeight;
-    const designW = 1920;
-    const designH = 1080;
-    // 가로/세로 중 더 작은 비율 기준으로 스케일 (잘림 없이 전체 표시)
-    const scale = Math.min(sw / designW, sh / designH);
+    const scale = Math.min(sw / 1920, sh / 1080);
     stage.style.transform = `scale(${scale})`;
   }
   fitStage();
@@ -541,41 +556,149 @@
   updateClock();
   setInterval(updateClock, 1000);
 
-  // 페이지 자동 순환
-  const pageDurations = [35000, 25000, 25000, 20000];
-  const pages = document.querySelectorAll('.page');
-  const dots = document.querySelectorAll('.page-dot');
+  // ===== 카드뉴스 이미지 존재 여부 확인 =====
+  function probeImage(src) {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve(img.naturalWidth > 0 ? src : null);
+      img.onerror = () => resolve(null);
+      img.src = src;
+    });
+  }
+
+  async function detectCards() {
+    const bust = encodeURIComponent(DATA_STAMP || Date.now());
+    const results = await Promise.all(
+      CARD_FILES.map(fn => probeImage(`${fn}?t=${bust}`))
+    );
+    return results.filter(Boolean);   // 존재하는 것만, 1→5 순서 유지
+  }
+
+  // ===== 페이지 순환 =====
+  const pageDurations = {
+    page1: 35000,
+    page2: 25000,
+    page3: 25000,
+    'page-cards': 0,   // 카드 수에 따라 동적 계산
+    page4: 20000,
+  };
+
+  let pages = [];          // 실제 순환할 페이지 엘리먼트
+  let dots = [];
   let currentPage = 0;
   let countdownInterval = null;
+  let cardInterval = null;
+  let cardImgs = [];
+  let cardDots = [];
+  let pageTimer = null;
+
+  function buildCardPage(srcs) {
+    const frame = document.getElementById('card-frame');
+    const dotsWrap = document.getElementById('cards-dots');
+    const counter = document.getElementById('cards-counter');
+
+    frame.innerHTML = '';
+    dotsWrap.innerHTML = '';
+    cardImgs = [];
+    cardDots = [];
+
+    srcs.forEach((src, i) => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = `카드뉴스 ${i + 1}`;
+      if (i === 0) img.classList.add('active');
+      frame.appendChild(img);
+      cardImgs.push(img);
+
+      const dot = document.createElement('div');
+      dot.className = 'cards-dot' + (i === 0 ? ' active' : '');
+      dotsWrap.appendChild(dot);
+      cardDots.push(dot);
+    });
+
+    counter.textContent = `1 / ${srcs.length}`;
+    pageDurations['page-cards'] = srcs.length * CARD_MS;
+  }
+
+  function startCardRotation() {
+    if (cardImgs.length <= 1) return;
+    let idx = 0;
+    const counter = document.getElementById('cards-counter');
+    cardInterval = setInterval(() => {
+      cardImgs[idx].classList.remove('active');
+      cardDots[idx].classList.remove('active');
+      idx = (idx + 1) % cardImgs.length;
+      cardImgs[idx].classList.add('active');
+      cardDots[idx].classList.add('active');
+      counter.textContent = `${idx + 1} / ${cardImgs.length}`;
+    }, CARD_MS);
+  }
+
+  function resetCardRotation() {
+    if (cardInterval) { clearInterval(cardInterval); cardInterval = null; }
+    if (!cardImgs.length) return;
+    cardImgs.forEach((im, i) => im.classList.toggle('active', i === 0));
+    cardDots.forEach((dt, i) => dt.classList.toggle('active', i === 0));
+    document.getElementById('cards-counter').textContent = `1 / ${cardImgs.length}`;
+  }
+
+  function startCountdown(ms) {
+    const totalSec = ms / 1000;
+    let remaining = totalSec;
+    const fill = document.getElementById('countdown-fill');
+    const text = document.getElementById('countdown-text');
+    countdownInterval = setInterval(() => {
+      remaining -= 0.1;
+      if (remaining < 0) remaining = 0;
+      fill.style.width = (remaining / totalSec) * 100 + '%';
+      text.textContent = `QR 스캔 시간: ${Math.ceil(remaining)}초`;
+    }, 100);
+  }
 
   function showPage(idx) {
     pages.forEach((p, i) => p.classList.toggle('active', i === idx));
     dots.forEach((d, i) => d.classList.toggle('active', i === idx));
 
     if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
-    if (idx === 3) {
-      const totalSec = pageDurations[3] / 1000;
-      let remaining = totalSec;
-      const fill = document.getElementById('countdown-fill');
-      const text = document.getElementById('countdown-text');
-      countdownInterval = setInterval(() => {
-        remaining -= 0.1;
-        if (remaining < 0) remaining = 0;
-        fill.style.width = (remaining / totalSec) * 100 + '%';
-        text.textContent = `QR 스캔 시간: ${Math.ceil(remaining)}초`;
-      }, 100);
+    if (cardInterval) { clearInterval(cardInterval); cardInterval = null; }
+
+    const id = pages[idx].id;
+    if (id === 'page-cards') {
+      resetCardRotation();
+      startCardRotation();
+    } else if (id === 'page4') {
+      startCountdown(pageDurations.page4);
     }
   }
 
   function nextPage() {
     currentPage = (currentPage + 1) % pages.length;
     showPage(currentPage);
-    setTimeout(nextPage, pageDurations[currentPage]);
+    pageTimer = setTimeout(nextPage, pageDurations[pages[currentPage].id]);
   }
 
-  showPage(0);
-  setTimeout(nextPage, pageDurations[0]);
+  (async function init() {
+    const cardPage = document.getElementById('page-cards');
+    const cardDot = document.getElementById('dot-cards');
 
+    const found = await detectCards();
+
+    if (found.length > 0) {
+      buildCardPage(found);
+    } else {
+      // 카드뉴스 이미지가 하나도 없으면 페이지 자체를 순환에서 제외
+      cardPage.classList.add('disabled');
+      cardDot.classList.add('hidden');
+    }
+
+    pages = Array.from(document.querySelectorAll('.page:not(.disabled)'));
+    dots = Array.from(document.querySelectorAll('.page-dot:not(.hidden)'));
+
+    currentPage = 0;
+    showPage(0);
+    pageTimer = setTimeout(nextPage, pageDurations[pages[0].id]);
+  })();
+{% endraw %}
 </script>
 
 </body>
