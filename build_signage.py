@@ -4,9 +4,10 @@
 
 기능:
 1. 우동 거래 데이터 가져오기 (daily_check.py와 동일 API)
-2. 4개 페이지에 들어갈 데이터 가공
+2. 5개 페이지에 들어갈 데이터 가공
 3. signage_template.html 채워서 docs/signage.html 생성
 4. docs/qr.png는 텔레그램 그룹 QR (수동 배치)
+5. docs/1.png ~ 5.png 는 인스타그램 카드뉴스 (수동 배치, 없으면 자동 스킵)
 
 GitHub Pages 활성화 시: docs/ 폴더가 자동 호스팅됨
 출력 URL: https://<username>.github.io/<repo>/signage.html
@@ -43,6 +44,10 @@ SIZE_BUCKETS = [
 OUT_DIR = 'docs'
 TEMPLATE_PATH = 'templates/signage_template.html'
 NEWS_PATH = 'news_curated.json'
+
+# === 카드뉴스 설정 ===
+CARD_FILES = ['1.png', '2.png', '3.png', '4.png', '5.png']
+CARD_SECONDS = 7   # 카드 1장당 노출 시간(초)
 
 
 # ========== 유틸 ==========
@@ -211,10 +216,26 @@ def make_deal_info(deal):
     return ' · '.join(parts)
 
 
+# ========== 카드뉴스 ==========
+
+def detect_card_files():
+    """docs/ 안에 실제로 존재하는 카드뉴스 파일 목록 (빌드 로그용).
+
+    실제 표시 여부는 브라우저가 로드 시점에 다시 확인하므로,
+    빌드 이후 이미지를 교체·추가해도 다음 새로고침에 반영된다.
+    """
+    found = []
+    for fn in CARD_FILES:
+        path = os.path.join(OUT_DIR, fn)
+        if os.path.exists(path) and os.path.getsize(path) > 0:
+            found.append(fn)
+    return found
+
+
 # ========== 사이니지 데이터 빌드 ==========
 
 def build_signage_data(udong_active, run_dt):
-    """4개 페이지 데이터를 한꺼번에 빌드."""
+    """페이지 데이터를 한꺼번에 빌드."""
     history = udong_active
 
     # === 페이지 1: 최근 거래 (마린시티 우선, 최신 4건) ===
@@ -305,11 +326,7 @@ def build_signage_data(udong_active, run_dt):
     week_start = (run_dt.date() - timedelta(days=7))
     week_range = f"{week_start.strftime('%Y.%m.%d')} ~ {run_dt.date().strftime('%m.%d')}"
 
-    # === 페이지 4: 티커 (마린시티 우선, 최근 활성 거래 8건) ===
-    ticker_pool = sorted([d for d in udong_active if d['amount_eok'] and not d['cancelled']],
-                        key=lambda d: (not d['is_marine'], d['deal_date']), reverse=False)
-    ticker_pool.sort(key=lambda d: (not d['is_marine'], -ord(d['deal_date'][0]) if d['deal_date'] else 0))
-    # 마린시티 우선 + 최신순
+    # === 티커 (마린시티 우선, 최근 활성 거래 10건) ===
     marine_ticker = sorted([d for d in udong_active if d['is_marine'] and d['amount_eok']],
                           key=lambda d: d['deal_date'], reverse=True)[:5]
     other_ticker = sorted([d for d in udong_active if not d['is_marine'] and d['amount_eok']],
@@ -360,6 +377,8 @@ def build_signage_data(udong_active, run_dt):
 
     return {
         'data_updated': run_dt.strftime('%Y.%m.%d %H:%M KST'),
+        'cache_bust': run_dt.strftime('%Y%m%d%H%M'),   # URL-safe (공백·콜론 없음)
+        'card_seconds': CARD_SECONDS,
         'page1_title': page1_title_html,
         'page1_sub': page1_sub,
         'recent_deals': recent_deals,
@@ -389,7 +408,6 @@ def render(template, data):
     except Exception as e:
         # 디버깅: 어디가 문제인지 자세히 출력
         print(f'❌ 템플릿 렌더링 실패: {type(e).__name__}: {e}')
-        # 라인 번호가 있으면 해당 줄 보여주기
         import re
         m = re.search(r'line (\d+)', str(e))
         if m:
@@ -399,7 +417,6 @@ def render(template, data):
             for i in range(max(0, line_no - 3), min(len(lines), line_no + 3)):
                 marker = '>>>' if i + 1 == line_no else '   '
                 print(f'{marker} {i+1:4d}: {lines[i]}')
-        # 데이터 키들 출력
         print('\n=== 전달된 데이터 ===')
         for k, v in data.items():
             preview = str(v)[:200] if not isinstance(v, list) else f'list(len={len(v)})'
@@ -452,9 +469,22 @@ def main():
     out_path = os.path.join(OUT_DIR, 'signage.html')
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(html)
+
+    # 카드뉴스 상태 점검 (표시 여부는 브라우저가 최종 판단)
+    cards = detect_card_files()
+    if cards:
+        card_msg = f'{len(cards)}장 ({", ".join(cards)})'
+    else:
+        card_msg = '없음 → 카드뉴스 페이지 자동 스킵'
+    missing = [fn for fn in CARD_FILES if fn not in cards]
+
     print(f'✅ 사이니지 생성: {out_path}')
     print(f'   페이지1 거래: {len(data["recent_deals"])}건')
     print(f'   주간 테이블: {len(data["week_table"])}행')
+    print(f'   뉴스: {len(data["news_items"])}건')
+    print(f'   카드뉴스: {card_msg}')
+    if cards and missing:
+        print(f'     (미배치: {", ".join(missing)} — 해당 카드는 건너뜁니다)')
     print(f'   티커: {len(data["ticker_html"]) // 100}KB 가량')
 
 
