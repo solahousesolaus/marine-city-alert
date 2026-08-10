@@ -116,14 +116,16 @@ def fetch_page(yyyymm, page_no=1, num_rows=1000):
     url = f'{API_URL}?{urllib.parse.urlencode(params)}'
     req = urllib.request.Request(url, headers={'User-Agent': 'marine-alert/1.0'})
 
-    for attempt in range(3):
+    for attempt in range(5):
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:
                 return resp.read().decode('utf-8')
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
-            if attempt == 2:
+            if attempt == 4:
                 raise
-            time.sleep(2 ** attempt)
+            wait = 15 * (attempt + 1)  # 15, 30, 45, 60초
+            print(f'  ⏳ {yyyymm} p{page_no} 재시도 {attempt + 1}/4 — {wait}초 대기')
+            time.sleep(wait)
 
 
 def fetch_month(yyyymm):
