@@ -113,7 +113,21 @@ def md_escape(text):
     return text
 
 
-def telegram_send_raw(text):
+def telegram_send_raw(text, attempts=4):
+    """텔레그램 전송 — 타임아웃·일시적 네트워크 오류 시 재시도 (5s → 15s → 30s 대기)."""
+    waits = [5, 15, 30]
+    for i in range(attempts):
+        try:
+            return _telegram_send_once(text)
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+            if isinstance(e, urllib.error.HTTPError) or i == attempts - 1:
+                raise
+            wait = waits[min(i, len(waits) - 1)]
+            print(f'  ⚠️ 텔레그램 전송 지연({e}) → {wait}초 후 재시도 ({i + 2}/{attempts})')
+            time.sleep(wait)
+
+
+def _telegram_send_once(text):
     url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage'
     data = urllib.parse.urlencode({
         'chat_id': TELEGRAM_CHAT_ID,
@@ -123,7 +137,7 @@ def telegram_send_raw(text):
     }).encode('utf-8')
     req = urllib.request.Request(url, data=data, method='POST')
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             return json.loads(resp.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='ignore')
@@ -135,7 +149,7 @@ def telegram_send_raw(text):
                 'disable_web_page_preview': 'true',
             }).encode('utf-8')
             req = urllib.request.Request(url, data=data, method='POST')
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode('utf-8'))
         raise RuntimeError(f'Telegram HTTP {e.code}: {body}')
 
