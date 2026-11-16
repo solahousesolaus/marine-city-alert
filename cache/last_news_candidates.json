@@ -1,78 +1,88 @@
 {
-  "generated_at": "2026-11-16T09:35:53.040311+09:00",
+  "generated_at": "2026-11-16T10:23:53.969894+09:00",
   "candidates": [
     {
       "n": 1,
       "tag": "busan",
-      "source_index": 3,
-      "headline": "높을수록 비싸다...초고층 단지 신고가에 건설사들 높이 경쟁",
-      "date": "11.15"
+      "source_index": 1,
+      "headline": "대구·대전·부산·광명 등 전국 재건축 조합장, 재초환 폐지로 뭉쳤다",
+      "date": "11.16"
     },
     {
       "n": 2,
       "tag": "busan",
-      "source_index": 1,
+      "source_index": 4,
+      "headline": "높을수록 비싸다...초고층 단지 신고가에 건설사들 높이 경쟁",
+      "date": "11.15"
+    },
+    {
+      "n": 3,
+      "tag": "busan",
+      "source_index": 2,
       "headline": "부산의 판교 센텀2지구 산업단지와 가까워",
       "date": "11.16"
     },
     {
-      "n": 3,
+      "n": 4,
       "tag": "tax",
       "source_index": 19,
       "headline": "이목 쏠린 종부세·양도세 장특공제...보유세 강화 기조 지킬까",
       "date": "11.15"
     },
     {
-      "n": 4,
-      "tag": "tax",
-      "source_index": 24,
-      "headline": "종부세 비거주 1주택 공제 12억이냐 14억이냐 당정 줄다리기",
-      "date": "11.15"
-    },
-    {
       "n": 5,
-      "tag": "market",
-      "source_index": 36,
-      "headline": "분당·과천 넘어 영통·수지도 15억 국평...서울 외곽 최고가 추월",
+      "tag": "tax",
+      "source_index": 18,
+      "headline": "연봉 5500만원 넘어야 청년 우대 혜택 늘어...늘어날 종부세 33%는 강남만",
       "date": "11.16"
     },
     {
       "n": 6,
       "tag": "market",
-      "source_index": 38,
+      "source_index": 40,
       "headline": "강남 집값 내리는데 경기 규제지역은 상승...연말 토허제 딜레마",
       "date": "11.15"
     },
     {
       "n": 7,
       "tag": "market",
-      "source_index": 45,
-      "headline": "성동구 옥수파크힐스 18평, 5.5억 오른 24.4억원에 거래",
+      "source_index": 38,
+      "headline": "분당·과천 넘어 영통·수지도 15억 국평...서울 외곽 최고가 추월",
       "date": "11.16"
     },
     {
       "n": 8,
-      "tag": "edu",
-      "source_index": 48,
-      "headline": "역대급 N수생... 응시자 8년 만에 50만명 넘나",
-      "date": "11.15"
+      "tag": "market",
+      "source_index": 32,
+      "headline": "국민 평균 선호 상속세 최고세율은 30%...현행 최고세율과 20%p 간극",
+      "date": "11.16"
     },
     {
       "n": 9,
-      "tag": "wealth",
-      "source_index": 68,
-      "headline": "하나은행, 자산운용 넘어 가업승계까지 글로벌 어워드서 한국 최고",
-      "date": "11.10"
+      "tag": "edu",
+      "source_index": 48,
+      "headline": "역대급 N수생...응시자 8년 만에 50만명 넘나",
+      "date": "11.15"
     },
     {
       "n": 10,
       "tag": "wealth",
-      "source_index": 72,
-      "headline": "블랙스톤, 韓 리테일 대체투자 시장 진출...프라이빗웰스 조직 신설",
+      "source_index": 61,
+      "headline": "세무부터 가업승계까지 총망라...종합자산관리 인프라 구축",
       "date": "11.16"
     }
   ],
   "source_articles": [
+    {
+      "category": "busan",
+      "keyword": "해운대 재건축",
+      "title": "대구 대전 부산 광명 등 전국 재건축 조합장, 재초환 폐지로 뭉쳤다",
+      "description": "우방범어타운2차를 재건축한 ‘범어아이파크2차’는 약 319억2400만원으로 추산됐다. 두 단지의 예정 부담금만 약 592억원이다. 부산 해운대구 재송2구역과 동래구 사직1-6지구에도 각각 약 19억7200만원, 13억9600만원이...",
+      "link": "https://realty.chosun.com/site/data/html_dir/2026/11/16/2026111600914.html",
+      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/11/16/2026111600914.html",
+      "pubDate": "Mon, 16 Nov 2026 10:06:00 +0900",
+      "pub_date": "2026-11-16"
+    },
     {
       "category": "busan",
       "keyword": "해운대 재건축",
@@ -161,16 +171,6 @@
       "link": "https://realty.chosun.com/site/data/html_dir/2026/11/10/2026111002501.html",
       "originallink": "https://realty.chosun.com/site/data/html_dir/2026/11/10/2026111002501.html",
       "pubDate": "Tue, 10 Nov 2026 16:42:00 +0900",
-      "pub_date": "2026-11-10"
-    },
-    {
-      "category": "busan",
-      "keyword": "해운대 재건축",
-      "title": "③ 교육도시 금정구, 활력 채울 해법은?",
-      "description": "[리포트] 해운대구 센텀2지구 도시첨단산업단지. 2032년까지 ICT와 융합부품소재, 영상콘텐츠 산업 거점으로... \"] 금정구는 재개발·재건축 패스트트랙을 도입해 평균 18년 걸리던 사업 기간을 13년으로 줄일 계획입니다....",
-      "link": "http://news.lghellovision.net/news/articleView.html?idxno=561745",
-      "originallink": "http://news.lghellovision.net/news/articleView.html?idxno=561745",
-      "pubDate": "Tue, 10 Nov 2026 15:52:00 +0900",
       "pub_date": "2026-11-10"
     },
     {
@@ -376,6 +376,26 @@
     {
       "category": "market",
       "keyword": "서울 부동산 가격 상승",
+      "title": "집 파는 사람 줄었는데…20년 넘게 보유한 집주인 매도는 늘었다",
+      "description": "3%포인트 상승했다. 반면 비교적 최근 주택 등을 취득한 소유자의 매도는 크게 줄었다. 서울의 5년 이하... 지역별 차이는 부동산 가격 흐름과 매수 수요의 영향을 함께 살펴볼 필요가 있다. 장기간 보유한 자산이라도...",
+      "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=82487",
+      "originallink": "http://www.newsfc.co.kr/news/articleView.html?idxno=82487",
+      "pubDate": "Mon, 16 Nov 2026 10:18:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "market",
+      "keyword": "서울 부동산 가격 상승",
+      "title": "국민 평균 선호 상속세 최고세율은 30%… 현행 최고세율 과 20%p 간극",
+      "description": "서울 부동산 가격 상승에 따른 미래 자산 증식 기대가 상속세 부담을 낮춰야 한다는 인식으로 이어진 것으로 분석된다. 16일 학계에 따르면 최승문 건국대 경제학과 부교수는 한국재정정책학회 학회지에 게재한 '상속세...",
+      "link": "https://www.fntoday.co.kr/news/articleView.html?idxno=398348",
+      "originallink": "https://www.fntoday.co.kr/news/articleView.html?idxno=398348",
+      "pubDate": "Mon, 16 Nov 2026 09:58:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "market",
+      "keyword": "서울 부동산 가격 상승",
       "title": "[위클리오늘] 서울 집주인, 상속세 더 낮게 원한다…적정 최고세율은 3...",
       "description": "연구진은 서울 주택을 가진 가구가 향후 부동산 가격 상승 등을 통해 자산이 더 늘어날 가능성을 고려해 상속세 부담을 상대적으로 민감하게 받아들였을 수 있다고 분석했다. 연령별로는 50세 전후를 기점으로 상속세...",
       "link": "http://www.weeklytoday.com/news/articleView.html?idxno=802102",
@@ -455,72 +475,52 @@
     },
     {
       "category": "market",
-      "keyword": "서울 부동산 가격 상승",
-      "title": "부산 아파트 매매가 5개월째 내리막길",
-      "description": "전세가격은 32개월째 상승장을 지속하고 있어 매매가와 전세가가 점점 더 좁혀지는 모양새다. 부동산서베... 있는 서울은 31개월째 상승세가 이어지며 대조를 보이는데, 세제개편안 영향으로 초고가 주택이 밀집한...",
-      "link": "https://n.news.naver.com/mnews/article/082/0001407231?sid=101",
-      "originallink": "https://www.busan.com/view/busan/view.php?code=2026111518082663593",
-      "pubDate": "Sun, 15 Nov 2026 18:11:00 +0900",
-      "pub_date": "2026-11-15"
-    },
-    {
-      "category": "market",
-      "keyword": "서울 부동산 가격 상승",
-      "title": "서울 12억~14억 주택 與 텃밭인데 …'종부세 대상'땐 이탈 가능성",
-      "description": "한 민주당 관계자는 \"과천, 의왕, 성남 등 경기 일부와 서울 강남·용산·양천구 사례 등을 보면 부동산 가격 상승 지역은 당을 지지하지 않는 점이 명확히 드러났다\"고 토로하는 등 여당 내 위기감은 세제와 공급...",
-      "link": "https://n.news.naver.com/mnews/article/009/0005763992?sid=100",
-      "originallink": "https://www.mk.co.kr/article/12209377",
-      "pubDate": "Sun, 15 Nov 2026 17:34:00 +0900",
-      "pub_date": "2026-11-15"
-    },
-    {
-      "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "“고수는 조용할 때 산다?”…서울 아파트 ‘토허’ 신청 두 달 연속 올...",
-      "description": "아파트 매매 거래 관심이 서울 외곽에서 강남권으로 일부 이동하는 흐름이 나타난데 따른 것으로 풀이된다. 가격 흐름은 다른 양상을 보였다. 10월 서울 전체 토허 신청 가격은 전월보다 0.50% 올랐지만, 전월의...",
-      "link": "https://n.news.naver.com/mnews/article/009/0005764163?sid=101",
-      "originallink": "https://www.mk.co.kr/article/12209649",
-      "pubDate": "Mon, 16 Nov 2026 09:30:00 +0900",
+      "title": "경기 남부도 '국평 15억' 뉴노멀 … 영통선 20억대 신고가",
+      "description": "광교신도시 아파트에서 전용 84㎡ 기준 15억원 이상 신고가 거래가 속출하고 있다. 영통구... 약세인 강남권과 경기 남부 집값 차이가 좁아지면 다시 서울로 수요가 쏠릴 가능성도 배제할 수 없다\"고 전망했다....",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/16/2026111650059.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/11/16/2026111650059.html",
+      "pubDate": "Mon, 16 Nov 2026 10:18:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "서울·경기 집 파는 사람 줄었는데…'20년 초과 보유' 매도인 늘어",
-      "description": "실거래 통계와는 집계 시점과 범위에 차이가 날 수 있다. 지역을 서울로 제한해도 같은 흐름이 나타났다. 8... 최근 서울 아파트 시장에서는 강남권을 포함해 매물이 늘고, 가격은 지역·단지별로 차별화되는 모습이다....",
-      "link": "https://n.news.naver.com/mnews/article/015/0005354120?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026111681626",
-      "pubDate": "Mon, 16 Nov 2026 09:09:00 +0900",
+      "title": "20년 넘게 쥔 집은 팔고, 5년 미만 집은 안 판다…수도권 매도 양극화",
+      "description": "실거래 통계와는 집계 시점 및 범위에 차이가 있다. ◆ 서울은 단기 매도 급감·장기 매도 증가, 경기는... 서울 아파트 시장은 강남권을 중심으로 매물이 쌓이고 지역·단지별 가격 차별화가 심화하는 분위기다. 이러한...",
+      "link": "https://n.news.naver.com/mnews/article/022/0004175425?sid=101",
+      "originallink": "https://www.segye.com/newsView/20261116503172?OutUrl=naver",
+      "pubDate": "Mon, 16 Nov 2026 10:03:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "집 파는 사람은 줄었는데…‘20년 넘게 보유’ 매도인은 12% 늘어",
-      "description": "정부가 장기보유특별공제를 거주 중심으로 개편하겠다고 밝힌 데다 강남권 초고가 주택 단지에서 고점... 16일 부동산 플랫폼 직방이 법원 등기정보광장 자료를 분석한 결과, 올해 8~10월 전국 집합건물(아파트...",
-      "link": "https://n.news.naver.com/mnews/article/023/0004009821?sid=101",
-      "originallink": "https://www.chosun.com/economy/real_estate/2026/11/16/K45HUQXQDVGIFN2B3E66INOAFY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Mon, 16 Nov 2026 09:02:00 +0900",
+      "title": "'몰세권' 단지 몸값 껑충…연말 분양 잇따라",
+      "description": "있는 아파트값이 분양가의 몇 배로 뛰며 신고가를 갈아치우고 있는 모양새다. 16일 국토교통부 실거래가... 연내에는 신세계백화점 강남점·뉴코아아울렛과 인접한 '디에이치 반포124'도 분양에 나설 예정이다.",
+      "link": "https://n.news.naver.com/mnews/article/014/0005604650?sid=101",
+      "originallink": "https://www.fnnews.com/news/202611160944143340",
+      "pubDate": "Mon, 16 Nov 2026 09:48:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "[아파트값 상승 톱10] 서울 강남구 ‘현대8차’ 등",
-      "description": "전국 아파트 가운데 실거래가 상승 폭이 가장 컸던 단지는 경기 성남시 ‘아름마을4단지두산삼호’로... 거래되며 83% 상승해 5위에 올랐다. 이 밖에도 경기 수원시 ‘자연앤자이2단지’, 서울 강남구...",
-      "link": "https://www.etoday.co.kr/news/view/2648381",
-      "originallink": "https://www.etoday.co.kr/news/view/2648381",
-      "pubDate": "Mon, 16 Nov 2026 08:32:00 +0900",
+      "title": "[AI 비즈부동산] 26년 11월 2주차 서울 부동산 실거래 동향",
+      "description": "11월 9일부터 11월 13일까지 서울시 주거 매물 실거래가를 집계한 결과, 강남구 압구정동 현대14차 아파트 전용면적 84.98㎡ 5층 매물이 52억 6000만 원에 매매되며 주간 최고가를 기록했다. 평당가는 약 2억 462만...",
+      "link": "https://bizhankook.com/articles/seoul-real-estate-trends-nov-2026-2.html",
+      "originallink": "https://bizhankook.com/articles/seoul-real-estate-trends-nov-2026-2.html",
+      "pubDate": "Mon, 16 Nov 2026 09:46:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "market",
       "keyword": "강남 아파트 거래",
-      "title": "성동구 '옥수파크힐스' 18평, 5.5억 오른 24.4억원에 거래 [일일 신고가...",
-      "description": "초고가 아파트 시장에서 한남동의 존재감을 보여주는 사례다. 그 뒤를 이어 서울 서초구 반포동 ‘래미안원베일리’ 52평형 22층이 지난 9월 22일 120억원에 중개 거래되며 2위를 차지했고, 강남구...",
-      "link": "https://www.fntimes.com/html/view.php?ud=202611160817279616048b718333_18",
-      "originallink": "https://www.fntimes.com/html/view.php?ud=202611160817279616048b718333_18",
-      "pubDate": "Mon, 16 Nov 2026 08:22:00 +0900",
+      "title": "두산위브 더포레 성남 12월 분양…일반분양 162가구",
+      "description": "업계는 대출 규제가 강해지면서 가격 부담이 덜한 소형 아파트를 찾는 수요가 늘고 있다고 보고 있다. 중원구는 지난해 10·15 부동산 대책 때 분당·수정구와 함께 조정대상지역·투기과열지구·토지거래허가구역으로...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005604642?sid=101",
+      "originallink": "https://www.fnnews.com/news/202611160939546270",
+      "pubDate": "Mon, 16 Nov 2026 09:42:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
@@ -626,6 +626,16 @@
     {
       "category": "edu",
       "keyword": "의대 정원",
+      "title": "의대 학부모, 정부에 '교육 파행' 규탄…\"교수·실습시설·예산 확충해야...",
+      "description": "매일일보 = 이용 기자   |  의대생 학부모들이 의대 정원 확대에 초점을 맞춘 정부 정책을 '교육 파행'이라 비판하며, 교육 인프라 확충과 예산 지원을 촉구했다. 전국의대학부모연합(전의학연)은 16일 성명을 내고 의대...",
+      "link": "https://www.m-i.kr/news/articleView.html?idxno=2018801",
+      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2018801",
+      "pubDate": "Mon, 16 Nov 2026 10:04:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "edu",
+      "keyword": "의대 정원",
       "title": "도쿄대 둘러싼 세 가지 논란…뇌물, 총장 선거, 새 학부 신설",
       "description": "의대 교수들 뇌물수수 혐의로 체포…10조 엔 정부 지원사업 선정도 '위기' 2위의 반전? 총장 선정 갑론을박... 영어 이름은 'UTokyo College of Design'으로, 정원 100명에 학사와 석사 과정을 5년에 마치고 수업은 모두 영어로...",
       "link": "https://n.news.naver.com/mnews/article/586/0000142317?sid=104",
@@ -661,16 +671,6 @@
       "link": "https://www.kbsm.net/news/view.php?idx=541709",
       "originallink": "https://www.kbsm.net/news/view.php?idx=541709",
       "pubDate": "Sun, 15 Nov 2026 11:36:00 +0900",
-      "pub_date": "2026-11-15"
-    },
-    {
-      "category": "edu",
-      "keyword": "의대 정원",
-      "title": "오스코텍 김성연 \"지분 팔아도 일반주주보다 유리한 조건 안 받겠다\"",
-      "description": "하버드 의대 교수를 독립이사로 선임하는 방안을 추진하고 있다. 현재 7명인 이사진에 3명을 추가해 이사회 정원 10명을 채우겠다는 구상이다. 그러나 김규식 오스코텍 독립이사 등 기존 이사진 일부는 제노스코 지분...",
-      "link": "https://www.medipana.com/news/articleView.html?idxno=421844",
-      "originallink": "https://www.medipana.com/news/articleView.html?idxno=421844",
-      "pubDate": "Sun, 15 Nov 2026 09:50:00 +0900",
       "pub_date": "2026-11-15"
     },
     {
@@ -776,6 +776,36 @@
     {
       "category": "wealth",
       "keyword": "고액 자산가 투자",
+      "title": "[더벨][BNK투자증권은 지금] 희미해진 청사진, 차기 리더십 넥스트스텝...",
+      "description": "하지만 자본시장 내 대형사들의 시장 지배력이 확고한 WM 영역에서 중소형사인 BNK투자증권이 유의미한 성과를 거두기란 쉽지 않다. 고액 자산가 자금을 유치하기 위해서는 폭넓은 영업망, IT 및 리서치 인프라, 다양한...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611031225213400101125",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611031225213400101125",
+      "pubDate": "Mon, 16 Nov 2026 10:08:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "wealth",
+      "keyword": "고액 자산가 투자",
+      "title": "법무법인 율촌, 코리니와 미국 부동산 투자 서비스 강화 업무협약",
+      "description": "이번 협약은 율촌의 법률·조세 분야 전문성과 코리니의 미국 현지 부동산 네트워크 및 투자 컨설팅 역량을 결합해 국내 기업과 개인 투자자, 고액자산가를 대상으로 미국 부동산 투자 전 과정에 걸친 통합적인 지원...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005441492?sid=102",
+      "originallink": "https://www.mt.co.kr/society/2026/11/16/2026111609284972692",
+      "pubDate": "Mon, 16 Nov 2026 10:04:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "wealth",
+      "keyword": "고액 자산가 투자",
+      "title": "“삼성증권, 안정적 수익·고배당 매력…증권업 최선호주”<NH투자證>",
+      "description": "삼성증권은 다른 증권사에 비해 투자손익 의존도가 낮아 시장 변동성에 따른 실적과 주가의 등락 폭이 상대적으로 제한적이라는 평가다. 또한 고액자산가 중심의 자산관리(WM) 사업을 삼성증권의 핵심 경쟁력으로...",
+      "link": "https://www.news2day.co.kr/article/20261116500074",
+      "originallink": "https://www.news2day.co.kr/article/20261116500074",
+      "pubDate": "Mon, 16 Nov 2026 09:46:00 +0900",
+      "pub_date": "2026-11-16"
+    },
+    {
+      "category": "wealth",
+      "keyword": "고액 자산가 투자",
       "title": "율촌, 美 부동산 전문기업 코리니와 맞손…투자·자산관리 서비스 확대",
       "description": "법무법인 율촌이 미국 부동산 투자 전문기업 코리니(KORINY)와 손잡고 국내 기업과 고액자산가를 대상으로 미국 부동산 투자·자산관리 서비스를 확대한다. 율촌은 지난 12일 코리니와 미국 부동산 투자 및 자산관리 분야의...",
       "link": "https://n.news.naver.com/mnews/article/277/0005842970?sid=102",
@@ -792,36 +822,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=678547",
       "pubDate": "Mon, 16 Nov 2026 07:00:00 +0900",
       "pub_date": "2026-11-16"
-    },
-    {
-      "category": "wealth",
-      "keyword": "고액 자산가 투자",
-      "title": "[THE Biz&CEO] '구원투수'에서 '성장 주역'으로…이선훈 신한투자증권 대...",
-      "description": "이 대표는 신한Premier 브랜드를 중심으로 은행과 증권의 협업을 확대하고 고액자산가 대상 맞춤형 자산관리와 연금·신탁 서비스를 강화하고 있다. IB 부문에서도 회복세가 나타났다. 신한투자증권의 지난해...",
-      "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=731339",
-      "originallink": "http://www.the-biz.co.kr/news/articleView.html?idxno=731339",
-      "pubDate": "Mon, 16 Nov 2026 06:30:00 +0900",
-      "pub_date": "2026-11-16"
-    },
-    {
-      "category": "wealth",
-      "keyword": "고액 자산가 투자",
-      "title": "삼성·SK·네이버가 샀지만…한화 100억대 초호화 레지던스 절반 미분양",
-      "description": "A2동은 한화손해보험과 한화투자증권, 한화생명금융서비스, 한화자산운용, 한화생명보험이 각각 5분의 1씩... 일반 개인을 대상으로 한 대중적인 분양보다는 기업 고객과 고액 자산가를 대상으로 한 개별 영업에 무게를...",
-      "link": "https://realty.chosun.com/site/data/html_dir/2026/11/13/2026111301362.html",
-      "originallink": "https://realty.chosun.com/site/data/html_dir/2026/11/13/2026111301362.html",
-      "pubDate": "Mon, 16 Nov 2026 06:02:00 +0900",
-      "pub_date": "2026-11-16"
-    },
-    {
-      "category": "wealth",
-      "keyword": "고액 자산가 투자",
-      "title": "NH투자증권, 농촌 학생 장학금 지원·고액자산가 자산관리 강화",
-      "description": "15을 증권업계에 따르면 NH투자증권이 농촌 지역 학생을 위한 장학금 지원과 고액자산가 대상 자산관리 서비스를 확대하고 있다. NH투자증권, 담양군 중·고생에 희망나무 장학금 1500만원 전달 NH투자증권은 12일 전남...",
-      "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2373185",
-      "originallink": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2373185",
-      "pubDate": "Sun, 15 Nov 2026 23:08:00 +0900",
-      "pub_date": "2026-11-15"
     },
     {
       "category": "global",
@@ -906,71 +906,71 @@
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "엔비디아발 반도체 불안 지속…코스피, 보합권 등락",
-      "description": "밝힌 영향입니다. 코스닥은 같은 시각 전 거래일보다 1.25포인트(0.18%) 내린 698.41에 거래되며 약보합을... 한편 원·달러 환율은 전 거래일보다 1.10원 내린 1336.90원에 거래되고 있습니다.",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1320521&inflow=N",
-      "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1320521&inflow=N",
-      "pubDate": "Mon, 16 Nov 2026 09:34:00 +0900",
+      "title": "한국 증시, 정말 저평가됐나… GDP 대비 시가총액 159%, 반도체 집중 위...",
+      "description": "강력한 영향력을 행사하는 패권국가다. 달러는 국제 무역결제와 외환보유액, 국제 금융거래의 중심인... 다만 하락 원인을 판단하려면 외국인 수급과 금리, 환율 등 다른 요인도 함께 살펴야 한다. 두 기업의 시가총액...",
+      "link": "https://www.the-today.com/news/articleView.html?idxno=93644",
+      "originallink": "https://www.the-today.com/news/articleView.html?idxno=93644",
+      "pubDate": "Mon, 16 Nov 2026 10:06:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "[개장시황] 코스피 5300선 강보합…관망세 속 반도체 혼조",
-      "description": "등에 영향을 받으며 관망 장세를 이어갈 전망\"이라며 \"이들 주요 이벤트에 따른 외국인 투자자의 수급 변화도 증시 방향을 결정할 변수로 작용할 것\"이라고 분석했다. 서울 외환시장에서 달러/원 환율은 오전...",
-      "link": "https://www.newspim.com/news/view/20261116000227",
-      "originallink": "https://www.newspim.com/news/view/20261116000227",
-      "pubDate": "Mon, 16 Nov 2026 09:23:00 +0900",
+      "title": "오늘 금값·금시세, 순금 한 돈 사고팔 때 13.5% 차이…한은 금 ETF 평가...",
+      "description": "국내 금값은 국제 금 시세뿐 아니라 원·달러 환율과 국내 수급 등의 영향을 받는다. 금은 구매 가격과 매도 가격에 차이가 있고 거래처와 제품에 따라 실제 거래 금액도 달라질 수 있어, 매매 전 적용 시세와...",
+      "link": "https://www.kizmom.com/news/articleView.html?idxno=113984",
+      "originallink": "https://www.kizmom.com/news/articleView.html?idxno=113984",
+      "pubDate": "Mon, 16 Nov 2026 10:01:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "코스피, 美 반도체 급락에도…개인 매수에 보합권 등락",
-      "description": "등에 영향 받으면서 눈치보기 장세를 지속할 전망”이라고 전망했다. 시가총액 상위 종목은 엇갈리고... 이날 서울외환시장에서 원·달러 환율은 전일 대비 1원(0.07%) 내린 달러당 1336.60원에 거래되고 있다.",
-      "link": "https://n.news.naver.com/mnews/article/015/0005354123?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026111682746",
-      "pubDate": "Mon, 16 Nov 2026 09:16:00 +0900",
+      "title": "금(금값, 금시세) 11월 16일, 순금 18K 14K 등 소폭 반등",
+      "description": "미국 통화정책 전망에 영향을 받을 것으로 보인다. 국내 금 가격 역시 국제 시세뿐 아니라 원·달러 환율의 움직임에 따라 변동할 수 있다. 금 자료사진. AI가 생성한 이미지. [본 기사는 금에 대한 투자 권유나 매매...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=627220",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=627220",
+      "pubDate": "Mon, 16 Nov 2026 09:58:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "'적자 지속' 두산로보틱스, 신제품 'Made in USA' 북미 공급",
-      "description": "따른 환율 효과 영향이다. 3분기 확정 물량 일부가 4분기로 이월된 만큼 연간으로는 큰 폭의 성장을 전망한다. 북미 법인인 DRA(Doosan Robotics Americas) 매출은 680만 달러(YoY +27%)로 EOL(End-of-Line) 부문이 성장을...",
-      "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=82467",
-      "originallink": "http://www.newsfc.co.kr/news/articleView.html?idxno=82467",
-      "pubDate": "Mon, 16 Nov 2026 08:48:00 +0900",
+      "title": "환율, 1330원대 중반서 횡보…美 물가 부담에 달러 강세 지속",
+      "description": "16일 서울 외환시장에 따르면 원·달러 환율은 오전 9시 10분 기준 1336.90원을 기록했다. 주요 6개국 통화... 등이 달러화 강세에 영향을 미쳤다\"고 분석했다. 시장에서는 최근 미국 국채금리와 달러화의 동조화가 다시...",
+      "link": "https://www.news2day.co.kr/article/20261116500134",
+      "originallink": "https://www.news2day.co.kr/article/20261116500134",
+      "pubDate": "Mon, 16 Nov 2026 09:56:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "iM증권 \"엔비디아·코스피, 불편한 차트…중요한건 펀더멘털\"",
-      "description": "박 연구원은 상반기 코스피가 압도적인 상승 폭을 기록한 영향과 외국인 수급을 낙폭 확대 원인으로... 엔화와 대만달러는 상대적으로 안정적이어서 엔-원, 대만달러-원 환율이 급락했고, 이는 코스피의 상대 강도...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016443010?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261116022900008?input=1195m",
-      "pubDate": "Mon, 16 Nov 2026 08:43:00 +0900",
+      "title": "LNG선 가격 하락한다더니…삼성중공업, 한 달 새 척당 수주가 4%↑",
+      "description": "이 환율로 환산하면 척당 계약금액은 약 2억4720만달러에서 약 2억5700만달러로 980만달러가량(약 4.0... 주력 선종인 LNG운반선의 수주 가격 하락은 수익성에 영향을 줄 수 있다. 다만 이번 계약은 화물창 용량과 세부...",
+      "link": "http://www.newskr.kr/news/articleView.html?idxno=108025",
+      "originallink": "http://www.newskr.kr/news/articleView.html?idxno=108025",
+      "pubDate": "Mon, 16 Nov 2026 09:50:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "[모닝 리포트] \"현대백화점, 전 사업부 증익 구간 진입\"",
-      "description": "달러 약세에 따른 재고 원가율 상승에도 영업이익 32억원을 기록했다. 지누스는 125억원의 영업손실을... 백화점은 지난 10월 기존점 매출이 높은 기저 영향으로 보합에 그쳤지만 비용 통제를 통해 영업이익은...",
-      "link": "https://www.newspim.com/news/view/20261116000093",
-      "originallink": "https://www.newspim.com/news/view/20261116000093",
-      "pubDate": "Mon, 16 Nov 2026 08:34:00 +0900",
+      "title": "iM증권 \"이번주 환율 1320~1360원 전망, 미 국채금리 추가 상승 여부 주...",
+      "description": "1%대로 재반등했다\"며 \"미국 국채금리 추가 상승 여부가 달러화 추가 강세에 큰 영향을 미칠 것\"이라고 말했다. 이번 주 원/달러 환율이 1320~1360원 사이에서 움직일 것으로 전망됐다. <연합뉴스> 이번 주 원/달러 환율...",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=452024",
+      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=452024",
+      "pubDate": "Mon, 16 Nov 2026 09:50:00 +0900",
       "pub_date": "2026-11-16"
     },
     {
       "category": "global",
       "keyword": "환율 달러 영향",
-      "title": "[국제금융 브리핑] 엔비디아 실적·앤트로픽 상장 시험대...연준 금리인...",
-      "description": "원/달러 환율은 주간 1.86% 하락한 1337.6을 기록했다. 미국 10년물 국채금리는 금리인상 전망 강화 등으로 28bp 상승한 5.14%를 기록했다. 독일 10년물 금리는 미국 국채시장 영향 등으로 12bp 오른 3.38%, 일본은 22bp 상승한 2.87...",
-      "link": "https://www.tokenpost.kr/news/economy/438754",
-      "originallink": "https://www.tokenpost.kr/news/economy/438754",
-      "pubDate": "Mon, 16 Nov 2026 08:32:00 +0900",
+      "title": "코스피, 외국인·기관 매도에 약세…엔비디아발 불확실성 '지속'",
+      "description": "위축된 영향으로 풀이된다. 다만 젠슨 황의 복귀 가능성이 거론되면서 엔비디아를 둘러싼 상황은... 한편, 이날 서울외환시장에서 원·달러 환율은 오전 9시 기준 1335.8원으로, 직전 거래일 주간 종가보다 0.9원(0.06...",
+      "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=89566",
+      "originallink": "https://www.industrynews.co.kr/news/articleView.html?idxno=89566",
+      "pubDate": "Mon, 16 Nov 2026 09:50:00 +0900",
       "pub_date": "2026-11-16"
     }
   ]
